@@ -45,3 +45,6 @@ SO WHAT DOES IT LOOK LIKE
 Here's a screenshot of the current selection:
 
 ![LS_COLORS](http://devel.japh.se/LS_COLORS/LS_COLORS.png)
+
+
+  [0]: https://github.com/trapd00r/File-LsColor
