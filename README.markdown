@@ -48,3 +48,4 @@ Here's a screenshot of the current selection:
 
 
   [0]: https://github.com/trapd00r/File-LsColor
+  [1]: https://github.com/trapd00r/File-LsColor/tree/master/bin
