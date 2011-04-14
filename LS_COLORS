@@ -96,7 +96,7 @@ STICKY_OTHER_WRITABLE 38;5;220;1
 .mtx                  38;5;36;3
 .nfo                  38;5;220
 .pacnew               38;5;33
-.patch                48;5;197;38;5;232
+.patch                48;5;197;38;5;232;1
 .pc                   38;5;100
 .pfa                  38;5;43
 .php                  38;5;93
@@ -125,6 +125,7 @@ STICKY_OTHER_WRITABLE 38;5;220;1
 .txt                  38;5;192
 .urlview              38;5;85
 .vim                  1
+.viminfo              38;5;240;1
 .xml                  38;5;199
 .yml                  38;5;208
 .zsh                  38;5;173
@@ -223,6 +224,7 @@ STICKY_OTHER_WRITABLE 38;5;220;1
 .swp                  38;5;241
 .tmp                  38;5;244
 .un~                  38;5;240
+.zcompdump            38;5;240
 
 # Databases
 .db                   38;5;60
@@ -234,6 +236,7 @@ STICKY_OTHER_WRITABLE 38;5;220;1
 .7z                   38;5;40
 .a                    38;5;46
 .arj                  38;5;41
+.bz2                  38;5;44
 .cbr                  38;5;140
 .cbz                  38;5;140
 .chm                  38;5;144
