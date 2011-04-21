@@ -134,6 +134,8 @@ STICKY_OTHER_WRITABLE 38;5;220;1
 .1                    38;5;196;1
 .1p                   38;5;160
 .3p                   38;5;160
+.am                   38;5;242
+.in                   38;5;242
 .old                  38;5;242
 .out                  38;5;46;1
 
@@ -225,6 +227,7 @@ STICKY_OTHER_WRITABLE 38;5;220;1
 .tmp                  38;5;244
 .un~                  38;5;240
 .zcompdump            38;5;240
+.zwc                  38;5;240
 
 # Databases
 .db                   38;5;60
