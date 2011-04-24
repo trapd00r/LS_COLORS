@@ -1,8 +1,8 @@
 #                                    LS_COLORS
 # Maintainer: Magnus Woldrich <m@japh.se>
 #        URL: https://github.com/trapd00r/LS_COLORS
-#    Version: 0.200
-#    Updated: 2011-04-12 10:43:12
+#    Version: 0.210
+#    Updated: 2011-04-24 10:09:29
 #
 #   This is a collection of extension:color mappings, suitable to use as your
 #   LS_COLORS environment variable. Most of them use the extended color map,
@@ -33,19 +33,19 @@ CAPABILITY            38;5;17
 CHR                   38;5;113;1
 DIR                   38;5;30
 DOOR                  38;5;127
-EXEC                  38;5;148;1
+EXEC                  38;5;166;1
 FIFO                  38;5;126
 FILE                  38;5;253
 LINK                  target
 MULTIHARDLINK         38;5;220;1
 NORMAL                38;5;254
 ORPHAN                48;5;196;38;5;232;1
-OTHER_WRITABLE        38;5;178;1
+OTHER_WRITABLE        38;5;33;1
 SETGID                38;5;137;1
 SETUID                38;5;137
 SOCK                  38;5;197
-STICKY                38;5;208;1
-STICKY_OTHER_WRITABLE 38;5;220;1
+STICKY                48;5;235;38;5;118;1
+STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 
 
 # Code, text, documents
@@ -247,8 +247,8 @@ STICKY_OTHER_WRITABLE 38;5;220;1
 .jar                  38;5;51
 .part                 38;5;240;1
 .pdf                  38;5;203
-.r00                  38;5;233
-.r01                  38;5;234
+.r00                  38;5;235
+.r01                  38;5;235
 .r02                  38;5;235
 .r03                  38;5;236
 .r04                  38;5;237
@@ -308,9 +308,9 @@ STICKY_OTHER_WRITABLE 38;5;220;1
 .r43                  38;5;237
 .r44                  38;5;236
 .r45                  38;5;235
-.r46                  38;5;234
-.r47                  38;5;233
-.r48                  38;5;234
+.r46                  38;5;235
+.r47                  38;5;235
+.r48                  38;5;235
 .r49                  38;5;235
 .r50                  38;5;236
 .r51                  38;5;237
@@ -353,7 +353,7 @@ STICKY_OTHER_WRITABLE 38;5;220;1
 .r87                  38;5;237
 .r88                  38;5;236
 .r89                  38;5;235
-.r90                  38;5;234
+.r90                  38;5;235
 .r91                  38;5;235
 .r92                  38;5;236
 .r93                  38;5;237
