@@ -14,16 +14,13 @@ Fork this project on github, add the extensions you are missing, and send me
 a pull request.
 
 For files that usually ends up next to each other, like html, css and js,
-try to pick colors that fit nicely together. Filetypes with multiple
+try to pick colors that fits in nicely together. Filetypes with multiple
 possible extensions, like htm and html, should have the same color.
 
 To install and use this file, put something like this is your shell resource
 file:
 
-    eval( dircolors -b $HOME/.dircolors )
-
-where .dircolors is this file.
-
+    eval $( dircolors -b $HOME/LS_COLORS )
 
 DEVELOPERS
 ==========
