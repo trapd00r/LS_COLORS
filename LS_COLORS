@@ -49,10 +49,12 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 
 
 # Code, text, documents
+.BAT                  38;5;108
 .PL                   38;5;160
 .asm                  38;5;240;1
 .awk                  38;5;148;1
 .bash                 38;5;173
+.bat                  38;5;108
 .c                    38;5;110
 .cfg                  1
 .coffee               38;5;94;1
@@ -112,6 +114,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 .sfv                  38;5;197
 .sh                   38;5;113
 .signature            38;5;206
+.sql                  38;5;222
+.srt                  38;5;116
 .sty                  38;5;58
 .sug                  38;5;44
 .t                    38;5;28;1
@@ -190,6 +194,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 .mp4                  38;5;124
 .mpg                  38;5;38
 .mpeg                 38;5;38
+.ogm                  38;5;97
 .ogv                  38;5;94
 .rmvb                 38;5;112
 .sample               38;5;130;1
@@ -207,9 +212,13 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 .m4a                  38;5;137;1
 .mod                  38;5;72
 .mp3                  38;5;191
+.oga                  38;5;95
+.ogg                  38;5;96
 .s3m                  38;5;71;1
 .sid                  38;5;69;1
 .spl                  38;5;173
+.wv                   38;5;149
+.wvc                  38;5;149
 
 # Fonts
 .afm                  38;5;58
