@@ -379,6 +379,12 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 .xz                   38;5;118
 .zip                  38;5;41
 
+# Open document formats
+.odt                  38;5;111
+.ods                  38;5;112
+.odp                  38;5;166
+.odb                  38;5;161
+
 # Other
 .SKIP                 38;5;244
 .def                  38;5;136
