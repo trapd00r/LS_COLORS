@@ -22,11 +22,17 @@ file:
 
     eval $( dircolors -b $HOME/LS_COLORS )
 
+ZSH SYNTAX HIGHLIGHTING
+=======================
+
+[zsh-syntax-highlighting-filetypes][0] highlights file on the command-line in
+realtime, using these colors.
+
 DEVELOPERS
 ==========
 
-There's a [library][0] I've written that lets you use various LS COLORS on
-arbitary files and directories. A simple implementation can be found [here][1].
+There's a [library][1] I've written that lets you use various LS COLORS on
+arbitary files and directories. A simple implementation can be found [here][2].
 
 Using this, you can do
 
@@ -44,5 +50,6 @@ Here's a screenshot of the current selection:
 ![LS_COLORS](http://devel.japh.se/LS_COLORS/LS_COLORS_2.png)
 
 
-  [0]: https://github.com/trapd00r/File-LsColor
-  [1]: https://github.com/trapd00r/File-LsColor/tree/master/bin
+  [0]: https://github.com/trapd00r/zsh-syntax-highlighting-filetypes
+  [1]: https://github.com/trapd00r/File-LsColor
+  [2]: https://github.com/trapd00r/File-LsColor/tree/master/bin
