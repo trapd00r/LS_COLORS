@@ -45,9 +45,9 @@ Using this, you can do
 SO WHAT DOES IT LOOK LIKE
 =========================
 
-Here's a screenshot of the current selection:
+Here's a screenshot:
 
-![LS_COLORS](http://devel.japh.se/LS_COLORS/LS_COLORS_2.png)
+![LS_COLORS](http://devel.japh.se/LS_COLORS/LS_COLORS.png)
 
 
   [0]: https://github.com/trapd00r/zsh-syntax-highlighting-filetypes
