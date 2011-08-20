@@ -1,8 +1,8 @@
 #                                    LS_COLORS
 # Maintainer: Magnus Woldrich <m@japh.se>
 #        URL: https://github.com/trapd00r/LS_COLORS
-#    Version: 0.214
-#    Updated: 2011-07-26 07:13:55
+#    Version: 0.220
+#    Updated: 2011-08-20 15:12:53
 #
 #   This is a collection of extension:color mappings, suitable to use as your
 #   LS_COLORS environment variable. Most of them use the extended color map,
@@ -48,7 +48,7 @@ STICKY                48;5;235;38;5;118;1
 STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 
 
-# Code, text, documents
+# code, text, documents                                                      {{{
 .BAT                  38;5;108
 .PL                   38;5;160
 .asm                  38;5;240;1
@@ -143,7 +143,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 .old                  38;5;242
 .out                  38;5;46;1
 
-# Pictures, icons
+
+
+
+#}}}
+# pictures, icons                                                            {{{
 .bmp                  38;5;62
 .cdr                  38;5;59
 .gif                  38;5;72
@@ -154,8 +158,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 .png                  38;5;68;1
 .svg                  38;5;24;1
 .xpm                  38;5;36
-
-# Emulator roms, emulator savegames
+#}}}
+# Emulator roms, emulator savegames                                          {{{
 .32x                  38;5;137
 .A64                  38;5;82
 .a00                  38;5;11
@@ -179,13 +183,13 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 .sav                  38;5;220
 .sms                  38;5;33
 .st                   38;5;208;1
-
-# Images
+#}}}
+# images                                                                     {{{
 .iso                  38;5;124
 .nrg                  38;5;124
 .qcow                 38;5;141
-
-# Video
+#}}}
+# video                                                                      {{{
 .MOV                  38;5;42
 .avi                  38;5;114
 .flv                  38;5;131
@@ -201,8 +205,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 .ts                   38;5;39
 .webm                 38;5;132
 .wmv                  38;5;113
-
-# Music, sounds
+#}}}
+# music, audio                                                               {{{
 .S3M                  38;5;71;1
 .cue                  38;5;112
 .dat                  38;5;165
@@ -220,16 +224,16 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 .spl                  38;5;173
 .wv                   38;5;149
 .wvc                  38;5;149
-
-# Fonts
+#}}}
+# fonts                                                                      {{{
 .afm                  38;5;58
 .pfb                  38;5;58
 .pfm                  38;5;58
 .ttf                  48;5;1
 .pcf                  38;5;65
 .psf                  38;5;64
-
-# Backups, undo files, tempfiles
+#}}}
+# backups, undo files, tempfiles                                             {{{
 .bak                  38;5;41;1
 .bin                  38;5;249
 .swo                  38;5;236
@@ -238,14 +242,15 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 .un~                  38;5;240
 .zcompdump            38;5;240
 .zwc                  38;5;240
-
-# Databases
+#}}}
+# databases                                                                  {{{
 .db                   38;5;60
 .dump                 38;5;119
 .sqlite               38;5;60
 .typelib              38;5;60
 
-# Compressed archives
+#}}}
+# (compressed) archives                                                      {{{
 .7z                   38;5;40
 .a                    38;5;46
 .arj                  38;5;41
@@ -375,22 +380,26 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 .tgz                  38;5;35;1
 .xz                   38;5;118
 .zip                  38;5;41
-
-# Really compressed archives, but mostly used for documents, comics (and
-# documentation on MS Windows)
+#}}}
+# really compressed archives, but mostly used for documents, comics (and     {{{
+# documentation on MS Windows)                                               
 .pdf                  38;5;203
 .djvu                 38;5;141
 .cbr                  38;5;140
 .cbz                  38;5;140
 .chm                  38;5;144
-
-# Open document formats
+#}}}
+# open document formats                                                      {{{
 .odt                  38;5;111
 .ods                  38;5;112
 .odp                  38;5;166
 .odb                  38;5;161
-
-# Other
+#}}}
+# /etc/hosts.{deny,allow}                                                    {{{
+.allow                38;5;112
+.deny                 38;5;196
+#}}}
+# other                                                                      {{{
 .SKIP                 38;5;244
 .def                  38;5;136
 .directory            38;5;83
@@ -399,9 +408,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 .pi                   38;5;126
 .properties           38;5;197;1
 .torrent              38;5;58
-
-
-
+#}}}
 
 TERM Eterm
 TERM ansi
