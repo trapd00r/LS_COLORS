@@ -7,11 +7,13 @@ described in the ECMA-48 document; in other words, you'll need a terminal
 with capabilities of displaying 256 colors.
 
 As of this writing, around 300 different filetypes/extensions is supported.
-That's indeed a lot of extensions, but there's a lot more! Therefore I need
-your help.
+That's indeed a lot of extensions, but there's a lot more! Your help is greatly
+appreciated.
 
-Fork this project on github, add the extensions you are missing, and send me
-a pull request.
+Fork this project on github, add the extensions you are missing, and send a pull
+request.
+
+Some guidelines:
 
 For files that usually ends up next to each other, like html, css and js,
 try to pick colors that fits in nicely together. Filetypes with multiple
