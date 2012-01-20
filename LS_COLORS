@@ -1,8 +1,8 @@
 #                                    LS_COLORS
 # Maintainer: Magnus Woldrich <m@japh.se>
 #        URL: https://github.com/trapd00r/LS_COLORS
-#    Version: 0.224
-#    Updated: 2011-10-02 11:08:07
+#    Version: 0.226
+#    Updated: 2012-01-20 10:29:45
 #
 #   This is a collection of extension:color mappings, suitable to use as your
 #   LS_COLORS environment variable. Most of them use the extended color map,
@@ -194,8 +194,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 #}}}
 # video                                                                      {{{
 .MOV                  38;5;42
+.asf                  38;5;25
 .avi                  38;5;114
 .flv                  38;5;131
+.m2v                  38;5;166
 .mkv                  38;5;202
 .mov                  38;5;42
 .mp4                  38;5;124
@@ -206,6 +208,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 .rmvb                 38;5;112
 .sample               38;5;130;1
 .ts                   38;5;39
+.vob                  38;5;137
 .webm                 38;5;132
 .wmv                  38;5;113
 #}}}
