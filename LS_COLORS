@@ -477,4 +477,4 @@ TERM xterm-88color
 TERM xterm-color
 TERM xterm-debian
 
-# vim: ft=dircolors:
+# vim: set ft=dircolors fdm=marker et sw=2:
