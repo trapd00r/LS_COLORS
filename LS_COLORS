@@ -2,7 +2,7 @@
 # Maintainer: Magnus Woldrich <m@japh.se>
 #        URL: https://github.com/trapd00r/LS_COLORS
 #    Version: 0.228
-#    Updated: 2012-02-02 07:14:47
+#    Updated: 2012-02-10 10:45:27
 #
 #   This is a collection of extension:color mappings, suitable to use as your
 #   LS_COLORS environment variable. Most of them use the extended color map,
@@ -220,6 +220,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;1
 .aac                  38;5;137
 .cue                  38;5;112
 .dat                  38;5;165
+.dts                  38;5;100;1
 .fcm                  38;5;41
 .flac                 38;5;166;1
 .m3u                  38;5;172
