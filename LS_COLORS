@@ -23,7 +23,7 @@
 #   To install and use this file, put something like this is your shell resource
 #   file:
 #
-#     eval( dircolors -b $HOME/.dircolors )
+#     eval $(dircolors -b $HOME/.dircolors)
 #
 #   where .dircolors is this file.
 
