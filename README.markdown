@@ -24,6 +24,14 @@ file:
 
     eval $( dircolors -b $HOME/LS_COLORS )
 
+A quick way to install would be the following set of commands:
+
+```sh
+wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O $HOME/.ls_colors
+echo 'eval $( dircolors -b $HOME/.ls_colors )' >> $HOME/.bashrc
+source $HOME/.bashrc
+```
+
 ZSH SYNTAX HIGHLIGHTING
 =======================
 
