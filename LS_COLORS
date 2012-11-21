@@ -1,8 +1,8 @@
 #                                    LS_COLORS
 # Maintainer: Magnus Woldrich <m@japh.se>
 #        URL: https://github.com/trapd00r/LS_COLORS
-#    Version: 0.232
-#    Updated: 2012-11-21 17:39:37
+#    Version: 0.234
+#    Updated: 2012-11-21 17:41:54
 #
 #   This is a collection of extension:color mappings, suitable to use as your
 #   LS_COLORS environment variable. Most of them use the extended color map,
@@ -111,6 +111,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pm                   38;5;197;1
 .pod                  38;5;172;1
 .py                   38;5;41
+# compiled python code - https://github.com/trapd00r/LS_COLORS/pull/10
+.pyc                  38;5;240
 .rb                   38;5;192
 .rdf                  38;5;144
 .rst                  38;5;67
