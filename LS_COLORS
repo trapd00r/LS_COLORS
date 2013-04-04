@@ -40,6 +40,7 @@ SOCK                  38;5;197
 STICKY                38;5;86;48;5;234
 STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 
+*LS_COLORS 38;5;220;4
 
 # code, text, documents                                                      {{{
 .BAT                  38;5;108
@@ -200,7 +201,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .m2v                  38;5;166
 .mkv                  38;5;202
 .mov                  38;5;42
-.mp4                  38;5;160
+.mp4                  38;5;124
 .mpg                  38;5;38
 .mpeg                 38;5;38
 .ogm                  38;5;97
