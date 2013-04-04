@@ -100,7 +100,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pc                   38;5;100
 .pfa                  38;5;43
 .php                  38;5;93
-.pid                  38;5;160
 .pl                   38;5;214
 .pm                   38;5;197;1
 .pod                  38;5;172;1
@@ -247,6 +246,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # backups, undo files, tempfiles                                             {{{
 .bak                  38;5;41;1
 .bin                  38;5;249
+.pid                  38;5;160
+.state                38;5;124
 .swo                  38;5;236
 .swp                  38;5;241
 .tmp                  38;5;244
