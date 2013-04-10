@@ -31,7 +31,9 @@ FIFO                  38;5;126
 FILE                  38;5;253
 LINK                  target
 MULTIHARDLINK         38;5;220;1
-NORMAL                38;5;254
+# "NORMAL don't reset the bold attribute -
+# https://github.com/trapd00r/LS_COLORS/issues/11
+#NORMAL                38;5;254
 ORPHAN                48;5;196;38;5;232;1
 OTHER_WRITABLE        38;5;220;1
 SETGID                48;5;234;38;5;100;1
