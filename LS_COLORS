@@ -450,6 +450,19 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pcap                 38;5;29
 .cap                  38;5;29
 .dmp                  38;5;29
+# systemd units
+# http://www.freedesktop.org/software/systemd/man/systemd.unit.html
+.service              38;5;81
+*@.service            38;5;45
+.socket               38;5;75
+.device               38;5;24
+.mount                38;5;115
+.automount            38;5;114
+.swap                 38;5;113
+.target               38;5;73
+.path                 38;5;116
+.timer                38;5;111
+.snapshot             38;5;139
 
 TERM Eterm
 TERM ansi
