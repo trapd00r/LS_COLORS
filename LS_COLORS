@@ -265,7 +265,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .afm                  38;5;58
 .pfb                  38;5;58
 .pfm                  38;5;58
-.ttf                  48;5;1
+.ttf                  38;5;66
 .pcf                  38;5;65
 .psf                  38;5;64
 # backups, undo files, tempfiles
