@@ -287,6 +287,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .dump                 38;5;119
 .sqlite               38;5;60
 .typelib              38;5;60
+.localstorage         38;5;60
 # (compressed) archives
 .7z                   38;5;40
 .a                    38;5;46
