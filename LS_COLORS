@@ -47,6 +47,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # code, text, documents
 .BAT                  38;5;108
 .PL                   38;5;160
+.asc                  38;5;192;3
 .asm                  38;5;240;1
 .awk                  38;5;148;1
 .bash                 38;5;173
@@ -55,9 +56,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .cc                   38;5;24;1
 .ii                   38;5;24;1
 .cfg                  1
+.conf                 1
+.rc                   1
 .cl                   38;5;204;1
 .coffee               38;5;94;1
-.conf                 1
 .C                    38;5;24;1
 .cp                   38;5;24;1
 .cpp                  38;5;24;1
@@ -89,6 +91,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .s                    38;5;81
 .S                    38;5;81
 .sx                   38;5;81
+.gpg                  38;5;192;3
 # interface file in GHC - https://github.com/trapd00r/LS_COLORS/pull/9
 .hi                   38;5;240
 .hs                   38;5;155;1
@@ -124,6 +127,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .patch                48;5;197;38;5;232;1
 .pc                   38;5;100
 .pfa                  38;5;43
+.pgp                  38;5;192;3
 .pgsql                38;5;222
 .php                  38;5;93
 .pl                   38;5;214
@@ -286,6 +290,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .dump                 38;5;119
 .sqlite               38;5;60
 .typelib              38;5;60
+.localstorage         38;5;60
 # (compressed) archives
 .7z                   38;5;40
 .a                    38;5;46
