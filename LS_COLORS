@@ -425,6 +425,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .tar                  38;5;118
 .tar.gz               38;5;34
 .tgz                  38;5;35;1
+.vpk                  38;5;239;1
+.vdf                  38;5;215
 .xz                   38;5;118
 .zip                  38;5;41
 # really compressed archives, but mostly used for documents, comics (and
