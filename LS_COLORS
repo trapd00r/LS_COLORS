@@ -79,6 +79,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .example              38;5;225;1
 .git                  38;5;197
 .gitignore            38;5;240
+.gitattributes        38;5;240
 .go                   38;5;36;1
 .h                    38;5;81
 .H                    38;5;81
