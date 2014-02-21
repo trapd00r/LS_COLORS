@@ -443,6 +443,21 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .ods                  38;5;112
 .odp                  38;5;166
 .odb                  38;5;161
+# ms office file formats
+.accdb                38;5;60
+.accde                38;5;60
+.accdt                38;5;60
+.accdr                38;5;60
+.docx                 38;5;111
+.docm                 38;5;111;4
+.xla                  38;5;76
+.xlsx                 38;5;112
+.xlsxm                38;5;112;4
+.xltx                 38;5;73
+.xltm                 38;5;73;4
+.ppt                  38;5;166
+.pot                  38;5;166
+.pps                  38;5;166
 # /etc/hosts.{deny,allow}
 .allow                38;5;112
 .deny                 38;5;196
