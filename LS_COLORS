@@ -47,6 +47,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # code, text, documents
 .BAT                  38;5;108
 .PL                   38;5;160
+.ahk                  38;5;29;1
 .asc                  38;5;192;3
 .asm                  38;5;240;1
 .awk                  38;5;148;1
@@ -78,6 +79,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .example              38;5;225;1
 .git                  38;5;197
 .gitignore            38;5;240
+.gitattributes        38;5;240
 .go                   38;5;36;1
 .h                    38;5;81
 .H                    38;5;81
@@ -145,6 +147,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sed                  38;5;130;1
 .sfv                  38;5;197
 .sh                   38;5;113
+.sig                  38;5;192;3
 .signature            38;5;206
 .sql                  38;5;222
 .srt                  38;5;116
@@ -245,8 +248,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .webm                 38;5;109
 .wmv                  38;5;113
 # music, audio
+.3ga                  38;5;95
 .S3M                  38;5;71;1
 .aac                  38;5;137
+.ape                  38;5;166;1
 .cue                  38;5;112
 .dat                  38;5;165
 .dts                  38;5;100;1
@@ -296,8 +301,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .a                    38;5;46
 .apk                  38;5;172;3
 .arj                  38;5;41
+.bsp                  38;5;239;1
 .bz2                  38;5;44
+.cab                  38;5;215
 .deb                  38;5;215
+.gz                   38;5;34
 .ipk                  38;5;117
 .jad                  38;5;50
 .jar                  38;5;51
@@ -422,8 +430,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .r99                  38;5;239
 .rar                  38;5;106;1
 .tar                  38;5;118
-.tar.gz               38;5;34
 .tgz                  38;5;35;1
+.vpk                  38;5;239;1
+.vdf                  38;5;215
 .xz                   38;5;118
 .zip                  38;5;41
 # really compressed archives, but mostly used for documents, comics (and
@@ -438,6 +447,21 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .ods                  38;5;112
 .odp                  38;5;166
 .odb                  38;5;161
+# ms office file formats
+.accdb                38;5;60
+.accde                38;5;60
+.accdt                38;5;60
+.accdr                38;5;60
+.docx                 38;5;111
+.docm                 38;5;111;4
+.xla                  38;5;76
+.xlsx                 38;5;112
+.xlsxm                38;5;112;4
+.xltx                 38;5;73
+.xltm                 38;5;73;4
+.ppt                  38;5;166
+.pot                  38;5;166
+.pps                  38;5;166
 # /etc/hosts.{deny,allow}
 .allow                38;5;112
 .deny                 38;5;196
