@@ -20,7 +20,7 @@
 #   try to pick colors that fit nicely together. Filetypes with multiple
 #   possible extensions, like htm and html, should have the same color.
 
-# Core {{{1
+# core {{{1
 BLK                   38;5;68
 CAPABILITY            38;5;17
 CHR                   38;5;113;1
@@ -97,10 +97,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .gitignore            38;5;240
 .gitattributes        38;5;240
 
-# shell scripts {{{2
-.BAT                  38;5;108
+# shell {{{2
 .awk                  38;5;148;1
 .bash                 38;5;173
+.BAT                  38;5;108
 .bat                  38;5;108
 .sed                  38;5;130;1
 .sh                   38;5;113
@@ -108,8 +108,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 
 # interpreted {{{2
 .ahk                  38;5;29;1
-.py                   38;5;41
 .pgsql                38;5;222
+.py                   38;5;41
 .sql                  38;5;222
 
 # compiled {{{2
@@ -156,11 +156,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .PL                   38;5;160
 .pyc                  38;5;240
 
-# web apps {{{2
+# html {{{2
 .css                  38;5;91
 .htm                  38;5;125;1
 .html                 38;5;125;1
-#   java/script
+# java {{{2
 .coffee               38;5;94;1
 .java                 38;5;142;1
 .jhtm                 38;5;125;1
@@ -172,10 +172,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .php                  38;5;93
 # }}}
 # Build stuff {{{2
-*README               38;5;220;1
 *Makefile             38;5;196
 *MANIFEST             38;5;243
 *pm_to_blib           38;5;240
+*README               38;5;220;1
 .1p                   38;5;160
 .3p                   38;5;160
 .am                   38;5;242
@@ -187,15 +187,14 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .diff                 48;5;197;38;5;232
 .patch                48;5;197;38;5;232;1
 #}}}
-
 # graphics {{{1
-.JPG                  38;5;66
 .bmp                  38;5;62
 .cdr                  38;5;59
 .gif                  38;5;72
 .go                   38;5;36;1
 .ico                  38;5;73
 .jpeg                 38;5;66
+.JPG                  38;5;66
 .jpg                  38;5;66
 .png                  38;5;68;1
 .svg                  38;5;24;1
@@ -313,13 +312,13 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # databases {{{1
 .accdb                38;5;60
 .accde                38;5;60
-.accdt                38;5;60
 .accdr                38;5;60
+.accdt                38;5;60
 .db                   38;5;60
 .dump                 38;5;119
+.localstorage         38;5;60
 .sqlite               38;5;60
 .typelib              38;5;60
-.localstorage         38;5;60
 # }}}
 # archives {{{1
 .7z                   38;5;40
@@ -335,7 +334,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .jad                  38;5;50
 .jar                  38;5;51
 .nth                  38;5;40
-.sis                  38;5;39
 .part                 38;5;239;1
 .r00                  38;5;239
 .r01                  38;5;239
@@ -454,10 +452,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .r98                  38;5;239
 .r99                  38;5;239
 .rar                  38;5;106;1
+.sis                  38;5;39
 .tar                  38;5;118
 .tgz                  38;5;35;1
-.vpk                  38;5;239;1
 .vdf                  38;5;215
+.vpk                  38;5;239;1
 .xz                   38;5;118
 .zip                  38;5;41
 # }}}
