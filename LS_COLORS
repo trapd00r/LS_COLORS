@@ -51,19 +51,12 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .awk                  38;5;148;1
 .bash                 38;5;173
 .bat                  38;5;108
-.c                    38;5;110
-.cc                   38;5;24;1
 .ii                   38;5;24;1
 .cfg                  1
 .conf                 1
 .rc                   1
 .cl                   38;5;204;1
 .coffee               38;5;94;1
-.C                    38;5;24;1
-.cp                   38;5;24;1
-.cpp                  38;5;24;1
-.cxx                  38;5;24;1
-.c++                  38;5;24;1
 .ii                   38;5;24;1
 .cs                   38;5;74;1
 .css                  38;5;91
@@ -74,10 +67,20 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .etx                  38;5;172
 .ex                   38;5;148;1
 .example              38;5;225;1
+.go                   38;5;36;1
+# version control
 .git                  38;5;197
 .gitignore            38;5;240
 .gitattributes        38;5;240
-.go                   38;5;36;1
+# shell scripts
+# source code, includes etc
+.c                    38;5;110
+.cc                   38;5;24;1
+.C                    38;5;24;1
+.cp                   38;5;24;1
+.cpp                  38;5;24;1
+.cxx                  38;5;24;1
+.c++                  38;5;24;1
 .h                    38;5;81
 .H                    38;5;81
 .hpp                  38;5;81
