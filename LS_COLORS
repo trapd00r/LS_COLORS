@@ -20,7 +20,6 @@
 #   try to pick colors that fit nicely together. Filetypes with multiple
 #   possible extensions, like htm and html, should have the same color.
 
-
 BLK                   38;5;68
 CAPABILITY            38;5;17
 CHR                   38;5;113;1
@@ -173,9 +172,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *Makefile             38;5;196
 *MANIFEST             38;5;243
 *pm_to_blib           38;5;240
-.1                    38;5;196;1
-.3                    38;5;196;1
-.7                    38;5;196;1
 .1p                   38;5;160
 .3p                   38;5;160
 .am                   38;5;242
