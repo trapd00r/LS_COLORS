@@ -95,6 +95,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sx                   38;5;81
 # Encrypted data
 .gpg                  38;5;192;3
+.signature            38;5;192;3
 .sig                  38;5;192;3
 .pgp                  38;5;192;3
 .asc                  38;5;192;3
@@ -151,7 +152,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sed                  38;5;130;1
 .sfv                  38;5;197
 .sh                   38;5;113
-.signature            38;5;206
 .sql                  38;5;222
 .srt                  38;5;116
 .sty                  38;5;58
