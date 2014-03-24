@@ -103,6 +103,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # interface file in GHC - https://github.com/trapd00r/LS_COLORS/pull/9
 .hi                   38;5;240
 .hs                   38;5;155;1
+# web services
 .htm                  38;5;125;1
 .html                 38;5;125;1
 .info                 38;5;101
@@ -114,6 +115,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .jsm                  38;5;42
 .json                 38;5;199
 .jsp                  38;5;45
+#
 .lisp                 38;5;204;1
 .log                  38;5;190
 .lua                  38;5;34;1
