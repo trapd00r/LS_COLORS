@@ -49,8 +49,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .conf                 1
 .ini                  38;5;122
 .rc                   1
+#   vim
 .vim                  1
 .viminfo              38;5;240;1
+#   cisco VPN client configuration
+.pcf                  38;5;65
 # }}}
 # documents {{{1
 # markup, plain-text {{{2
@@ -72,21 +75,27 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .cbz                  38;5;140
 .chm                  38;5;144
 .djvu                 38;5;141
+.pdf                  38;5;203
+# words {{{3
 .docm                 38;5;111;4
 .docx                 38;5;111
 .eps                  38;5;192
 .nfo                  38;5;220
 .odb                  38;5;161
-.odp                  38;5;166
-.ods                  38;5;112
 .odt                  38;5;111
-.pdf                  38;5;203
-.pot                  38;5;166
+# presentation {{{3
+.odp                  38;5;166
 .pps                  38;5;166
 .ppt                  38;5;166
+# spreadsheet {{{3
+#   Open document spreadsheet
+.ods                  38;5;112
 .xla                  38;5;76
+#   Excel spreadsheet
 .xlsx                 38;5;112
+#   Excel spreadsheet with macros
 .xlsxm                38;5;112;4
+#   Excel module
 .xltm                 38;5;73;4
 .xltx                 38;5;73
 # }}}
@@ -111,6 +120,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pgsql                38;5;222
 .py                   38;5;41
 .sql                  38;5;222
+#   Tool Command Language
+.tcl                  38;5;64;1
 
 # compiled {{{2
 #
@@ -119,6 +130,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 #   LISP
 .cl                   38;5;204;1
 .lisp                 38;5;204;1
+#   lua
+.lua                  38;5;34;1
 #   C
 .c                    38;5;110
 .C                    38;5;24;1
@@ -131,6 +144,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .hpp                  38;5;81
 .hxx                  38;5;81
 .ii                   38;5;24;1
+#   method file for Objective C
+.M                    38;5;130;3
+.m                    38;5;130;3
 #   Csharp
 .cc                   38;5;24;1
 .cs                   38;5;74;1
@@ -169,7 +185,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .jsm                  38;5;42
 .json                 38;5;199
 .jsp                  38;5;45
+# php {{{2
 .php                  38;5;93
+#   CakePHP view scripts and helpers
+.ctp                  38;5;95
 # }}}
 # Build stuff {{{2
 *Makefile             38;5;196
@@ -182,6 +201,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .in                   38;5;242
 .old                  38;5;242
 .out                  38;5;46;1
+.SKIP                 38;5;244
 # }}}
 # patch files {{{2
 .diff                 48;5;197;38;5;232
@@ -224,11 +244,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sav                  38;5;220
 .sms                  38;5;33
 .st                   38;5;208;1
-# }}}
-# partition images {{{1
-.iso                  38;5;124
-.nrg                  38;5;124
-.qcow                 38;5;141
 # }}}
 # video {{{1
 .VOB                  38;5;137
@@ -290,35 +305,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pfb                  38;5;58
 .pfm                  38;5;58
 .ttf                  38;5;66
-.pcf                  38;5;65
+#   adobe photoshop proof settings file
 .psf                  38;5;64
-# }}}
-# backups, undo files, tempfiles {{{1
-.bak                  38;5;41;1
-.bin                  38;5;249
-.pid                  38;5;160
-.state                38;5;124
-.swo                  38;5;236
-.swp                  38;5;241
-.tmp                  38;5;244
-.un~                  38;5;240
-.zcompdump            38;5;240
-#   *nix Object file (shared libraries, core dumps etc)
-.o                    38;5;240
-.zwc                  38;5;240
-#   GIMP project file
-.scm                  38;5;204;1
-# }}}
-# databases {{{1
-.accdb                38;5;60
-.accde                38;5;60
-.accdr                38;5;60
-.accdt                38;5;60
-.db                   38;5;60
-.dump                 38;5;119
-.localstorage         38;5;60
-.sqlite               38;5;60
-.typelib              38;5;60
+#   postscript fonts
+.PFA                  38;5;43
+.pfa                  38;5;43
 # }}}
 # archives {{{1
 .7z                   38;5;40
@@ -459,71 +450,43 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .vpk                  38;5;239;1
 .xz                   38;5;118
 .zip                  38;5;41
-# }}}
+# partition images {{{2
+.iso                  38;5;124
+.nrg                  38;5;124
+.qcow                 38;5;141
+# databases {{{2
+.accdb                38;5;60
+.accde                38;5;60
+.accdr                38;5;60
+.accdt                38;5;60
+.db                   38;5;60
+.localstorage         38;5;60
+.sqlite               38;5;60
+.typelib              38;5;60
+# backups, undo files, tempfiles {{{2
+.bak                  38;5;41;1
+.bin                  38;5;249
+.pid                  38;5;160
+.state                38;5;124
+.swo                  38;5;236
+.swp                  38;5;241
+.tmp                  38;5;244
+.un~                  38;5;240
+.zcompdump            38;5;240
+.dump                 38;5;119
+#   *nix Object file (shared libraries, core dumps etc)
+.o                    38;5;240
+.zwc                  38;5;240
+# tcpdump {{{2
+.pcap                 38;5;29
+.cap                  38;5;29
+.dmp                  38;5;29
 # hosts {{{1
 # /etc/hosts.{deny,allow}
 .allow                38;5;112
 .deny                 38;5;196
 # }}}
-# unsorted {{{1
-#
-.M                    38;5;130;3
-.SKIP                 38;5;244
-.cnc                  38;5;37
-.ctp                  38;5;95
-.def                  38;5;136
-.directory            38;5;83
-.err                  38;5;160;1
-.error                38;5;160;1
-.ex                   38;5;148;1
-.example              38;5;225;1
-.gbr                  38;5;2
-.ger                  38;5;2
-.lua                  38;5;34;1
-.m                    38;5;130;3
-.map                  38;5;58;3
-.mf                   38;5;220;3
-.mfasl                38;5;73
-.mht                  38;5;129
-.mi                   38;5;124
-.mm                   38;5;130;3
-.mtx                  38;5;36;3
-.pacnew               38;5;33
-.pc                   38;5;100
-.pcb                  38;5;28
-.pfa                  38;5;43
-.pi                   38;5;126
-.pl                   38;5;214
-.plt                  38;5;204;1
-.pm                   38;5;197;1
-.pod                  38;5;172;1
-.properties           38;5;197;1
-.rb                   38;5;192
-.rdf                  38;5;144
-.rst                  38;5;67
-.ru                   38;5;142
-.sch                  38;5;34
-.sfv                  38;5;197
-.srt                  38;5;116
-.sty                  38;5;58
-.sug                  38;5;44
-.t                    38;5;28;1
-.tcl                  38;5;64;1
-.tdy                  38;5;214
-.tfm                  38;5;64
-.tfnt                 38;5;140
-.tg                   38;5;99
-.theme                38;5;109
-.torrent              38;5;58
-.urlview              38;5;85
-.xln                  38;5;37
-# }}}
-# tcpdump {{{1
-.pcap                 38;5;29
-.cap                  38;5;29
-.dmp                  38;5;29
-# }}}
-# systemd units {{{1
+# systemd {{{1
 # http://www.freedesktop.org/software/systemd/man/systemd.unit.html
 .service              38;5;81
 *@.service            38;5;45
@@ -537,8 +500,63 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .timer                38;5;111
 .snapshot             38;5;139
 # }}}
+# unsorted {{{1
+#
+#   Portable Object Translation for GNU Gettext
+.pot                  38;5;166
+#   CAD files for printed circuit boards
+.pcb                  38;5;28
+#   groff (rendering app for texinfo)
+.mm                   38;5;130;3
+#   perldoc
+.pod                  38;5;172;1
+#   GIMP brush
+.gbr                  38;5;2
+#   directory-specific settings for KDE
+.directory            38;5;83
+#   Linux Shell Executable Binary
+.pl                   38;5;214
+
+.cnc                  38;5;37
+.def                  38;5;136
+.err                  38;5;160;1
+.error                38;5;160;1
+.ex                   38;5;148;1
+.example              38;5;225;1
+.ger                  38;5;2
+.map                  38;5;58;3
+.mf                   38;5;220;3
+.mfasl                38;5;73
+.mht                  38;5;129
+.mi                   38;5;124
+.mtx                  38;5;36;3
+.pacnew               38;5;33
+.pc                   38;5;100
+.pi                   38;5;126
+.plt                  38;5;204;1
+.pm                   38;5;197;1
+.properties           38;5;197;1
+.rb                   38;5;192
+.rdf                  38;5;144
+.rst                  38;5;67
+.ru                   38;5;142
+.sch                  38;5;34
+.sfv                  38;5;197
+.srt                  38;5;116
+.sty                  38;5;58
+.sug                  38;5;44
+.t                    38;5;28;1
+.tdy                  38;5;214
+.tfm                  38;5;64
+.tfnt                 38;5;140
+.tg                   38;5;99
+.theme                38;5;109
+.torrent              38;5;58
+.urlview              38;5;85
+.xln                  38;5;37
+# }}}
+
 # termcap {{{1
-TERM Eterm
 TERM ansi
 TERM color-xterm
 TERM con132x25
@@ -555,6 +573,7 @@ TERM cons25
 TERM console
 TERM cygwin
 TERM dtterm
+TERM Eterm
 TERM eterm-color
 TERM gnome
 TERM gnome-256color
@@ -578,8 +597,8 @@ TERM screen-256color
 TERM screen-256color-bce
 TERM screen-bce
 TERM screen-w
-TERM screen.rxvt
 TERM screen.linux
+TERM screen.rxvt
 TERM terminator
 TERM vt100
 TERM xterm
@@ -589,5 +608,8 @@ TERM xterm-88color
 TERM xterm-color
 TERM xterm-debian
 # }}}
+
+#   GIMP project file
+.scm                  38;5;204;1
 
 # vim: ft=dircolors:fdm=marker:et:sw=2:
