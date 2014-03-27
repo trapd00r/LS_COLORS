@@ -60,6 +60,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .csv                  38;5;78
 .etx                  38;5;172
 .info                 38;5;101
+.json                 38;5;199
 .log                  38;5;190
 .markdown             38;5;184
 .md                   38;5;184
@@ -183,7 +184,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .js                   38;5;42
 .jsm                  38;5;42
 .jsm                  38;5;42
-.json                 38;5;199
 .jsp                  38;5;45
 # php {{{2
 .php                  38;5;93
