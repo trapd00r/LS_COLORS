@@ -246,33 +246,35 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .st                   38;5;208;1
 # }}}
 # video {{{1
-.VOB                  38;5;137
-.IFO                  38;5;240
-.BUP                  38;5;241
-.MOV                  38;5;42
-.3gp                  38;5;134
-.3g2                  38;5;133
-.asf                  38;5;25
 .avi                  38;5;114
 .divx                 38;5;112
-.f4v                  38;5;125
-.flv                  38;5;131
-.gp3                  38;5;114
-.gp4                  38;5;115
+.IFO                  38;5;240
 .m2v                  38;5;166
 .mkv                  38;5;202
+.MOV                  38;5;42
 .mov                  38;5;42
 .mp4                  38;5;124
-.mpg                  38;5;38
 .mpeg                 38;5;38
+.mpg                  38;5;38
 .ogm                  38;5;97
-.ogv                  38;5;94
 .rmvb                 38;5;112
 .sample               38;5;130;1
-.ts                   38;5;39
-.vob                  38;5;137
-.webm                 38;5;109
 .wmv                  38;5;113
+  # mobile/streaming {{{2
+.3g2                  38;5;133
+.3gp                  38;5;134
+.gp3                  38;5;114
+.webm                 38;5;109
+.gp4                  38;5;115
+.asf                  38;5;25
+.flv                  38;5;131
+.ts                   38;5;39
+.ogv                  38;5;94
+.f4v                  38;5;125
+  # }}}
+  # lossless {{{2
+.VOB                  38;5;137
+.vob                  38;5;137
 # }}}
 # audio {{{1
 .3ga                  38;5;95
@@ -466,6 +468,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # backups, undo files, tempfiles {{{2
 .bak                  38;5;41;1
 .bin                  38;5;249
+.BUP                  38;5;241
+.dump                 38;5;119
 .pid                  38;5;160
 .state                38;5;124
 .swo                  38;5;236
@@ -473,7 +477,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .tmp                  38;5;244
 .un~                  38;5;240
 .zcompdump            38;5;240
-.dump                 38;5;119
 #   *nix Object file (shared libraries, core dumps etc)
 .o                    38;5;240
 .zwc                  38;5;240
