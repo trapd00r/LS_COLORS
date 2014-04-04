@@ -222,15 +222,20 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # }}}
 # emulators {{{1
 .32x                  38;5;137
-.A64                  38;5;82
+.cdi                  38;5;124
+.fm2                  38;5;35
+.rom                  38;5;59;1
+.sav                  38;5;220
+.st                   38;5;208;1
+  # atari
 .a00                  38;5;11
 .a52                  38;5;112
+.A64                  38;5;82
 .a64                  38;5;82
 .a78                  38;5;112
 .adf                  38;5;35
 .atr                  38;5;213
-.cdi                  38;5;124
-.fm2                  38;5;35
+  # nintendo
 .gb                   38;5;203
 .gba                  38;5;205
 .gbc                  38;5;204
@@ -240,10 +245,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .j64                  38;5;102
 .nds                  38;5;193
 .nes                  38;5;160
-.rom                  38;5;59;1
-.sav                  38;5;220
+  # Sega
 .sms                  38;5;33
-.st                   38;5;208;1
 # }}}
 # video {{{1
 .avi                  38;5;114
@@ -316,18 +319,27 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # archives {{{1
 .7z                   38;5;40
 .a                    38;5;46
-.apk                  38;5;172;3
 .arj                  38;5;41
-.bsp                  38;5;239;1
 .bz2                  38;5;44
-.cab                  38;5;215
-.deb                  38;5;215
 .gz                   38;5;34
-.ipk                  38;5;117
+.ipk                  38;5;117 # Nintendo (DS Packed Images)
+.nth                  38;5;40
+.rar                  38;5;106;1
+.tar                  38;5;118
+.tgz                  38;5;35;1
+.xz                   38;5;118
+.zip                  38;5;41
+  # packaged apps {{{2
+.apk                  38;5;172;3
+.deb                  38;5;215
 .jad                  38;5;50
 .jar                  38;5;51
-.nth                  38;5;40
-.part                 38;5;239;1
+.cab                  38;5;215
+.vdf                  38;5;215
+.vpk                  38;5;239;1
+.bsp                  38;5;239;1
+  # }}}
+  # segments {{{2
 .r00                  38;5;239
 .r01                  38;5;239
 .r02                  38;5;239
@@ -444,14 +456,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .r97                  38;5;239
 .r98                  38;5;239
 .r99                  38;5;239
-.rar                  38;5;106;1
-.sis                  38;5;39
-.tar                  38;5;118
-.tgz                  38;5;35;1
-.vdf                  38;5;215
-.vpk                  38;5;239;1
-.xz                   38;5;118
-.zip                  38;5;41
+  # }}}
 # partition images {{{2
 .iso                  38;5;124
 .nrg                  38;5;124
@@ -470,6 +475,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .bin                  38;5;249
 .BUP                  38;5;241
 .dump                 38;5;119
+.o                    38;5;240      #   *nix Object file (shared libraries, core dumps etc)
+.part                 38;5;239;1
 .pid                  38;5;160
 .state                38;5;124
 .swo                  38;5;236
@@ -477,10 +484,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .tmp                  38;5;244
 .un~                  38;5;240
 .zcompdump            38;5;240
-#   *nix Object file (shared libraries, core dumps etc)
-.o                    38;5;240
 .zwc                  38;5;240
-# tcpdump {{{2
+#   tcpdump
 .pcap                 38;5;29
 .cap                  38;5;29
 .dmp                  38;5;29
@@ -545,6 +550,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .ru                   38;5;142
 .sch                  38;5;34
 .sfv                  38;5;197
+.sis                  38;5;39 # Nokia Symbian OS files
 .srt                  38;5;116
 .sty                  38;5;58
 .sug                  38;5;44
