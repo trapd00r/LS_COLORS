@@ -66,6 +66,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .chm                  38;5;144
 .djvu                 38;5;141
 .pdf                  38;5;203
+.PDF                  38;5;203
 # words {{{3
 .docm                 38;5;111;4
 .docx                 38;5;111
