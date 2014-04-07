@@ -119,6 +119,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 
 # interpreted {{{2
 .ahk                  38;5;29;1
+.msql                 38;5;222
+.mysql                38;5;222
 .pgsql                38;5;222
 .py                   38;5;41
 .sql                  38;5;222
