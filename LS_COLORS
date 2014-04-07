@@ -101,6 +101,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .viminfo              38;5;240;1
 #   cisco VPN client configuration
 .pcf                  38;5;65
+#   desktop configuration
+.application          35;5;83
+.directory            38;5;83
 # }}}
 # code {{{1
 # version control {{{2
@@ -523,8 +526,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pod                  38;5;172;1
 #   GIMP brush
 .gbr                  38;5;2
-#   directory-specific settings for KDE
-.directory            38;5;83
 #   Linux Shell Executable Binary
 .pl                   38;5;214
 
