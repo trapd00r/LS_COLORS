@@ -110,16 +110,16 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .gitattributes        38;5;240
 
 # shell {{{2
-.awk                  38;5;148;1
 .bash                 38;5;173
 .BAT                  38;5;108
 .bat                  38;5;108
-.sed                  38;5;130;1
 .sh                   38;5;113
 .zsh                  38;5;173
 
 # interpreted {{{2
 .ahk                  38;5;29;1
+.awk                  38;5;148;1
+.sed                  38;5;130;1
 .msql                 38;5;222
 .mysql                38;5;222
 .pgsql                38;5;222
