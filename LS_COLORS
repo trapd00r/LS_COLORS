@@ -96,14 +96,12 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .conf                 1
 .ini                  38;5;122
 .rc                   1
+.pacnew               38;5;33
 #   vim
 .vim                  1
 .viminfo              38;5;240;1
 #   cisco VPN client configuration
 .pcf                  38;5;65
-#   desktop configuration
-.application          35;5;83
-.directory            38;5;83
 # }}}
 # code {{{1
 # version control {{{2
@@ -514,6 +512,17 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .timer                38;5;111
 .snapshot             38;5;139
 # }}}
+# metadata {{{1
+.application          35;5;83
+.srt                  38;5;116
+.directory            38;5;83
+.properties           38;5;197;1
+.torrent              38;5;58
+.err                  38;5;160;1
+.error                38;5;160;1
+.theme                38;5;109
+.urlview              38;5;85
+# }}}
 # unsorted {{{1
 #
 #   Portable Object Translation for GNU Gettext
@@ -531,8 +540,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 
 .cnc                  38;5;37
 .def                  38;5;136
-.err                  38;5;160;1
-.error                38;5;160;1
 .ex                   38;5;148;1
 .example              38;5;225;1
 .ger                  38;5;2
@@ -542,12 +549,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .mht                  38;5;129
 .mi                   38;5;124
 .mtx                  38;5;36;3
-.pacnew               38;5;33
 .pc                   38;5;100
 .pi                   38;5;126
 .plt                  38;5;204;1
 .pm                   38;5;197;1
-.properties           38;5;197;1
 .rb                   38;5;192
 .rdf                  38;5;144
 .rst                  38;5;67
@@ -555,7 +560,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sch                  38;5;34
 .sfv                  38;5;197
 .sis                  38;5;39 # Nokia Symbian OS files
-.srt                  38;5;116
 .sty                  38;5;58
 .sug                  38;5;44
 .t                    38;5;28;1
@@ -563,9 +567,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .tfm                  38;5;64
 .tfnt                 38;5;140
 .tg                   38;5;99
-.theme                38;5;109
-.torrent              38;5;58
-.urlview              38;5;85
 .xln                  38;5;37
 # }}}
 
