@@ -103,6 +103,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 #   cisco VPN client configuration
 .pcf                  38;5;65
 # }}}
+# }}}
 # code {{{1
 # version control {{{2
 .git                  38;5;197
@@ -176,11 +177,12 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # compiled apps for interpreted languages
 .PL                   38;5;160
 .pyc                  38;5;240
-
+# }}}
 # html {{{2
 .css                  38;5;91
 .htm                  38;5;125;1
 .html                 38;5;125;1
+# }}}
 # java {{{2
 .coffee               38;5;94;1
 .java                 38;5;142;1
@@ -189,6 +191,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .jsm                  38;5;42
 .jsm                  38;5;42
 .jsp                  38;5;45
+# }}}
 # php {{{2
 .php                  38;5;93
 #   CakePHP view scripts and helpers
@@ -288,7 +291,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .S3M                  38;5;71;1
 .aac                  38;5;137
 .ape                  38;5;166;1
-.cue                  38;5;112
 .dat                  38;5;165
 .dts                  38;5;100;1
 .fcm                  38;5;41
@@ -465,6 +467,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .iso                  38;5;124
 .nrg                  38;5;124
 .qcow                 38;5;141
+# }}}
 # databases {{{2
 .accdb                38;5;60
 .accde                38;5;60
@@ -474,6 +477,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .localstorage         38;5;60
 .sqlite               38;5;60
 .typelib              38;5;60
+# }}}
 # backups, undo files, tempfiles {{{2
 .bak                  38;5;41;1
 .bin                  38;5;249
@@ -493,6 +497,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pcap                 38;5;29
 .cap                  38;5;29
 .dmp                  38;5;29
+# }}}
 # hosts {{{1
 # /etc/hosts.{deny,allow}
 .allow                38;5;112
@@ -514,13 +519,14 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # }}}
 # metadata {{{1
 .application          35;5;83
-.srt                  38;5;116
+.cue                  38;5;112
 .directory            38;5;83
-.properties           38;5;197;1
-.torrent              38;5;58
 .err                  38;5;160;1
 .error                38;5;160;1
+.properties           38;5;197;1
+.srt                  38;5;116
 .theme                38;5;109
+.torrent              38;5;58
 .urlview              38;5;85
 # }}}
 # unsorted {{{1
