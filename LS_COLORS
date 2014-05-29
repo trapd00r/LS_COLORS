@@ -45,20 +45,22 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *LS_COLORS 48;5;89;38;5;197;1;3;4;7 # :-)
 # }}}
 # documents {{{1
-# plain-text {{{2
-.txt                  38;5;192
-# markup {{{2
-.etx                  38;5;172
-.info                 38;5;101
-.json                 38;5;199
 .log                  38;5;190
+# plain-text {{{2
+.txt                  38;5;253
+# markup {{{2
+.etx                  38;5;184
+.info                 38;5;184
 .markdown             38;5;184
 .md                   38;5;184
 .mkd                  38;5;184
-.tex                  38;5;172
-.textile              38;5;106
+.nfo                  38;5;184
+.tex                  38;5;184
+.textile              38;5;184
+# key-value, non-relational data {{{2
 .xml                  38;5;199
-.yml                  38;5;208
+.json                 38;5;199
+.yml                  38;5;199
 # }}}
 # binary {{{2
 .cbr                  38;5;141
@@ -70,9 +72,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # words {{{3
 .docm                 38;5;111;4
 .docx                 38;5;111
-.eps                  38;5;192
-.nfo                  38;5;220
-.odb                  38;5;161
+.eps                  38;5;111
+.odb                  38;5;111
 .odt                  38;5;111
 # presentation {{{3
 .odp                  38;5;166
@@ -193,7 +194,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .js                   38;5;42
 .jsm                  38;5;42
 .jsm                  38;5;42
-.jsp                  38;5;45
+.jsp                  38;5;42
 # }}}
 # php {{{2
 .php                  38;5;93
@@ -509,17 +510,17 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # }}}
 # systemd {{{1
 # http://www.freedesktop.org/software/systemd/man/systemd.unit.html
-.service              38;5;81
+.service              38;5;45
 *@.service            38;5;45
-.socket               38;5;75
-.swap                 38;5;113
-.device               38;5;24
-.mount                38;5;73
-.automount            38;5;73
-.target               38;5;73
-.path                 38;5;116
-.timer                38;5;111
-.snapshot             38;5;139
+.socket               38;5;45
+.swap                 38;5;45
+.device               38;5;45
+.mount                38;5;45
+.automount            38;5;45
+.target               38;5;45
+.path                 38;5;45
+.timer                38;5;45
+.snapshot             38;5;45
 # }}}
 # metadata {{{1
 .application          35;5;83
