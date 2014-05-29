@@ -45,8 +45,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *LS_COLORS 48;5;89;38;5;197;1;3;4;7 # :-)
 # }}}
 # documents {{{1
-# markup, plain-text {{{2
-.csv                  38;5;78
+# plain-text {{{2
+.txt                  38;5;192
+# markup {{{2
 .etx                  38;5;172
 .info                 38;5;101
 .json                 38;5;199
@@ -56,17 +57,16 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .mkd                  38;5;184
 .tex                  38;5;172
 .textile              38;5;106
-.txt                  38;5;192
 .xml                  38;5;199
 .yml                  38;5;208
 # }}}
 # binary {{{2
-.cbr                  38;5;140
-.cbz                  38;5;140
-.chm                  38;5;144
+.cbr                  38;5;141
+.cbz                  38;5;141
+.chm                  38;5;141
 .djvu                 38;5;141
-.pdf                  38;5;203
-.PDF                  38;5;203
+.pdf                  38;5;141
+.PDF                  38;5;141
 # words {{{3
 .docm                 38;5;111;4
 .docx                 38;5;111
@@ -79,6 +79,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pps                  38;5;166
 .ppt                  38;5;166
 # spreadsheet {{{3
+.csv                  38;5;78
 #   Open document spreadsheet
 .ods                  38;5;112
 .xla                  38;5;76
@@ -468,7 +469,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # partition images {{{2
 .iso                  38;5;124
 .nrg                  38;5;124
-.qcow                 38;5;141
+.qcow                 38;5;124
 # }}}
 # databases {{{2
 .accdb                38;5;60
