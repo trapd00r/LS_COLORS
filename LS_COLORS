@@ -96,13 +96,13 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # configs {{{2
 .cfg                  1
 .conf                 1
-.ini                  38;5;122
+.ini                  1
 .rc                   1
 #   vim
 .vim                  1
-.viminfo              38;5;240;1
+.viminfo              1
 #   cisco VPN client configuration
-.pcf                  38;5;65
+.pcf                  1
 # }}}
 # }}}
 # code {{{1
