@@ -98,7 +98,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .conf                 1
 .ini                  38;5;122
 .rc                   1
-.pacnew               38;5;33
 #   vim
 .vim                  1
 .viminfo              38;5;240;1
@@ -466,9 +465,12 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .r97                  38;5;239
 .r98                  38;5;239
 .r99                  38;5;239
+# partial files
+.part                 38;5;239
   # }}}
 # partition images {{{2
 .iso                  38;5;124
+.bin                  38;5;124
 .nrg                  38;5;124
 .qcow                 38;5;124
 # }}}
@@ -483,22 +485,25 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .typelib              38;5;60
 # }}}
 # backups, undo files, tempfiles {{{2
-.bak                  38;5;41;1
-.bin                  38;5;249
+# undo files
+.pacnew               38;5;33
+.un~                  38;5;241
+# backups
 .BUP                  38;5;241
-.dump                 38;5;119
-.o                    38;5;240 #   *nix Object file (shared libraries, core dumps etc)
-.part                 38;5;239;1
-.swo                  38;5;236
-.swp                  38;5;241
+.bak                  38;5;241
+.o                    38;5;241 #   *nix Object file (shared libraries, core dumps etc)
+# temporary files
+.swp                  38;5;244
+.swo                  38;5;244
 .tmp                  38;5;244
-.un~                  38;5;240
-.zcompdump            38;5;240
-.zwc                  38;5;240
 # state files
-.pid                  38;5;160
-.state                38;5;124
-#   tcpdump
+.pid                  38;5;248
+.state                38;5;248
+# state dumps
+.dump                 38;5;241
+.zcompdump            38;5;241
+.zwc                  38;5;241
+# tcpdump, network traffic capture
 .pcap                 38;5;29
 .cap                  38;5;29
 .dmp                  38;5;29
