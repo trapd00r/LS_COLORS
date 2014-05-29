@@ -121,10 +121,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .ahk                  38;5;29;1
 .awk                  38;5;148;1
 .sed                  38;5;130;1
+.py                   38;5;41
+# sql
 .msql                 38;5;222
 .mysql                38;5;222
 .pgsql                38;5;222
-.py                   38;5;41
 .sql                  38;5;222
 #   Tool Command Language
 .tcl                  38;5;64;1
@@ -186,6 +187,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # java {{{2
 .coffee               38;5;94;1
 .java                 38;5;142;1
+# Is java-html java, or html?
 .jhtm                 38;5;125;1
 .js                   38;5;42
 .jsm                  38;5;42
@@ -257,34 +259,34 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # }}}
 # video {{{1
 .avi                  38;5;114
-.divx                 38;5;112
-.IFO                  38;5;240
-.m2v                  38;5;166
-.mkv                  38;5;202
-.MOV                  38;5;42
-.mov                  38;5;42
-.mp4                  38;5;124
-.mpeg                 38;5;38
-.mpg                  38;5;38
-.ogm                  38;5;97
-.rmvb                 38;5;112
-.sample               38;5;130;1
-.wmv                  38;5;113
+.divx                 38;5;114
+.IFO                  38;5;114
+.m2v                  38;5;114
+.mkv                  38;5;114
+.MOV                  38;5;114
+.mov                  38;5;114
+.mp4                  38;5;114
+.mpeg                 38;5;114
+.mpg                  38;5;114
+.ogm                  38;5;114
+.rmvb                 38;5;114
+.sample               38;5;114
+.wmv                  38;5;114
   # mobile/streaming {{{2
-.3g2                  38;5;133
-.3gp                  38;5;134
-.gp3                  38;5;114
-.webm                 38;5;109
+.3g2                  38;5;115
+.3gp                  38;5;115
+.gp3                  38;5;115
+.webm                 38;5;115
 .gp4                  38;5;115
-.asf                  38;5;25
-.flv                  38;5;131
-.ts                   38;5;39
-.ogv                  38;5;94
-.f4v                  38;5;125
+.asf                  38;5;115
+.flv                  38;5;115
+.ts                   38;5;115
+.ogv                  38;5;115
+.f4v                  38;5;115
   # }}}
   # lossless {{{2
-.VOB                  38;5;137
-.vob                  38;5;137
+.VOB                  38;5;115;1
+.vob                  38;5;115;1
 # }}}
 # audio {{{1
 .3ga                  38;5;95
@@ -483,16 +485,17 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .bin                  38;5;249
 .BUP                  38;5;241
 .dump                 38;5;119
-.o                    38;5;240      #   *nix Object file (shared libraries, core dumps etc)
+.o                    38;5;240 #   *nix Object file (shared libraries, core dumps etc)
 .part                 38;5;239;1
-.pid                  38;5;160
-.state                38;5;124
 .swo                  38;5;236
 .swp                  38;5;241
 .tmp                  38;5;244
 .un~                  38;5;240
 .zcompdump            38;5;240
 .zwc                  38;5;240
+# state files
+.pid                  38;5;160
+.state                38;5;124
 #   tcpdump
 .pcap                 38;5;29
 .cap                  38;5;29
@@ -508,10 +511,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .service              38;5;81
 *@.service            38;5;45
 .socket               38;5;75
-.device               38;5;24
-.mount                38;5;115
-.automount            38;5;114
 .swap                 38;5;113
+.device               38;5;24
+.mount                38;5;73
+.automount            38;5;73
 .target               38;5;73
 .path                 38;5;116
 .timer                38;5;111
@@ -575,7 +578,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .tg                   38;5;99
 .xln                  38;5;37
 # }}}
-
 # termcap {{{1
 TERM ansi
 TERM color-xterm
