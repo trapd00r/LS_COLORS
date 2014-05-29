@@ -505,6 +505,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .m3u                  38;5;116
 .m3u8                 38;5;116
 .properties           38;5;116
+.sfv                  38;5;116
 .srt                  38;5;116
 .theme                38;5;116
 .torrent              38;5;116
@@ -578,7 +579,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .rst                  38;5;67
 .ru                   38;5;142
 .sch                  38;5;34
-.sfv                  38;5;197
 .sis                  38;5;39 # Nokia Symbian OS files
 .sty                  38;5;58
 .sug                  38;5;44
