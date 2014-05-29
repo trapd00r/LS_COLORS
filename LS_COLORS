@@ -26,7 +26,7 @@ CAPABILITY            38;5;17
 CHR                   38;5;113;1
 DIR                   38;5;30
 DOOR                  38;5;127
-EXEC                  38;5;166;1
+EXEC                  38;5;208;1
 FIFO                  38;5;126
 FILE                  38;5;253
 LINK                  target
@@ -110,18 +110,19 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .git                  38;5;197
 .gitignore            38;5;240
 .gitattributes        38;5;240
+.gitmodules           38;5;240
 
 # shell {{{2
-.bash                 38;5;173
-.BAT                  38;5;108
-.bat                  38;5;108
-.sh                   38;5;113
-.zsh                  38;5;173
+.awk                  38;5;172
+.bash                 38;5;172
+.bat                  38;5;172
+.BAT                  38;5;172
+.sed                  38;5;172
+.sh                   38;5;172
+.zsh                  38;5;172
 
 # interpreted {{{2
 .ahk                  38;5;29;1
-.awk                  38;5;148;1
-.sed                  38;5;130;1
 .py                   38;5;41
 # sql
 .msql                 38;5;222
@@ -496,12 +497,12 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .swo                  38;5;244
 .tmp                  38;5;244
 # state files
-.err                  38;5;160;1
-.error                38;5;160;1
 .pid                  38;5;248
 .state                38;5;248
 # state dumps
 .dump                 38;5;241
+.err                  38;5;160;1
+.error                38;5;160;1
 .zcompdump            38;5;241
 .zwc                  38;5;241
 # tcpdump, network traffic capture
@@ -529,16 +530,16 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .snapshot             38;5;45
 # }}}
 # metadata {{{1
-.application          35;5;83
-.cue                  38;5;112
-.directory            38;5;83
-.m3u                  38;5;172
-.m3u8                 38;5;172
-.properties           38;5;197;1
+.application          38;5;116
+.cue                  38;5;116
+.directory            38;5;116
+.m3u                  38;5;116
+.m3u8                 38;5;116
+.properties           38;5;116
 .srt                  38;5;116
-.theme                38;5;109
-.torrent              38;5;58
-.urlview              38;5;85
+.theme                38;5;116
+.torrent              38;5;116
+.urlview              38;5;116
 # }}}
 # unsorted {{{1
 #
