@@ -218,14 +218,15 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .patch                48;5;197;38;5;232;1
 #}}}
 # graphics {{{1
+.JPG                  38;5;66
 .bmp                  38;5;62
 .cdr                  38;5;59
 .gif                  38;5;72
 .go                   38;5;36;1
 .ico                  38;5;73
 .jpeg                 38;5;66
-.JPG                  38;5;66
 .jpg                  38;5;66
+.nth                  38;5;40
 .png                  38;5;68;1
 .svg                  38;5;24;1
 .xpm                  38;5;36
@@ -252,6 +253,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .gel                  38;5;83
 .gg                   38;5;138
 .ggl                  38;5;83
+.ipk                  38;5;117 # Nintendo (DS Packed Images)
 .j64                  38;5;102
 .nds                  38;5;193
 .nes                  38;5;160
@@ -326,26 +328,24 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # }}}
 # archives {{{1
 .7z                   38;5;40
-.a                    38;5;46
-.arj                  38;5;41
-.bz2                  38;5;44
-.gz                   38;5;34
-.ipk                  38;5;117 # Nintendo (DS Packed Images)
-.nth                  38;5;40
-.rar                  38;5;106;1
-.tar                  38;5;118
-.tgz                  38;5;35;1
-.xz                   38;5;118
-.zip                  38;5;41
+.a                    38;5;40
+.arj                  38;5;40
+.bz2                  38;5;40
+.gz                   38;5;40
+.rar                  38;5;40
+.tar                  38;5;40
+.tgz                  38;5;40
+.xz                   38;5;40
+.zip                  38;5;40
   # packaged apps {{{2
-.apk                  38;5;172;3
+.apk                  38;5;215
 .deb                  38;5;215
-.jad                  38;5;50
-.jar                  38;5;51
+.jad                  38;5;215
+.jar                  38;5;215
 .cab                  38;5;215
 .vdf                  38;5;215
-.vpk                  38;5;239;1
-.bsp                  38;5;239;1
+.vpk                  38;5;215
+.bsp                  38;5;215
   # }}}
   # segments {{{2
 .r00                  38;5;239
@@ -483,7 +483,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sqlite               38;5;60
 .typelib              38;5;60
 # }}}
-# backups, undo files, tempfiles {{{2
+# tempfiles {{{1
 # undo files
 .pacnew               38;5;33
 .un~                  38;5;241
