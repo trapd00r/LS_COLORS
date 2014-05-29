@@ -104,6 +104,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .viminfo              1
 #   cisco VPN client configuration
 .pcf                  1
+#   adobe photoshop proof settings file
+.psf                  1
 # }}}
 # }}}
 # code {{{1
@@ -286,15 +288,13 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 
 # }}}
 # fonts {{{1
-.afm                  38;5;58
-.pfb                  38;5;58
-.pfm                  38;5;58
+.afm                  38;5;66
+.pfb                  38;5;66
+.pfm                  38;5;66
 .ttf                  38;5;66
-#   adobe photoshop proof settings file
-.psf                  38;5;64
 #   postscript fonts
-.PFA                  38;5;43
-.pfa                  38;5;43
+.PFA                  38;5;66
+.pfa                  38;5;66
 # }}}
 # archives {{{1
 .7z                   38;5;40
