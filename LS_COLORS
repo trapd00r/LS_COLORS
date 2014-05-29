@@ -45,6 +45,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *LS_COLORS 48;5;89;38;5;197;1;3;4;7 # :-)
 # }}}
 # documents {{{1
+*README               38;5;220;1
 .log                  38;5;190
 # plain-text {{{2
 .txt                  38;5;253
@@ -135,46 +136,46 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # compiled {{{2
 #
 #   assembly language
-.asm                  38;5;240;1
+.asm                  38;5;81
 #   LISP
-.cl                   38;5;204;1
-.lisp                 38;5;204;1
+.cl                   38;5;81
+.lisp                 38;5;81
 #   lua
-.lua                  38;5;34;1
+.lua                  38;5;81
 #   C
-.c                    38;5;110
-.C                    38;5;24;1
-.h                    38;5;81
-.H                    38;5;81
-.tcc                  38;5;81
+.c                    38;5;81
+.C                    38;5;81
+.h                    38;5;110
+.H                    38;5;110
+.tcc                  38;5;110
 #   C++
-.c++                  38;5;24;1
-.h++                  38;5;81
-.hpp                  38;5;81
-.hxx                  38;5;81
-.ii                   38;5;24;1
+.c++                  38;5;81
+.h++                  38;5;110
+.hpp                  38;5;110
+.hxx                  38;5;110
+.ii                   38;5;110
 #   method file for Objective C
-.M                    38;5;130;3
-.m                    38;5;130;3
+.M                    38;5;110
+.m                    38;5;110
 #   Csharp
-.cc                   38;5;24;1
-.cs                   38;5;74;1
-.cp                   38;5;24;1
-.cpp                  38;5;24;1
-.cxx                  38;5;24;1
+.cc                   38;5;81
+.cs                   38;5;81
+.cp                   38;5;81
+.cpp                  38;5;81
+.cxx                  38;5;81
 #   fortran
 .f                    38;5;81
 .for                  38;5;81
 .ftn                  38;5;81
 #   pascal
-.s                    38;5;81
-.S                    38;5;81
+.s                    38;5;110
+.S                    38;5;110
 #   ?
 .sx                   38;5;81
 #   interface file in GHC - https://github.com/trapd00r/LS_COLORS/pull/9
-.hi                   38;5;240
+.hi                   38;5;110
 #   haskell
-.hs                   38;5;155;1
+.hs                   38;5;81
 
 # binaries {{{2
 # compiled apps for interpreted languages
@@ -182,32 +183,29 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pyc                  38;5;240
 # }}}
 # html {{{2
-.css                  38;5;91
+.css                  38;5;127
 .htm                  38;5;125;1
 .html                 38;5;125;1
+.jhtm                 38;5;125;1
 # }}}
 # java {{{2
 .coffee               38;5;94;1
-.java                 38;5;142;1
-# Is java-html java, or html?
-.jhtm                 38;5;125;1
-.js                   38;5;42
-.jsm                  38;5;42
-.jsm                  38;5;42
-.jsp                  38;5;42
+.java                 38;5;94;1
+.js                   38;5;94;1
+.jsm                  38;5;94;1
+.jsm                  38;5;94;1
+.jsp                  38;5;94;1
 # }}}
 # php {{{2
-.php                  38;5;93
+.php                  38;5;81
 #   CakePHP view scripts and helpers
-.ctp                  38;5;95
+.ctp                  38;5;81
 # }}}
 # Build stuff {{{2
-*Makefile             38;5;196
+*Makefile             38;5;155
 *MANIFEST             38;5;243
 *pm_to_blib           38;5;240
-*README               38;5;220;1
-.1p                   38;5;160
-.3p                   38;5;160
+# automake
 .am                   38;5;242
 .in                   38;5;242
 .old                  38;5;242
@@ -558,6 +556,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # printer spool file
 .spl                  38;5;2
 
+.1p                   38;5;160
+.3p                   38;5;160
 .cnc                  38;5;37
 .def                  38;5;136
 .ex                   38;5;148;1
