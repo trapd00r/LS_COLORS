@@ -511,6 +511,14 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .torrent              38;5;116
 .urlview              38;5;116
 # }}}
+# encrypted data {{{1
+.gpg                  38;5;192;3
+.signature            38;5;192;3
+.sig                  38;5;192;3
+.pgp                  38;5;192;3
+.asc                  38;5;192;3
+.enc                  38;5;192;3
+# }}}
 # emulators {{{1
 .32x                  38;5;137
 .cdi                  38;5;124
