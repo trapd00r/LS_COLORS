@@ -1,8 +1,9 @@
 #                                    LS_COLORS
-# Maintainer: Magnus Woldrich <m@japh.se>
-#        URL: https://github.com/trapd00r/LS_COLORS
-#    Version: 0.254
-#    Updated: Sun Jun  1 14:36:30 PDT 2014
+# Maintainers: Magnus Woldrich <m@japh.se>,
+#              Ryan Delaney <ryan.delaney@gmail.com> OpenGPG: 0D98863B4E1D07B6
+#         URL: https://github.com/trapd00r/LS_COLORS
+#     Version: 0.254
+#     Updated: Sun Jun  1 14:36:30 PDT 2014
 #
 #   This is a collection of extension:color mappings, suitable to use as your
 #   LS_COLORS environment variable. Most of them use the extended color map,
