@@ -87,6 +87,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .PDF                  38;5;141
 # words {{{3
 .docm                 38;5;111;4
+.doc                  38;5;111
 .docx                 38;5;111
 .eps                  38;5;111
 .odb                  38;5;111
