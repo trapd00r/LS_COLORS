@@ -490,6 +490,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .dump                 38;5;241
 .err                  38;5;160;1
 .error                38;5;160;1
+.stderr               38;5;160;1
+.stackdump            38;5;241
 .zcompdump            38;5;241
 .zwc                  38;5;241
 # tcpdump, network traffic capture
