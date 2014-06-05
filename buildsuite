@@ -89,11 +89,14 @@ touch FILE
 touch EXECUTABLE
 chmod +x EXECUTABLE
 
+# Symlink
+ln -s FILE SYMLINK
+
 # Directory
 mkdir DIRECTORY
 
-# Symlink
-ln -s FILE SYMLINK
+# Directory symlink
+ln -s DIRECTORY DIR-SYMLINK
 
 # Hardlink
 touch HARDLINK1
