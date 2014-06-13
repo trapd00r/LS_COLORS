@@ -490,6 +490,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # state files
 .pid                  38;5;248
 .state                38;5;248
+*lockfile             38;5;248
 # error logs
 .err                  38;5;160;1
 .error                38;5;160;1
