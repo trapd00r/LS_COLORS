@@ -232,7 +232,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .am                   38;5;242
 .in                   38;5;242
 .old                  38;5;242
-.out                  38;5;46;1
+.out                  38;5;242
 .SKIP                 38;5;244
 # }}}
 # patch files {{{2
