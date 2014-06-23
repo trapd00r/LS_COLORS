@@ -42,7 +42,7 @@ EXEC                  38;5;208;1
 FIFO                  38;5;126
 FILE                  38;5;253
 LINK                  target
-MULTIHARDLINK         38;5;220;1
+MULTIHARDLINK         38;5;222;1
 # "NORMAL don't reset the bold attribute -
 # https://github.com/trapd00r/LS_COLORS/issues/11
 #NORMAL                38;5;254
@@ -58,7 +58,12 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # }}}
 # documents {{{1
 *README               38;5;220;1
+*LICENSE              38;5;220;1
+*COPYRIGHT            38;5;220;1
+*AUTHORS              38;5;220;1
+*HISTORY              38;5;220;1
 .log                  38;5;190
+.description          1
 # plain-text {{{2
 .txt                  38;5;253
 # markup {{{2
@@ -71,9 +76,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .tex                  38;5;184
 .textile              38;5;184
 # key-value, non-relational data {{{2
-.xml                  38;5;199
-.json                 38;5;199
-.yml                  38;5;199
+.msg                  38;5;178
+.pgn                  38;5;178
+.xml                  38;5;178
+.json                 38;5;178
+.yml                  38;5;178
 # }}}
 # binary {{{2
 .cbr                  38;5;141
@@ -84,6 +91,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .PDF                  38;5;141
 # words {{{3
 .docm                 38;5;111;4
+.doc                  38;5;111
 .docx                 38;5;111
 .eps                  38;5;111
 .odb                  38;5;111
@@ -98,6 +106,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .ods                  38;5;112
 .xla                  38;5;76
 #   Excel spreadsheet
+.xls                  38;5;112
 .xlsx                 38;5;112
 #   Excel spreadsheet with macros
 .xlsxm                38;5;112;4
@@ -201,6 +210,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .htm                  38;5;125;1
 .html                 38;5;125;1
 .jhtm                 38;5;125;1
+.mht                  38;5;125;1
 # }}}
 # java {{{2
 .coffee               38;5;074;1
@@ -223,7 +233,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .am                   38;5;242
 .in                   38;5;242
 .old                  38;5;242
-.out                  38;5;46;1
+.out                  38;5;242
 .SKIP                 38;5;244
 # }}}
 # patch files {{{2
@@ -249,6 +259,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .divx                 38;5;114
 .IFO                  38;5;114
 .m2v                  38;5;114
+.m4v                  38;5;114
 .mkv                  38;5;114
 .MOV                  38;5;114
 .mov                  38;5;114
@@ -304,6 +315,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pfb                  38;5;66
 .pfm                  38;5;66
 .ttf                  38;5;66
+.otf                  38;5;66
 #   postscript fonts
 .PFA                  38;5;66
 .pfa                  38;5;66
@@ -325,6 +337,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .jad                  38;5;215
 .jar                  38;5;215
 .cab                  38;5;215
+.pak                  38;5;215
 .vdf                  38;5;215
 .vpk                  38;5;215
 .bsp                  38;5;215
@@ -480,10 +493,14 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # state files
 .pid                  38;5;248
 .state                38;5;248
-# state dumps
-.dump                 38;5;241
+*lockfile             38;5;248
+# error logs
 .err                  38;5;160;1
 .error                38;5;160;1
+.stderr               38;5;160;1
+# state dumps
+.dump                 38;5;241
+.stackdump            38;5;241
 .zcompdump            38;5;241
 .zwc                  38;5;241
 # tcpdump, network traffic capture
@@ -532,82 +549,85 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .enc                  38;5;192;3
 # }}}
 # emulators {{{1
-.32x                  38;5;137
-.cdi                  38;5;124
-.fm2                  38;5;35
-.rom                  38;5;59;1
-.sav                  38;5;220
-.st                   38;5;208;1
+.32x                  38;5;213
+.cdi                  38;5;213
+.fm2                  38;5;213
+.rom                  38;5;213
+.sav                  38;5;213
+.st                   38;5;213
   # atari
-.a00                  38;5;11
-.a52                  38;5;112
-.A64                  38;5;82
-.a64                  38;5;82
-.a78                  38;5;112
-.adf                  38;5;35
+.a00                  38;5;213
+.a52                  38;5;213
+.A64                  38;5;213
+.a64                  38;5;213
+.a78                  38;5;213
+.adf                  38;5;213
 .atr                  38;5;213
   # nintendo
-.gb                   38;5;203
-.gba                  38;5;205
-.gbc                  38;5;204
-.gel                  38;5;83
-.gg                   38;5;138
-.ggl                  38;5;83
-.ipk                  38;5;117 # Nintendo (DS Packed Images)
-.j64                  38;5;102
-.nds                  38;5;193
-.nes                  38;5;160
+.gb                   38;5;213
+.gba                  38;5;213
+.gbc                  38;5;213
+.gel                  38;5;213
+.gg                   38;5;213
+.ggl                  38;5;213
+.ipk                  38;5;213 # Nintendo (DS Packed Images)
+.j64                  38;5;213
+.nds                  38;5;213
+.nes                  38;5;213
   # Sega
-.sms                  38;5;33
+.sms                  38;5;213
 # }}}
 # unsorted {{{1
 #
 #   Portable Object Translation for GNU Gettext
-.pot                  38;5;166
+.pot                  38;5;7
 #   CAD files for printed circuit boards
-.pcb                  38;5;28
+.pcb                  38;5;7
 #   groff (rendering app for texinfo)
-.mm                   38;5;130;3
+.mm                   38;5;7
 #   perldoc
-.pod                  38;5;172;1
+.pod                  38;5;7
 #   GIMP brush
-.gbr                  38;5;2
+.gbr                  38;5;7
 #   Linux Shell Executable Binary
-.pl                   38;5;214
+.pl                   38;5;7
 # printer spool file
-.spl                  38;5;2
+.spl                  38;5;7
+#   GIMP project file
+.scm                  38;5;7
+#   Nokia Symbian OS files
+.sis                  38;5;7
 
-.1p                   38;5;160
-.3p                   38;5;160
-.cnc                  38;5;37
-.def                  38;5;136
-.ex                   38;5;148;1
-.example              38;5;225;1
-.ger                  38;5;2
-.map                  38;5;58;3
-.mf                   38;5;220;3
-.mfasl                38;5;73
-.mht                  38;5;129
-.mi                   38;5;124
-.mtx                  38;5;36;3
-.pc                   38;5;100
-.pi                   38;5;126
-.plt                  38;5;204;1
-.pm                   38;5;197;1
-.rb                   38;5;192
-.rdf                  38;5;144
-.rst                  38;5;67
-.ru                   38;5;142
-.sch                  38;5;34
-.sis                  38;5;39 # Nokia Symbian OS files
-.sty                  38;5;58
-.sug                  38;5;44
-.t                    38;5;28;1
-.tdy                  38;5;214
-.tfm                  38;5;64
-.tfnt                 38;5;140
-.tg                   38;5;99
-.xln                  38;5;37
+.1p                   38;5;7
+.3p                   38;5;7
+.cnc                  38;5;7
+.def                  38;5;7
+.ex                   38;5;7
+.example              38;5;7
+.ger                  38;5;7
+.map                  38;5;7
+.mf                   38;5;7
+.mfasl                38;5;7
+.mht                  38;5;7
+.mi                   38;5;7
+.mtx                  38;5;7
+.pc                   38;5;7
+.pi                   38;5;7
+.plt                  38;5;7
+.pm                   38;5;7
+.rb                   38;5;7
+.rdf                  38;5;7
+.rst                  38;5;7
+.ru                   38;5;7
+.sch                  38;5;7
+.sty                  38;5;7
+.sug                  38;5;7
+.t                    38;5;7
+.tdy                  38;5;7
+.tfm                  38;5;7
+.tfnt                 38;5;7
+.tg                   38;5;7
+.xln                  38;5;7
 # }}}
 # termcap {{{1
 TERM ansi
@@ -662,7 +682,5 @@ TERM xterm-color
 TERM xterm-debian
 # }}}
 
-#   GIMP project file
-.scm                  38;5;204;1
 
 # vim: ft=dircolors:fdm=marker:et:sw=2:
