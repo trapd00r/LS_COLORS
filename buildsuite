@@ -83,32 +83,32 @@ if [[ ! -d "./test" ]]; then mkdir test || exit 1; fi
 cd test || exit 1
 
 # File
-touch FILE
+if [[ ! -f FILE ]]; then touch FILE; fi
 
 # Executable file
-touch EXECUTABLE
+if [[ ! -f EXECUTABLE ]]; then touch EXECUTABLE; fi
 chmod +x EXECUTABLE
 
 # Symlink
-ln -s FILE SYMLINK
+if [[ ! -f SYMLINK ]]; then ln -s FILE SYMLINK; fi
 
 # Directory
-mkdir DIRECTORY
+if [[ ! -d DIRECTORY ]]; then mkdir DIRECTORY; fi
 
 # Directory symlink
-ln -s DIRECTORY DIR-SYMLINK
+if [[ ! -d DIR-SYMLINK ]]; then ln -s DIRECTORY DIR-SYMLINK; fi
 
 # Hardlink
-touch HARDLINK1
-ln HARDLINK1 HARDLINK2
+if [[ ! -f HARDLINK1 ]]; then touch HARDLINK1; fi
+if [[ ! -f HARDLINK2 ]]; then ln HARDLINK1 HARDLINK2; fi
 
 # Create a link to nowhere
-touch nothing
-ln -s nothing ORPHAN
-rm nothing
+if [[ ! -f nothing ]]; then touch nothing; fi
+if [[ ! -f ORPHAN ]]; then ln -s nothing ORPHAN; fi
+if [[ -f nothing ]]; then rm nothing; fi
 
 # World-writable
-touch WORLDWRITEABLE
+if [[ ! -f WORLDWRITEABLE ]]; then touch WORLDWRITEABLE; fi
 chmod 0777 WORLDWRITEABLE
 
 # Supported extensions
