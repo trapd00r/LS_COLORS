@@ -113,8 +113,9 @@ chmod 0777 WORLDWRITEABLE
 
 # Supported extensions
 while read line; do
-  :
-# echo "$line"
-done < <(sed -e '/^[ ]+#/d' ../LS_COLORS)
+  if [[ ! -f test"$line" ]]; then
+    touch ./DIRECTORY/test"$line"
+  fi
+done < <(sed -r -e '/^[ ]+#/d; /^[^\.]/d; /^$/d' ../LS_COLORS | grep -Po '^\.([A-z0-9]+)' )
 
 # vim: ft=sh foldmethod=marker:
