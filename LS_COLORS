@@ -57,11 +57,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *LS_COLORS 48;5;89;38;5;197;1;3;4;7 # :-)
 # }}}
 # documents {{{1
-*README               38;5;220;1
-*LICENSE              38;5;220;1
-*COPYRIGHT            38;5;220;1
-*AUTHORS              38;5;220;1
-*HISTORY              38;5;220;1
+README                38;5;220;1
+LICENSE               38;5;220;1
+COPYRIGHT             38;5;220;1
+AUTHORS               38;5;220;1
+HISTORY               38;5;220;1
 .log                  38;5;190
 .description          1
 # plain-text {{{2
