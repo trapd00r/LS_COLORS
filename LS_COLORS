@@ -120,7 +120,7 @@ HISTORY               38;5;220;1
 .cfg                  1
 .conf                 1
 .ini                  1
-.rc                   1
+*rc                   1
 #   vim
 .vim                  1
 .viminfo              1
