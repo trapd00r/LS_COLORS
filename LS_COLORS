@@ -63,7 +63,6 @@ COPYRIGHT             38;5;220;1
 AUTHORS               38;5;220;1
 HISTORY               38;5;220;1
 .log                  38;5;190
-.description          1
 # plain-text {{{2
 .txt                  38;5;253
 # markup {{{2
@@ -531,6 +530,7 @@ HISTORY               38;5;220;1
 # metadata {{{1
 .application          38;5;116
 .cue                  38;5;116
+.description          38;5;116
 .directory            38;5;116
 .m3u                  38;5;116
 .m3u8                 38;5;116
