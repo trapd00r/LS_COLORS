@@ -225,6 +225,11 @@ HISTORY               38;5;220;1
 #   CakePHP view scripts and helpers
 .ctp                  38;5;81
 # }}}
+# vb/a {{{2
+.vb                   38;5;81
+.vba                  38;5;81
+.vbs                  38;5;81
+# 2}}}
 # Build stuff {{{2
 *Makefile             38;5;155
 *MANIFEST             38;5;243
