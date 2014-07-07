@@ -489,6 +489,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # undo files
 .pacnew               38;5;33
 .un~                  38;5;241
+.orig                 38;5;241
 # backups
 .BUP                  38;5;241
 .bak                  38;5;241
