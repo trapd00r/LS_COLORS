@@ -63,7 +63,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *AUTHORS              38;5;220;1
 *HISTORY              38;5;220;1
 .log                  38;5;190
-.description          1
 # plain-text {{{2
 .txt                  38;5;253
 # markup {{{2
@@ -73,6 +72,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .md                   38;5;184
 .mkd                  38;5;184
 .nfo                  38;5;184
+.pod                  38;5;184
 .tex                  38;5;184
 .textile              38;5;184
 # key-value, non-relational data {{{2
@@ -116,10 +116,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # }}}
 # }}}
 # configs {{{2
-.cfg                  1
-.conf                 1
+*cfg                  1
+*conf                 1
+*rc                   1
 .ini                  1
-.rc                   1
 #   vim
 .vim                  1
 .viminfo              1
@@ -225,6 +225,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 #   CakePHP view scripts and helpers
 .ctp                  38;5;81
 # }}}
+# vb/a {{{2
+.vb                   38;5;81
+.vba                  38;5;81
+.vbs                  38;5;81
+# 2}}}
 # Build stuff {{{2
 *Makefile             38;5;155
 *MANIFEST             38;5;243
@@ -242,6 +247,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 #}}}
 # graphics {{{1
 .bmp                  38;5;97
+.tiff                 38;5;97
+.TIFF                 38;5;97
 .cdr                  38;5;97
 .gif                  38;5;97
 .go                   38;5;97
@@ -482,6 +489,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # undo files
 .pacnew               38;5;33
 .un~                  38;5;241
+.orig                 38;5;241
 # backups
 .BUP                  38;5;241
 .bak                  38;5;241
@@ -530,6 +538,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # metadata {{{1
 .application          38;5;116
 .cue                  38;5;116
+.description          38;5;116
 .directory            38;5;116
 .m3u                  38;5;116
 .m3u8                 38;5;116
