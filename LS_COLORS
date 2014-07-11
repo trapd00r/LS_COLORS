@@ -121,7 +121,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *rc                   1
 .ini                  1
 #   vim
-.vim                  1
 .viminfo              1
 #   cisco VPN client configuration
 .pcf                  1
@@ -144,6 +143,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sed                  38;5;172
 .sh                   38;5;172
 .zsh                  38;5;172
+.vim                  38;5;172
 
 # interpreted {{{2
 .ahk                  38;5;29;1
