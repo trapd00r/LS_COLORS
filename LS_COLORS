@@ -147,7 +147,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 
 # interpreted {{{2
 .ahk                  38;5;29;1
+# python
 .py                   38;5;41
+# perl
+.pl                   38;5;41
 # sql
 .msql                 38;5;222
 .mysql                38;5;222
