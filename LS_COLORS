@@ -146,7 +146,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .vim                  38;5;172
 
 # interpreted {{{2
-.ahk                  38;5;29;1
+.ahk                  38;5;41
 # python
 .py                   38;5;41
 # perl
