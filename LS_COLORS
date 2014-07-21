@@ -565,6 +565,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # }}}
 # encrypted data {{{1
 .gpg                  38;5;192;3
+.pem                  38;5;192;3
 .signature            38;5;192;3
 .sig                  38;5;192;3
 .pgp                  38;5;192;3
