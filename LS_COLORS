@@ -59,6 +59,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # documents {{{1
 *README               38;5;220;1
 *LICENSE              38;5;220;1
+*COPYING              38;5;220;1
+*INSTALL              38;5;220;1
 *COPYRIGHT            38;5;220;1
 *AUTHORS              38;5;220;1
 *HISTORY              38;5;220;1
