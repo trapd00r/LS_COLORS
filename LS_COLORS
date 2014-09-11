@@ -78,10 +78,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .tex                  38;5;184
 .textile              38;5;184
 # key-value, non-relational data {{{2
+.json                 38;5;178
 .msg                  38;5;178
 .pgn                  38;5;178
+.rss                  38;5;178
 .xml                  38;5;178
-.json                 38;5;178
 .yml                  38;5;178
 # }}}
 # binary {{{2
