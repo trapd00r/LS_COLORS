@@ -560,6 +560,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .directory            38;5;116
 .m3u                  38;5;116
 .m3u8                 38;5;116
+.md5                  38;5;116
 .properties           38;5;116
 .sfv                  38;5;116
 .srt                  38;5;116
