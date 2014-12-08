@@ -209,6 +209,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .css                  38;5;125;1
 .less                 38;5;125;1
 .sass                 38;5;125;1
+.scss                 38;5;125;1
 .htm                  38;5;125;1
 .html                 38;5;125;1
 .jhtm                 38;5;125;1
@@ -507,6 +508,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .swp                  38;5;244
 .swo                  38;5;244
 .tmp                  38;5;244
+.sassc                38;5;244
 # state files
 .pid                  38;5;248
 .state                38;5;248
