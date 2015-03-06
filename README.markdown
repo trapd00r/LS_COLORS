@@ -32,11 +32,12 @@ echo 'eval $(dircolors -b $HOME/.dircolors)' >> $HOME/.bashrc
 . $HOME/.bashrc
 ```
 
-Or, for all users with the following set of commands (assuming bash):
+Or, for all current and future users, including root, with the following set
+of commands (assuming bash):
 ```sh
-wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O /etc/bash.dircolors
-echo 'eval $(dircolors -b /etc/bash.dircolors)' >> /etc/bash.bashrc
-. /etc/bash.bashrc
+sudo wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O /etc/bash.dircolors
+sudo echo 'eval $(dircolors -b /etc/bash.dircolors)' | sudo tee -a eval $(echo /home/*/.bashrc /root/.bashrc /etc/skel/.bashrc)
+. $HOME/.bashrc
 ```
 
 ZSH SYNTAX HIGHLIGHTING
