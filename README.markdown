@@ -36,7 +36,8 @@ Or, for all current and future users, including root, with the following set
 of commands (assuming bash):
 ```sh
 sudo wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O /etc/bash.dircolors
-sudo echo 'eval $(dircolors -b /etc/bash.dircolors)' | sudo tee -a eval $(echo /home/*/.bashrc /root/.bashrc /etc/skel/.bashrc)
+sudo echo 'eval $(dircolors -b /etc/bash.dircolors)' |\
+  sudo tee -a eval $(echo /home/*/.bashrc /root/.bashrc /etc/skel/.bashrc)
 . $HOME/.bashrc
 ```
 
