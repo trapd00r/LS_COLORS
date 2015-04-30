@@ -59,6 +59,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # documents {{{1
 *README               38;5;220;1
 *LICENSE              38;5;220;1
+*COPYING              38;5;220;1
+*INSTALL              38;5;220;1
 *COPYRIGHT            38;5;220;1
 *AUTHORS              38;5;220;1
 *HISTORY              38;5;220;1
@@ -76,10 +78,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .tex                  38;5;184
 .textile              38;5;184
 # key-value, non-relational data {{{2
+.json                 38;5;178
 .msg                  38;5;178
 .pgn                  38;5;178
+.rss                  38;5;178
 .xml                  38;5;178
-.json                 38;5;178
 .yml                  38;5;178
 # }}}
 # binary {{{2
@@ -121,7 +124,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *rc                   1
 .ini                  1
 #   vim
-.vim                  1
 .viminfo              1
 #   cisco VPN client configuration
 .pcf                  1
@@ -144,10 +146,14 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sed                  38;5;172
 .sh                   38;5;172
 .zsh                  38;5;172
+.vim                  38;5;172
 
 # interpreted {{{2
-.ahk                  38;5;29;1
+.ahk                  38;5;41
+# python
 .py                   38;5;41
+# perl
+.pl                   38;5;41
 # sql
 .msql                 38;5;222
 .mysql                38;5;222
@@ -353,6 +359,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .jar                  38;5;215
 .cab                  38;5;215
 .pak                  38;5;215
+.pk3                  38;5;215
 .vdf                  38;5;215
 .vpk                  38;5;215
 .bsp                  38;5;215
@@ -553,6 +560,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .directory            38;5;116
 .m3u                  38;5;116
 .m3u8                 38;5;116
+.md5                  38;5;116
 .properties           38;5;116
 .sfv                  38;5;116
 .srt                  38;5;116
@@ -561,13 +569,19 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .urlview              38;5;116
 # }}}
 # encrypted data {{{1
+.asc                  38;5;192;3
+.enc                  38;5;192;3
 .gpg                  38;5;192;3
 .signature            38;5;192;3
 .sig                  38;5;192;3
+.p12                  38;5;192;3
+.pem                  38;5;192;3
 .pgp                  38;5;192;3
 .asc                  38;5;192;3
 .enc                  38;5;192;3
-# }}}
+.sig                  38;5;192;3
+.signature            38;5;192;3
+# 1}}}
 # emulators {{{1
 .32x                  38;5;213
 .cdi                  38;5;213
