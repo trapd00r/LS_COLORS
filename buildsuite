@@ -118,7 +118,7 @@ chmod 0777 WORLDWRITEABLE
 # Supported extensions
 while read line; do
   if [[ ! -f test"$line" ]]; then
-    line="${line//\*/}"
+    line="${line//\*/.}"
     if [[ "${line:0:1}" == "." ]]; then
       touch ./DIRECTORY/test"$line"
     else
