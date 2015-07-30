@@ -17,6 +17,10 @@
 #
 
 # Functions {{{1
+lscolors_buildsuite_print_extensions() {
+  sed -r -e '/^[ ]+#/d; /^[^\.\*]/d; /^$/d; s/^([\.\*][^ ]+).*/\1/' ../LS_COLORS
+}
+
 verbose() {
   if [[ "$verbose" = "1" ]]; then
     echo "$1" >&2
@@ -121,6 +125,7 @@ while read line; do
       touch ./DIRECTORY/"$line"
     fi
   fi
-done < <(sed -r -e '/^[ ]+#/d; /^[^\.\*]/d; /^$/d' ../LS_COLORS | grep -Po '^[\.\*]([A-z0-9]+)' )
+done < <( lscolors_buildsuite_print_extensions )
+
 
 # vim: ft=sh foldmethod=marker:
