@@ -42,7 +42,7 @@ DEVELOPERS
 ==========
 
 There's a [library][1] I've written that lets you use various LS COLORS on
-arbitary files and directories. A simple implementation can be found [here][2].
+arbitrary files and directories. A simple implementation can be found [here][2].
 
 Using this, you can do
 
