@@ -177,6 +177,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .lisp                 38;5;81
 #   lua
 .lua                  38;5;81
+#   Moonscript
+.moon                 38;5;81
 #   C
 .c                    38;5;81
 .C                    38;5;81
@@ -198,6 +200,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .cp                   38;5;81
 .cpp                  38;5;81
 .cxx                  38;5;81
+#   Crystal
+.cr                   38;5;81
 #   Google golang
 .go                   38;5;81
 #   fortran
@@ -207,6 +211,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 #   pascal
 .s                    38;5;110
 .S                    38;5;110
+#   Rust
+.rs                   38;5;81
 #   ?
 .sx                   38;5;81
 #   interface file in GHC - https://github.com/trapd00r/LS_COLORS/pull/9
@@ -521,6 +527,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .BUP                  38;5;241
 .bak                  38;5;241
 .o                    38;5;241 #   *nix Object file (shared libraries, core dumps etc)
+.rlib                 38;5;241 #   Static rust library
 # temporary files
 .swp                  38;5;244
 .swo                  38;5;244
