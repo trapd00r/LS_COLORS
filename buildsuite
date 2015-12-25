@@ -89,6 +89,11 @@ cd test || exit 1
 # File
 if [[ ! -f FILE ]]; then touch FILE; fi
 
+# README (from documents group) and other special files.
+for i in README lockfile pm_to_blib Makefile MANIFEST foo@.service; do
+  if [[ ! -f "$i" ]]; then touch "$i"; fi
+done
+
 # Executable file
 if [[ ! -f EXECUTABLE ]]; then touch EXECUTABLE; fi
 chmod +x EXECUTABLE
