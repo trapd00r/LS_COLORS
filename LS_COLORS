@@ -89,6 +89,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .rss                  38;5;178
 .xml                  38;5;178
 .yml                  38;5;178
+.RData                38;5;178
+.rdata                38;5;178
 # }}}
 # binary {{{2
 .cbr                  38;5;141
@@ -167,6 +169,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sql                  38;5;222
 #   Tool Command Language
 .tcl                  38;5;64;1
+# R language
+.r                    38;5;49
+.R                    38;5;49
+# GrADS script
+.gs                   38;5;81
 
 # compiled {{{2
 #
@@ -517,6 +524,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .localstorage         38;5;60
 .sqlite               38;5;60
 .typelib              38;5;60
+# NetCDF database
+.nc                   38;5;60
 # }}}
 # tempfiles {{{1
 # undo files
@@ -646,6 +655,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .spl                  38;5;7
 #   GIMP project file
 .scm                  38;5;7
+# RStudio project file
+.Rproj                38;5;11
 #   Nokia Symbian OS files
 .sis                  38;5;7
 
