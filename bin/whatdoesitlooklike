@@ -1,0 +1,4 @@
+#!/bin/sh
+# vim:ft=sh:
+mkdir -p ./tmp
+for x in $(grep -Po '^(\.\w+)' ../LS_COLORS); do touch ./tmp/"${x}"; done
