@@ -107,10 +107,18 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .ps                   38;5;111
 .odb                  38;5;111
 .odt                  38;5;111
+.rtf                  38;5;111
 # presentation {{{3
 .odp                  38;5;166
 .pps                  38;5;166
 .ppt                  38;5;166
+.pptx                 38;5;166
+#   Powerpoint show
+.ppts                 38;5;166
+#   Powerpoint with enabled macros
+.pptxm                38;5;166;4
+#   Powerpoint show with enabled macros
+.pptsm                38;5;166;4
 # spreadsheet {{{3
 .csv                  38;5;78
 #   Open document spreadsheet
