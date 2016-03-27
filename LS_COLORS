@@ -161,7 +161,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # python
 .py                   38;5;41
 # perl
-.pl                   38;5;41
+.pl                   38;5;208
+.PL                   38;5;160
+.t                    38;5;114
 # sql
 .msql                 38;5;222
 .mysql                38;5;222
@@ -230,7 +232,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 
 # binaries {{{2
 # compiled apps for interpreted languages
-.PL                   38;5;160
 .pyc                  38;5;240
 # }}}
 # html {{{2
@@ -650,8 +651,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pod                  38;5;7
 #   GIMP brush
 .gbr                  38;5;7
-#   Linux Shell Executable Binary
-.pl                   38;5;7
 # printer spool file
 .spl                  38;5;7
 #   GIMP project file
