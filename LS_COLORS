@@ -226,6 +226,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .hi                   38;5;110
 #   haskell
 .hs                   38;5;81
+.lhs                  38;5;81
 
 # binaries {{{2
 # compiled apps for interpreted languages
