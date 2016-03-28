@@ -40,12 +40,13 @@ DIR                   38;5;30
 DOOR                  38;5;127
 EXEC                  38;5;208;1
 FIFO                  38;5;126
-FILE                  38;5;253
+FILE                  0
 LINK                  target
 MULTIHARDLINK         38;5;222;1
 # "NORMAL don't reset the bold attribute -
 # https://github.com/trapd00r/LS_COLORS/issues/11
 #NORMAL                38;5;254
+NORMAL                0
 ORPHAN                48;5;196;38;5;232;1
 OTHER_WRITABLE        38;5;220;1
 SETGID                48;5;3;38;5;0
