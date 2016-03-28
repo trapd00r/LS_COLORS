@@ -295,6 +295,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # graphics {{{1
 .bmp                  38;5;97
 .tiff                 38;5;97
+.tif                  38;5;97
 .TIFF                 38;5;97
 .cdr                  38;5;97
 .gif                  38;5;97
@@ -304,8 +305,16 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .jpg                  38;5;97
 .nth                  38;5;97
 .png                  38;5;97
-.svg                  38;5;97
+.psd                  38;5;97
 .xpm                  38;5;97
+# }}}
+# vector {{{1
+.ai                   38;5;99
+.eps                  38;5;99
+.epsf                 38;5;99
+.drw                  38;5;99
+.ps                   38;5;99
+.svg                  38;5;99
 # }}}
 # video {{{1
 .avi                  38;5;114
@@ -366,6 +375,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # }}}
 # fonts {{{1
 .afm                  38;5;66
+.fon                  38;5;66
+.fnt                  38;5;66
 .pfb                  38;5;66
 .pfm                  38;5;66
 .ttf                  38;5;66
@@ -385,6 +396,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .tgz                  38;5;40
 .xz                   38;5;40
 .zip                  38;5;40
+.zoo                  38;5;40
   # packaged apps {{{2
 .apk                  38;5;215
 .deb                  38;5;215
@@ -519,11 +531,14 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .part                 38;5;239
   # }}}
 # partition images {{{2
+.dmg                  38;5;124
 .iso                  38;5;124
 .bin                  38;5;124
 .nrg                  38;5;124
 .qcow                 38;5;124
 .sparseimage          38;5;124
+.toast                38;5;124
+.vcd                  38;5;124
 # }}}
 # databases {{{2
 .accdb                38;5;60
