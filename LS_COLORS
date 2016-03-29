@@ -3,7 +3,7 @@
 #              Ryan Delaney <ryan.delaney@gmail.com> OpenGPG: 0D98863B4E1D07B6
 #         URL: https://github.com/trapd00r/LS_COLORS
 #     Version: 0.254
-#     Updated: Sun Jun  1 14:36:30 PDT 2014
+#     Updated: Tue Mar 29 21:25:30 AEST 2016
 #
 #   This is a collection of extension:color mappings, suitable to use as your
 #   LS_COLORS environment variable. Most of them use the extended color map,
@@ -540,6 +540,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sparseimage          38;5;124
 .toast                38;5;124
 .vcd                  38;5;124
+.vmdk                 38;5;124
 # }}}
 # databases {{{2
 .accdb                38;5;60
@@ -548,6 +549,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .accdt                38;5;60
 .db                   38;5;60
 .localstorage         38;5;60
+.mdb                  38;5;60
+.mde                  38;5;60
 .sqlite               38;5;60
 .typelib              38;5;60
 # NetCDF database
