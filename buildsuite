@@ -18,7 +18,7 @@
 
 # Functions {{{1
 lscolors_buildsuite_print_extensions() {
-  sed -r -e '/^[ ]+#/d; /^[^\.\*]/d; /^$/d; s/^([\.\*][^ ]+).*/\1/' ../LS_COLORS
+  sed -e '/^[ ]+#/d; /^[^\.\*]/d; /^$/d; s/^\([\.\*][^ ]+\).*/\1/' ../LS_COLORS
 }
 
 verbose() {
