@@ -3,7 +3,7 @@
 # Maintainers: Magnus Woldrich <m@japh.se>,
 #              Ryan Delaney <ryan.delaney@gmail.com> OpenGPG: 0D98863B4E1D07B6
 #         URL: https://github.com/trapd00r/LS_COLORS
-#     Version: 0.31-japh
+#     Version: 0.32-japh
 #     Updated: 2016-09-14 15:39:42
 #
 #   This is a collection of extension:color mappings, suitable to use as your
@@ -581,8 +581,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pcb                  38;5;7
 #   groff (rendering app for texinfo)
 .mm                   38;5;7
-#   perldoc
-.pod                  38;5;7
 #   GIMP brush
 .gbr                  38;5;7
 # printer spool file
