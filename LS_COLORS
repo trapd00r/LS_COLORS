@@ -791,6 +791,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .accdr                38;5;60
 .accdt                38;5;60
 .db                   38;5;60
+.fmp12                38;5;60
+.fp7                  38;5;60
 .localstorage         38;5;60
 .mdb                  38;5;60
 .mde                  38;5;60
