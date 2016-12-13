@@ -32,6 +32,13 @@ echo 'eval $(dircolors -b $HOME/.dircolors)' >> $HOME/.bashrc
 . $HOME/.bashrc
 ```
 
+Or, for all users with the following set of commands (assuming bash):
+```sh
+wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O /etc/bash.dircolors
+echo 'eval $(dircolors -b /etc/bash.dircolors)' >> /etc/bash.bashrc
+. /etc/bash.bashrc
+```
+
 ZSH SYNTAX HIGHLIGHTING
 =======================
 
