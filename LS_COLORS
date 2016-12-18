@@ -278,6 +278,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # 2}}}
 # Build stuff {{{2
 *Dockerfile           38;5;155
+.dockerignore         38;5;240
 *Makefile             38;5;155
 *MANIFEST             38;5;243
 *pm_to_blib           38;5;240
