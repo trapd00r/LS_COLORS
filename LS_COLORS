@@ -846,6 +846,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pcap                 38;5;29
 .cap                  38;5;29
 .dmp                  38;5;29
+# macOS
+.DS_Store             38;5;239
+.localized            38;5;239
+.CFUserTextEncoding   38;5;239
 # }}}
 # hosts {{{1
 # /etc/hosts.{deny,allow}
