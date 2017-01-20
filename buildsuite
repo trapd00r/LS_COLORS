@@ -21,12 +21,6 @@ lscolors_buildsuite_print_extensions() {
   sed -e '/^[ ]+#/d; /^[^\.\*]/d; /^$/d; s/^\([\.\*][^ ]+\).*/\1/' ../LS_COLORS
 }
 
-verbose() {
-  if [[ "$verbose" = "1" ]]; then
-    echo "$1" >&2
-  fi
-}
-
 error() {
   echo "$1" >&2
 }
@@ -60,8 +54,7 @@ do
       exit 0
       ;;
     -v | --verbose)
-      # Each instance of -v adds 1 to verbosity
-      local verbose=$((verbose+1))
+      set -x
       shift
       ;;
     --) # End of all options
