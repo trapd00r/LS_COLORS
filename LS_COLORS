@@ -59,6 +59,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # }}}
 # documents {{{1
 *README               38;5;220;1
+*README.rst           38;5;220;1
 *LICENSE              38;5;220;1
 *COPYING              38;5;220;1
 *INSTALL              38;5;220;1
@@ -276,6 +277,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .vbs                  38;5;81
 # 2}}}
 # Build stuff {{{2
+*Dockerfile           38;5;155
+.dockerignore         38;5;240
 *Makefile             38;5;155
 *MANIFEST             38;5;243
 *pm_to_blib           38;5;240
@@ -399,17 +402,30 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .a                    38;5;40
 .arj                  38;5;40
 .bz2                  38;5;40
+.cpio                 38;5;40
 .gz                   38;5;40
+.lrz                  38;5;40
+.lz                   38;5;40
+.lzma                 38;5;40
+.lzo                  38;5;40
 .rar                  38;5;40
+.s7z                  38;5;40
+.sz                   38;5;40
 .tar                  38;5;40
 .tgz                  38;5;40
 .xz                   38;5;40
+.z                    38;5;40
+.Z                    38;5;40
 .zip                  38;5;40
+.zipx                 38;5;40
 .zoo                  38;5;40
 .lrz                  38;5;40
+.zpaq                 38;5;40
+.zz                   38;5;40
   # packaged apps {{{2
 .apk                  38;5;215
 .deb                  38;5;215
+.rpm                  38;5;215
 .jad                  38;5;215
 .jar                  38;5;215
 .cab                  38;5;215
@@ -789,6 +805,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .accdr                38;5;60
 .accdt                38;5;60
 .db                   38;5;60
+.fmp12                38;5;60
+.fp7                  38;5;60
 .localstorage         38;5;60
 .mdb                  38;5;60
 .mde                  38;5;60
@@ -829,6 +847,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pcap                 38;5;29
 .cap                  38;5;29
 .dmp                  38;5;29
+# macOS
+.DS_Store             38;5;239
+.localized            38;5;239
+.CFUserTextEncoding   38;5;239
 # }}}
 # hosts {{{1
 # /etc/hosts.{deny,allow}
