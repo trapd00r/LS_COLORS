@@ -141,6 +141,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *conf                 1
 *rc                   1
 .ini                  1
+.plist                1
 #   vim
 .viminfo              1
 #   cisco VPN client configuration
@@ -232,6 +233,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .S                    38;5;110
 #   Rust
 .rs                   38;5;81
+#   Swift
+.swift                38;5;219
 #   ?
 .sx                   38;5;81
 #   interface file in GHC - https://github.com/trapd00r/LS_COLORS/pull/9
@@ -987,6 +990,15 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .vcard                38;5;7
 .vcf                  38;5;7
 .xln                  38;5;7
+#   AppCode files
+.iml                  38;5;166
+#   Xcode files
+.xcconfig             1
+.entitlements         1
+.strings              1
+.storyboard           38;5;196
+.xcsettings           1
+.xib                  38;5;208
 # }}}
 # termcap {{{1
 TERM ansi
