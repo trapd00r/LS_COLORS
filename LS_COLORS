@@ -82,6 +82,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .mkd                  38;5;184
 .nfo                  38;5;184
 .pod                  38;5;184
+.rst                  38;5;184
 .tex                  38;5;184
 .textile              38;5;184
 # key-value, non-relational data {{{2
