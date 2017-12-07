@@ -1,1 +1,6 @@
-eval $( dircolors -b ${0:A:h}/LS_COLORS )
+LS_COLORS_CACHE_LOCATION="/tmp/LS_COLORS_CACHE.sh"
+if [ ! -r "$LS_COLORS_CACHE_LOCATION" ]; then
+  dircolors -b ${0:A:h}/LS_COLORS > "$LS_COLORS_CACHE_LOCATION"
+  chmod +x "$LS_COLORS_CACHE_LOCATION"
+fi
+eval "$LS_COLORS_CACHE_LOCATION"
