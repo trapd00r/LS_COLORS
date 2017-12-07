@@ -424,6 +424,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .zip                  38;5;40
 .zipx                 38;5;40
 .zoo                  38;5;40
+.lrz                  38;5;40
 .zpaq                 38;5;40
 .zz                   38;5;40
   # packaged apps {{{2
