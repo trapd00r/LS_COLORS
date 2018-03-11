@@ -173,6 +173,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .ahk                  38;5;41
 # python
 .py                   38;5;41
+# ruby
+.rb                   38;5;41
+.erb                  38;5;44
 # perl
 .pl                   38;5;208
 .PL                   38;5;160
