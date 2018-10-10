@@ -485,6 +485,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .BUP                  38;5;241
 .bak                  38;5;241
 .o                    38;5;241 #   *nix Object file (shared libraries, core dumps etc)
+*core                 38;5;241 #   Linux user core dump file (from /proc/sys/kernel/core_pattern)
 .rlib                 38;5;241 #   Static rust library
 # temporary files
 .swp                  38;5;244
