@@ -253,6 +253,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # compiled apps for interpreted languages
 .pyc                  38;5;240
 # }}}
+# orchestration {{{2
+.tf                   38;5;168
+.tfstate              38;5;168
+# orchestration 2}}}
 # html {{{2
 .css                  38;5;125;1
 .less                 38;5;125;1
