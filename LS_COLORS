@@ -177,6 +177,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .ipynb                38;5;41
 # ruby
 .rb                   38;5;41
+.gemspec              38;5;41
 # perl
 .pl                   38;5;208
 .PL                   38;5;160
