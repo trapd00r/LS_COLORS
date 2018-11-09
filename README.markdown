@@ -76,7 +76,7 @@ And another one:
 
 LEGAL
 =====
-© Copyright 2014 Magnus Woldrich.
+© Copyright 2014-2018 Magnus Woldrich.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
