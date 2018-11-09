@@ -19,6 +19,7 @@ For files that usually ends up next to each other, like html, css and js,
 try to pick colors that fits in nicely together. Filetypes with multiple
 possible extensions, like htm and html, should have the same color.
 
+# Installation
 To install and use this file, put something like this is your shell resource
 file:
 
@@ -31,6 +32,10 @@ wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O $HOME/.dircol
 echo 'eval $(dircolors -b $HOME/.dircolors)' >> $HOME/.bashrc
 . $HOME/.bashrc
 ```
+
+### Archlinux
+Archlinux users can install the [`lscolors-git`][3] package from the AUR for easy
+integration with bash, csh, or zsh.
 
 ZSH SYNTAX HIGHLIGHTING
 =======================
@@ -67,6 +72,7 @@ And another one:
   [0]: https://github.com/trapd00r/zsh-syntax-highlighting-filetypes
   [1]: https://github.com/trapd00r/File-LsColor
   [2]: https://github.com/trapd00r/File-LsColor/tree/master/bin
+  [3]: https://aur.archlinux.org/packages/lscolors-git
 
 LEGAL
 =====
