@@ -37,6 +37,14 @@ echo 'eval $(dircolors -b $HOME/.dircolors)' >> $HOME/.bashrc
 Archlinux users can install the [`lscolors-git`][3] package from the AUR for easy
 integration with bash, csh, or zsh.
 
+There's a Zsh plugin manager `Zplugin` that nicely works with this repository – `dircolors`
+will be ran once on each update:
+
+```
+zplugin ice atclone"dircolors -b LS_COLORS > c.zsh" atpull'%atclone' pick"c.zsh"
+zplugin light trapd00r/LS_COLORS
+```
+
 ZSH SYNTAX HIGHLIGHTING
 =======================
 
