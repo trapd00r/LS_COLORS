@@ -1,8 +1,7 @@
-LS_COLORS
-=========
+# LS_COLORS
 
 This is a collection of extension:color mappings, suitable to use as your
-LS COLORS environment variable. Most of them use the extended color map,
+`LS COLORS` environment variable. Most of them use the extended color map,
 described in the ECMA-48 document; in other words, you'll need a terminal
 with capabilities of displaying 256 colors.
 
@@ -42,18 +41,16 @@ eval ( dircolors --c-shell $HOME/LS_COLORS )
 
 Place it in `~/.config/fish/config.fish` or any `*.fish*` file inside `~/.config/fish/conf.d/` to be loaded.
 
-### Archlinux
+## Archlinux
 Archlinux users can install the [`lscolors-git`][3] package from the AUR for easy
 integration with bash, csh, or zsh.
 
-ZSH SYNTAX HIGHLIGHTING
-=======================
+## ZSH Syntax highlighting
 
 [zsh-syntax-highlighting-filetypes][0] highlights file on the command-line in
 realtime, using these colors.
 
-DEVELOPERS
-==========
+# Information for Developers
 
 There's a [library][1] I've written that lets you use various LS COLORS on
 arbitrary files and directories. A simple implementation can be found [here][2].
@@ -66,8 +63,7 @@ Using this, you can do
 
 ... and so on.
 
-SO WHAT DOES IT LOOK LIKE
-=========================
+# How does it look like
 
 Here's a screenshot:
 
@@ -83,8 +79,8 @@ And another one:
   [2]: https://github.com/trapd00r/File-LsColor/tree/master/bin
   [3]: https://aur.archlinux.org/packages/lscolors-git
 
-LEGAL
-=====
+# Legal 
+
 © Copyright 2014-2018 Magnus Woldrich.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY
