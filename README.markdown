@@ -22,8 +22,9 @@ possible extensions, like htm and html, should have the same color.
 # Installation
 To install and use this file, put something like this is your shell resource
 file:
-
-    eval $( dircolors -b $HOME/LS_COLORS )
+```
+eval $( dircolors -b $HOME/LS_COLORS )
+```
 
 A quick way to install would be the following set of commands (assuming bash):
 
@@ -32,6 +33,14 @@ wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O $HOME/.dircol
 echo 'eval $(dircolors -b $HOME/.dircolors)' >> $HOME/.bashrc
 . $HOME/.bashrc
 ```
+
+## For fish shell
+
+```
+eval ( dircolors --c-shell $HOME/LS_COLORS )
+```
+
+Place it in `~/.config/fish/config.fish` or any `*.fish*` file inside `~/.config/fish/conf.d/` to be loaded.
 
 ### Archlinux
 Archlinux users can install the [`lscolors-git`][3] package from the AUR for easy
