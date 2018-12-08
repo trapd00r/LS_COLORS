@@ -1,5 +1,14 @@
-# LS_COLORS
+### Table of contents
+* [LS_COLORS](#ls_colors)
+* [How does it look like](#how-does-it-look-like)
+* [Installation](#installation)
+  * [Arch Linux](#arch-linux)
+  * [ZSH syntax highlighting](#zsh-syntax-highlighting)
+  * [fish shell](#fish-shell)
+* [Information for Developers](#information-for-developers)
+* [Legal](#legal)
 
+# LS_COLORS
 This is a collection of extension:color mappings, suitable to use as your
 `LS COLORS` environment variable. Most of them use the extended color map,
 described in the ECMA-48 document; in other words, you'll need a terminal
@@ -18,6 +27,20 @@ For files that usually ends up next to each other, like html, css and js,
 try to pick colors that fits in nicely together. Filetypes with multiple
 possible extensions, like htm and html, should have the same color.
 
+# How does it look like
+Here's a screenshot _(font and minor color shades, of course, depend on terminal and its configuration)_:
+
+![Screenshot1](http://orig07.deviantart.net/f59a/f/2016/087/a/e/ls_colors_1_by_trapd00r-d9wrdoa.png)
+
+And another one:
+
+![Screenshot2](http://orig02.deviantart.net/5c73/f/2016/087/4/8/ls_colors_2_by_trapd00r-d9wrdrq.png)
+
+  [0]: https://github.com/trapd00r/zsh-syntax-highlighting-filetypes
+  [1]: https://github.com/trapd00r/File-LsColor
+  [2]: https://github.com/trapd00r/File-LsColor/tree/master/bin
+  [3]: https://aur.archlinux.org/packages/lscolors-git
+
 # Installation
 To install and use this file, put something like this is your shell resource
 file:
@@ -27,60 +50,41 @@ eval $( dircolors -b $HOME/LS_COLORS )
 
 A quick way to install would be the following set of commands (assuming bash):
 
-```sh
+```
 wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O $HOME/.dircolors
 echo 'eval $(dircolors -b $HOME/.dircolors)' >> $HOME/.bashrc
 . $HOME/.bashrc
 ```
 
-## For fish shell
+## Arch Linux
+Arch Linux users can install the [`lscolors-git`][3] package from the AUR for easy
+integration with bash, csh, or zsh.
 
+## ZSH syntax highlighting
+[zsh-syntax-highlighting-filetypes][0] highlights file on the command-line in
+realtime, using these colors.
+
+## fish shell
 ```
 eval ( dircolors --c-shell $HOME/LS_COLORS )
 ```
 
 Place it in `~/.config/fish/config.fish` or any `*.fish*` file inside `~/.config/fish/conf.d/` to be loaded.
 
-## Archlinux
-Archlinux users can install the [`lscolors-git`][3] package from the AUR for easy
-integration with bash, csh, or zsh.
-
-## ZSH Syntax highlighting
-
-[zsh-syntax-highlighting-filetypes][0] highlights file on the command-line in
-realtime, using these colors.
-
 # Information for Developers
-
 There's a [library][1] I've written that lets you use various LS COLORS on
 arbitrary files and directories. A simple implementation can be found [here][2].
 
 Using this, you can do
+```
+find $HOME -maxdepth 1  | ls_color
 
-    find $HOME -maxdepth 1  | ls_color
-
-    mpc search artist Laleh | ls_color
+mpc search artist Laleh | ls_color
+```
 
 ... and so on.
 
-# How does it look like
-
-Here's a screenshot:
-
-![LS_COLORS](http://orig07.deviantart.net/f59a/f/2016/087/a/e/ls_colors_1_by_trapd00r-d9wrdoa.png)
-
-And another one:
-
-![LS_COLORS_2](http://orig02.deviantart.net/5c73/f/2016/087/4/8/ls_colors_2_by_trapd00r-d9wrdrq.png)
-
-
-  [0]: https://github.com/trapd00r/zsh-syntax-highlighting-filetypes
-  [1]: https://github.com/trapd00r/File-LsColor
-  [2]: https://github.com/trapd00r/File-LsColor/tree/master/bin
-  [3]: https://aur.archlinux.org/packages/lscolors-git
-
 # Legal 
-
 © Copyright 2014-2018 Magnus Woldrich.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY
