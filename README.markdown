@@ -1,6 +1,6 @@
 ### Table of contents
 * [LS_COLORS](#ls_colors)
-* [How does it look like](#how-does-it-look-like)
+* [What does it look like?](#what-does-it-look-like)
 * [Installation](#installation)
   * [Arch Linux](#arch-linux)
   * [ZSH syntax highlighting](#zsh-syntax-highlighting)
@@ -10,7 +10,7 @@
 
 # LS_COLORS
 This is a collection of extension:color mappings, suitable to use as your
-`LS COLORS` environment variable. Most of them use the extended color map,
+`LS_COLORS` environment variable. Most of them use the extended color map,
 described in the ECMA-48 document; in other words, you'll need a terminal
 with capabilities of displaying 256 colors.
 
@@ -27,7 +27,7 @@ For files that usually ends up next to each other, like html, css and js,
 try to pick colors that fits in nicely together. Filetypes with multiple
 possible extensions, like htm and html, should have the same color.
 
-# How does it look like
+# What does it look like?
 Here's a screenshot _(font and minor color shades, of course, depend on terminal and its configuration)_:
 
 ![Screenshot1](http://orig07.deviantart.net/f59a/f/2016/087/a/e/ls_colors_1_by_trapd00r-d9wrdoa.png)
