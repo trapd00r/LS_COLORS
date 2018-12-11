@@ -44,13 +44,13 @@ And another one:
 # Installation
 To install and use this file, put something like this is your shell resource
 file:
-```
+```shell
 eval $( dircolors -b $HOME/LS_COLORS )
 ```
 
 A quick way to install would be the following set of commands (assuming bash):
 
-```
+```shell
 wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O $HOME/.dircolors
 echo 'eval $(dircolors -b $HOME/.dircolors)' >> $HOME/.bashrc
 . $HOME/.bashrc
@@ -65,7 +65,7 @@ integration with bash, csh, or zsh.
 realtime, using these colors.
 
 ## fish shell
-```
+```fish
 eval ( dircolors --c-shell $HOME/LS_COLORS )
 ```
 
@@ -76,7 +76,7 @@ There's a [library][1] I've written that lets you use various LS COLORS on
 arbitrary files and directories. A simple implementation can be found [here][2].
 
 Using this, you can do
-```
+```shell
 find $HOME -maxdepth 1  | ls_color
 
 mpc search artist Laleh | ls_color
