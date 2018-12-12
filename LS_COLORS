@@ -4,7 +4,7 @@
 #              Ryan Delaney <ryan.delaney@gmail.com> OpenGPG: 0D98863B4E1D07B6
 #         URL: https://github.com/trapd00r/LS_COLORS
 #     Version: 0.32-japh
-#     Updated: 2016-09-14 15:39:42
+#     Updated: 2018-12-06 12:37:57
 #
 #   This is a collection of extension:color mappings, suitable to use as your
 #   LS_COLORS environment variable. Most of them use the extended color map,
@@ -58,6 +58,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 #>
 
 *LS_COLORS 48;5;89;38;5;197;1;3;4;7 # $self :-)
+.pl                   38;5;208
 
 #< windows
 *.msi                 38;5;039
@@ -158,8 +159,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .vim                  38;5;254;1
 .ahk                  38;5;41
 .py                   38;5;41
-.pl                   38;5;208
-.PL                   38;5;160
+#.PL                   38;5;196
 .t                    38;5;114
 .msql                 38;5;222
 .mysql                38;5;222
@@ -244,9 +244,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .cdr                  38;5;97
 .gif                  38;5;97
 .ico                  38;5;132
-.jpeg                 38;5;125
-.JPG                  38;5;125
-.jpg                  38;5;125
+.jpeg                 38;5;123
+.JPG                  38;5;123
+.jpg                  38;5;123
 .nth                  38;5;97
 .png                  38;5;197
 .svg                  38;5;97
@@ -314,16 +314,16 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pfa                  38;5;66
 #>
 #< archives
-.7z                   38;5;40
-.a                    38;5;40
-.arj                  38;5;40
-.bz2                  38;5;40
-.gz                   38;5;40
-.rar                  38;5;40
-.tar                  38;5;40
-.tgz                  38;5;40
-.xz                   38;5;40
-.zip                  38;5;40
+.7z                   38;5;149
+.a                    38;5;149
+.arj                  38;5;149
+.bz2                  38;5;149
+.gz                   38;5;149
+.rar                  38;5;149
+.tar                  38;5;149
+.tgz                  38;5;149
+.xz                   38;5;149
+.zip                  38;5;149
 
 .r00                  38;5;239
 .r01                  38;5;239
@@ -597,7 +597,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .cnc                  38;5;7
 .def                  38;5;7
 .ex                   38;5;7
-.example              38;5;7
+.example              38;5;220
 .feature              38;5;7
 .ger                  38;5;7
 .map                  38;5;7
@@ -608,7 +608,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pc                   38;5;7
 .pi                   38;5;7
 .plt                  38;5;7
-.pm                   38;5;7
+.pm                   38;5;203
 .rb                   38;5;7
 .rdf                  38;5;7
 .rst                  38;5;7
