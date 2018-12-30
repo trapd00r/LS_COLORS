@@ -3,8 +3,8 @@
 # Maintainers: Magnus Woldrich <m@japh.se>,
 #              Ryan Delaney <ryan.delaney@gmail.com> OpenGPG: 0D98863B4E1D07B6
 #         URL: https://github.com/trapd00r/LS_COLORS
-#     Version: 0.40-japh
-#     Updated: 2018-12-12
+#     Version: 0.42-japh
+#     Updated: 2018-12-30 16:17:56
 #
 #   This is a collection of extension:color mappings, suitable to use as your
 #   LS_COLORS environment variable. Most of them use the extended color map,
@@ -60,7 +60,6 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 *INSTALL        38;5;220;1
 *LICENSE        38;5;220;1
 *MANIFEST       38;5;243
-*Makefile       38;5;155
 *NOTICE         38;5;220;1
 *PATENTS        38;5;220;1
 *README         38;5;220;1
@@ -3066,3 +3065,9 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 .zwc             38;5;241
 #.zyp             38;5;187
 #.zzt             38;5;187
+
+# I want to match exactly this, but it also happens to have an extension
+# that's already mapped to a color, that's why we add it last.
+
+*Makefile.PL    38;5;196
+*Makefile      38;5;196;1
