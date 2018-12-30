@@ -27,6 +27,7 @@
 #!  This is my (trapd00r) personal LS_COLORS.
 #!  You might want to use the LS_COLORS from the master branch.
 
+# NORMAL don't reset the bold attribute
 
 BLK                    38;5;68
 CAPABILITY             38;5;17
@@ -34,6 +35,7 @@ CHR                    38;5;113;1
 DIR                    38;5;30
 DOOR                   38;5;127
 EXEC                   38;5;166;1
+#NORMAL
 FIFO                   38;5;126
 FILE                   38;5;253
 LINK                   target
@@ -48,27 +50,27 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 *LS_COLORS             48;5;89;38;5;197;1;3;4;7
 
 
-*AUTHORS       = 38;5;220;1
-*CHANGES       = 38;5;220;1
-*CONTRIBUTORS  = 38;5;220;1
-*COPYING       = 38;5;220;1
-*COPYRIGHT     = 38;5;220;1
-*HISTORY       = 38;5;220;1
-*INSTALL       = 38;5;220;1
-*LICENSE       = 38;5;220;1
-*MANIFEST      = 38;5;243
-*Makefile      = 38;5;155
-*NOTICE        = 38;5;220;1
-*PATENTS       = 38;5;220;1
-*README        = 38;5;220;1
-*VERSION       = 38;5;220;1
-*@.service     = 38;5;45
-*cfg           = 38;5;204
-*conf          = 38;5;204
-*lockfile      = 38;5;248
-*pm_to_blib    = 38;5;240
-*rc            = 38;5;204
-*~             = 38;5;241
+*AUTHORS        38;5;220;1
+*CHANGES        38;5;220;1
+*CONTRIBUTORS   38;5;220;1
+*COPYING        38;5;220;1
+*COPYRIGHT      38;5;220;1
+*HISTORY        38;5;220;1
+*INSTALL        38;5;220;1
+*LICENSE        38;5;220;1
+*MANIFEST       38;5;243
+*Makefile       38;5;155
+*NOTICE         38;5;220;1
+*PATENTS        38;5;220;1
+*README         38;5;220;1
+*VERSION        38;5;220;1
+*@.service      38;5;45
+*cfg            38;5;204
+*conf           38;5;204
+*lockfile       38;5;248
+*pm_to_blib     38;5;240
+*rc             38;5;204
+*~              38;5;241
 
 
 .1p              38;5;7
