@@ -197,6 +197,14 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .R                    38;5;49
 # GrADS script
 .gs                   38;5;81
+# Clojure
+.clj                  38;5;41
+.cljs                 38;5;41
+.cljc                 38;5;41
+# Clojure gorilla REPL worksheet
+.cljw                 38;5;41
+# Scala
+.scala                38;5;41
 
 # compiled {{{2
 #
