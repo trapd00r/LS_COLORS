@@ -250,6 +250,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .ftn                  38;5;81
 # Nim
 .nim                  38;5;81
+.nimble               38;5;81
 #   pascal
 .s                    38;5;110
 .S                    38;5;110
