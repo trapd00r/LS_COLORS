@@ -205,6 +205,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .cljw                 38;5;41
 # Scala
 .scala                38;5;41
+# Dart
+.dart                 38;5;51
 
 # compiled {{{2
 #
@@ -246,6 +248,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .f                    38;5;81
 .for                  38;5;81
 .ftn                  38;5;81
+# Nim
+.nim                  38;5;81
+.nimble               38;5;81
 #   pascal
 .s                    38;5;110
 .S                    38;5;110
@@ -255,6 +260,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .swift                38;5;219
 #   ?
 .sx                   38;5;81
+# Vala
+.vala                 38;5;81
+.vapi                 38;5;81
 #   interface file in GHC - https://github.com/trapd00r/LS_COLORS/pull/9
 .hi                   38;5;110
 #   haskell
@@ -331,6 +339,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .tif                  38;5;97
 .TIFF                 38;5;97
 .cdr                  38;5;97
+.flif                 38;5;97
 .gif                  38;5;97
 .ico                  38;5;97
 .jpeg                 38;5;97
@@ -340,6 +349,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .png                  38;5;97
 .psd                  38;5;97
 .xpm                  38;5;97
+.webp                 38;5;97
 # }}}
 # vector {{{1
 .ai                   38;5;99
@@ -627,12 +637,12 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .mm                   38;5;7
 #   perldoc
 .pod                  38;5;7
-#   GIMP brush
+#   GIMP files
 .gbr                  38;5;7
+.scm                  38;5;7
+.xcf                  38;5;7
 # printer spool file
 .spl                  38;5;7
-#   GIMP project file
-.scm                  38;5;7
 # RStudio project file
 .Rproj                38;5;11
 #   Nokia Symbian OS files
