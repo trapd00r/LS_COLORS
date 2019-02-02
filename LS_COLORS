@@ -5,7 +5,9 @@
 #     Version: 0.254
 #     Updated: Tue Mar 29 21:25:30 AEST 2016
 #
-#   wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O ~/.dircolors
+#   wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O $HOME/.dircolors
+#   echo 'eval $(dircolors -b $HOME/.dircolors)' >> $HOME/.bashrc
+#   . $HOME/.bashrc
 #
 #   This is a collection of extension:color mappings, suitable to use as your
 #   LS_COLORS environment variable. Most of them use the extended color map,
