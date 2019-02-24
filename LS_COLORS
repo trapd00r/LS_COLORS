@@ -33,12 +33,13 @@ BLK                    38;5;68
 CAPABILITY             38;5;17
 CHR                    38;5;113;1
 DIR                    38;5;30
-DI                     38;5;30
+DIR                    38;5;30
 DOOR                   38;5;127
 EXEC                   38;5;166;1
 #NORMAL
-FIFO                   38;5;126
-FILE                   38;5;253
+FIFO                   38;5;126  # these two are the same, pi=
+PIPE                   38;5;126  # these two are the same, pi=
+FILE                   38;5;253  # this is fi=, not to be confused with a fifo
 LINK                   target
 MULTIHARDLINK          38;5;222;1
 ORPHAN                 48;5;196;38;5;232;1
@@ -71,6 +72,11 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 *pm_to_blib     38;5;240
 *rc             38;5;204
 *~              38;5;241
+
+.kss            38;5;178
+.spc            38;5;178
+.xm             38;5;178
+.todo           38;5;220;1
 
 
 .1p              38;5;7
@@ -799,7 +805,7 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 #.evtx            38;5;187
 #.evy             38;5;187
 #.ewd             38;5;187
-.ex              38;5;7
+#.ex              38;5;7
 .example         38;5;220
 #.exb             38;5;187
 #.exc             38;5;187
@@ -862,7 +868,8 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 #.fix             38;5;187
 #.fky             38;5;187
 #.fla             38;5;187
-.flac            38;5;208
+.flac            38;5;204
+.wma             38;5;180
 #.flame           38;5;187
 #.flb             38;5;187
 #.flc             38;5;187
@@ -1427,7 +1434,7 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 .m3u             38;5;116
 .m3u8            38;5;116
 .m4              38;5;242
-.m4a             38;5;137;1
+.m4a             38;5;138;1
 .m4v             38;5;114
 #.maff            38;5;187
 #.mai             38;5;187
@@ -1895,6 +1902,7 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 #.plugin          38;5;187
 #.ply             38;5;187
 .pm              38;5;203
+.pmc              38;5;203;1
 #.pma             38;5;187
 #.pmc             38;5;187
 #.pmi             38;5;187
@@ -2722,7 +2730,7 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 #.umb             38;5;187
 #.ump             38;5;187
 #.umx             38;5;187
-.un ~            38;5;241
+.un~              38;5;241
 #.unf             38;5;187
 #.uni             38;5;187
 #.unif            38;5;187
