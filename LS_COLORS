@@ -54,6 +54,7 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 
 *AUTHORS        38;5;220;1
 *CHANGES        38;5;220;1
+*Changes        38;5;220;1
 *CONTRIBUTORS   38;5;220;1
 *COPYING        38;5;220;1
 *COPYRIGHT      38;5;220;1
@@ -2918,7 +2919,7 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 #.wmf             38;5;187
 #.wmo             38;5;187
 #.wmp             38;5;187
-.wmv             38;5;114
+.wmv             38;5;112
 #.wn              38;5;187
 #.wnf             38;5;187
 #.woa             38;5;187
