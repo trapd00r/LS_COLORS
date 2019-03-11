@@ -46,7 +46,7 @@ And another one:
 To install and use this file, put something like this is your shell resource
 file:
 ```shell
-eval $( dircolors -b $HOME/LS_COLORS )
+eval $( dircolors -b $HOME/.dircolors )
 ```
 
 A quick way to install would be the following set of commands (assuming bash):
@@ -81,7 +81,7 @@ realtime, using these colors.
 
 ## fish shell
 ```fish
-eval ( dircolors --c-shell $HOME/LS_COLORS )
+eval ( dircolors --c-shell $HOME/.dircolors)
 ```
 
 Place it in `~/.config/fish/config.fish` or any `*.fish*` file inside `~/.config/fish/conf.d/` to be loaded.
