@@ -43,7 +43,7 @@ And another one:
   [3]: https://aur.archlinux.org/packages/lscolors-git
 
 # Installation
-To install and use this file, put something like this is your shell resource
+To install and use this file, put something like this in your shell resource
 file:
 ```shell
 eval $( dircolors -b $HOME/.dircolors )
