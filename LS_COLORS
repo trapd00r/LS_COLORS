@@ -347,6 +347,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 #}}}
 # graphics {{{1
 .bmp                  38;5;97
+.dicom                38;5;97
 .tiff                 38;5;97
 .tif                  38;5;97
 .TIFF                 38;5;97
