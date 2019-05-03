@@ -143,6 +143,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # }}}
 # }}}
 # configs {{{2
+*config               1
 *cfg                  1
 *conf                 1
 *rc                   1
