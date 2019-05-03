@@ -147,6 +147,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *cfg                  1
 *conf                 1
 *rc                   1
+*authorized_keys      1
+*known_hosts          1
 .ini                  1
 .plist                1
 #   vim
@@ -607,6 +609,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .enc                  38;5;192;3
 .sig                  38;5;192;3
 .p7s                  38;5;192;3
+*id_dsa                38;5;192;3
+*id_rsa                38;5;192;3
+*id_ecdsa              38;5;192;3
+*id_ed25519            38;5;192;3
 # 1}}}
 # emulators {{{1
 .32x                  38;5;213
