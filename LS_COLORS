@@ -282,6 +282,13 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 #   haskell
 .hs                   38;5;81
 .lhs                  38;5;81
+#   agda
+.agda                 38;5;81
+.lagda                38;5;81
+.lagda.tex            38;5;81
+.lagda.rst            38;5;81
+.lagda.md             38;5;81
+.agdai                38;5;110
 
 # binaries {{{2
 # compiled apps for interpreted languages
