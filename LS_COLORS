@@ -131,6 +131,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pptsm                38;5;166;4
 # spreadsheet {{{3
 .csv                  38;5;78
+.tsv                  38;5;78
 #   Open document spreadsheet
 .ods                  38;5;112
 .xla                  38;5;76
