@@ -131,6 +131,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pptsm                38;5;166;4
 # spreadsheet {{{3
 .csv                  38;5;78
+.tsv                  38;5;78
 #   Open document spreadsheet
 .ods                  38;5;112
 .xla                  38;5;76
@@ -479,11 +480,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .tgz                  38;5;40
 .xz                   38;5;40
 .z                    38;5;40
-.Z                    38;5;40
 .zip                  38;5;40
 .zipx                 38;5;40
 .zoo                  38;5;40
 .zpaq                 38;5;40
+.zst                  38;5;40
 .zz                   38;5;40
   # packaged apps {{{2
 .apk                  38;5;215
