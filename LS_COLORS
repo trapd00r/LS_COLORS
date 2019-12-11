@@ -221,6 +221,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 #   LISP
 .cl                   38;5;81
 .lisp                 38;5;81
+.rkt                  38;5;81
 #   lua
 .lua                  38;5;81
 #   Moonscript
