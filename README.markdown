@@ -3,8 +3,8 @@
 * [What does it look like?](#what-does-it-look-like)
 * [Installation](#installation)
   * [Arch Linux](#arch-linux)
-  * [Zsh / Zplugin](#zsh-integration-with-zplugin)
-  * [ZSH syntax highlighting](#zsh-syntax-highlighting)
+  * [Zsh plugin manager](#zsh-plugin-manager)
+  * [Zsh syntax highlighting](#zsh-syntax-highlighting)
   * [fish shell](#fish-shell)
 * [Information for Developers](#information-for-developers)
 * [Legal](#legal)
@@ -61,21 +61,16 @@ echo 'eval $(dircolors -b $HOME/.dircolors)' >> $HOME/.bashrc
 Arch Linux users can install the [`lscolors-git`][3] package from the AUR for easy
 integration with bash, csh, or zsh.
 
-## zsh integration with Zplugin
-There's a Zsh plugin manager `Zplugin` that nicely works with this repository
-– `dircolors` will be ran **only once on each update**. So `dircolors` will not
-read the `LS_COLORS` definitions and perform the computation each time a new
-shell is started, but **instead** only once per `trapd00r/LS_COLORS` install
-and per update (with `zplugin update trapd00r/LS_COLORS`) and only then
-generating the script `c.zsh` containing the `dircolors` output and after this
-just sourcing it when the shell starts, thus making the shell to startup faster:
+## Zsh plugin manager
 
-```
-zplugin ice atclone"dircolors -b LS_COLORS > c.zsh" atpull'%atclone' pick"c.zsh"
-zplugin load trapd00r/LS_COLORS
-```
+When using a plugin manager, make sure that `dircolors` is only run once per
+install/update.
 
-## ZSH syntax highlighting
+Sample commands to use on  
+install/update: `dircolors -b LS_COLORS > c.zsh`  
+load: `source c.zsh`
+
+## Zsh syntax highlighting
 [zsh-syntax-highlighting-filetypes][0] highlights file on the command-line in
 realtime, using these colors.
 
