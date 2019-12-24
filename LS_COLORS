@@ -544,7 +544,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .bak                  38;5;241
 .o                    38;5;241 #   *nix Object file (shared libraries, core dumps etc)
 *core                 38;5;241 #   Linux user core dump file (from /proc/sys/kernel/core_pattern)
+.mdump                38;5;241 #   Mini DuMP crash report
 .rlib                 38;5;241 #   Static rust library
+.dll                  38;5;241 #   dynamic linked library
 # temporary files
 .swp                  38;5;244
 .swo                  38;5;244
@@ -608,6 +610,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .theme                38;5;116
 .torrent              38;5;116
 .urlview              38;5;116
+.lnk                  38;5;39
 # }}}
 # encrypted data {{{1
 .asc                  38;5;192;3
