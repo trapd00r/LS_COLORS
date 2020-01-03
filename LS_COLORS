@@ -605,7 +605,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .DS_Store             38;5;239
 .localized            38;5;239
 .CFUserTextEncoding   38;5;239
-*CodeResources        38;5;239
 # }}}
 # hosts {{{1
 # /etc/hosts.{deny,allow}
@@ -641,6 +640,20 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .urlview              38;5;116
 .webloc               38;5;116
 .lnk                  38;5;39
+# }}}
+# macOS files {{{1
+*CodeResources        38;5;239
+#   Xcode files {{{2
+.entitlements         1
+.pbxproj              1
+.strings              1
+.storyboard           38;5;196
+.xcconfig             1
+.xcsettings           1
+.xcuserstate          1
+.xcworkspacedata      1
+.xib                  38;5;208
+# }}}
 # }}}
 # encrypted data {{{1
 .asc                  38;5;192;3
@@ -757,16 +770,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .xln                  38;5;7
 #   AppCode files
 .iml                  38;5;166
-#   Xcode files
-.entitlements         1
-.pbxproj              1
-.strings              1
-.storyboard           38;5;196
-.xcconfig             1
-.xcsettings           1
-.xcuserstate          1
-.xcworkspacedata      1
-.xib                  38;5;208
 # }}}
 # termcap {{{1
 TERM ansi
