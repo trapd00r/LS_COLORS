@@ -441,11 +441,12 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .vob                  38;5;115;1
 # }}}
 # subtitles {{{1
-.ass                  38;5;116
-.srt                  38;5;116
-.ssa                  38;5;116
-.sub                  38;5;116
-.vtt                  38;5;116
+.ass                  38;5;117
+.srt                  38;5;117
+.ssa                  38;5;117
+.sub                  38;5;117
+.sup                  38;5;117 # bitmap image track
+.vtt                  38;5;117
 #}}}
 # audio {{{1
 .3ga                  38;5;137;1
