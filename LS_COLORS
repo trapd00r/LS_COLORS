@@ -177,6 +177,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sublime-snippet      1
 .tmTheme              1
 .user-ca-bundle       1
+# eclipse
+.epf                  1
 # }}}
 # }}}
 # code {{{1
