@@ -625,6 +625,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .theme                38;5;116
 .torrent              38;5;116
 .urlview              38;5;116
+.weblock              38;5;116
 .lnk                  38;5;39
 # }}}
 # encrypted data {{{1
