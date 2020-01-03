@@ -494,6 +494,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .zz                   38;5;40
   # packaged apps {{{2
 .apk                  38;5;215
+.ipa                  38;5;215
 .deb                  38;5;215
 .rpm                  38;5;215
 .jad                  38;5;215
