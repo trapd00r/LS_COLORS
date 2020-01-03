@@ -289,6 +289,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .S                    38;5;110
 #   Rust
 .rs                   38;5;81
+#   AppleScript
+.scpt                 38;5;219
 #   Swift
 .swift                38;5;219
 #   ?
