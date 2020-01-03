@@ -144,7 +144,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 #   Excel module
 .xltm                 38;5;73;4
 .xltx                 38;5;73
-#   macOS office suite
+#   macOS office suite {{{3
 .pages                38;5;111
 .numbers              38;5;112
 .key                  38;5;166
