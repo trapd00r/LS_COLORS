@@ -676,6 +676,12 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
   # Sega
 .sms                  38;5;213
 # }}}
+# CAD and 3D printing {{{1
+.stl                  38;5;216
+.dwg                  38;5;216
+.ply                  38;5;216
+.wrl                  38;5;216
+# }}}
 # unsorted {{{1
 #
 #   Portable Object Translation for GNU Gettext
