@@ -758,11 +758,14 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 #   AppCode files
 .iml                  38;5;166
 #   Xcode files
-.xcconfig             1
 .entitlements         1
+.pbxproj              1
 .strings              1
 .storyboard           38;5;196
+.xcconfig             1
 .xcsettings           1
+.xcuserstate          1
+.xcworkspacedata      1
 .xib                  38;5;208
 # }}}
 # termcap {{{1
