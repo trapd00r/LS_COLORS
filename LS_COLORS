@@ -10,20 +10,20 @@
 #   described in the ECMA-48 document; in other words, you'll need a terminal
 #   with capabilities of displaying 256 colors.
 #
-#   As of this writing, around 300 different filetypes/extensions is supported.
+#   As of this writing, over 500 different filetypes/extensions are supported.
 #   That's indeed a lot of extensions, but there's a lot more! Therefore I need
 #   your help.
 #
 #   Fork this project on github, add the extensions you are missing, and send me
 #   a pull request.
 #
-#   For files that usually ends up next to each other, like html, css and js,
+#   For files that usually end up next to each other, like html, css and js,
 #   try to pick colors that fit nicely together. Filetypes with multiple
 #   possible extensions, like htm and html, should have the same color.
 
 # This program is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE.  See the Perl Artistic License for more details.
+# PARTICULAR PURPOSE. See the Perl Artistic License for more details.
 #
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the Perl Artistic License as published by the Perl Foundation,
