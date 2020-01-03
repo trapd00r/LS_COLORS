@@ -642,7 +642,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .lnk                  38;5;39
 # }}}
 # macOS files {{{1
-*CodeResources        38;5;239
+*CodeResources        38;5;239 # code signing apps
+*PkgInfo              38;5;239 # app bundle id
+.nib                  38;5;57  # UI
+.car                  38;5;57  # asset catalog
+.dylib                38;5;241 # shared lib
 #   Xcode files {{{2
 .entitlements         1
 .pbxproj              1
