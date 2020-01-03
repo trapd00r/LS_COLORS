@@ -165,6 +165,18 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pcf                  1
 #   adobe photoshop proof settings file
 .psf                  1
+#   Sublime Text config
+.hidden-color-scheme  1
+.hidden-tmTheme       1
+.last-run             1
+.merged-ca-bundle     1
+.sublime-build        1
+.sublime-commands     1
+.sublime-keymap       1
+.sublime-settings     1
+.sublime-snippet      1
+.tmTheme              1
+.user-ca-bundle       1
 # }}}
 # }}}
 # code {{{1
