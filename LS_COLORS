@@ -490,6 +490,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pfm                  38;5;66
 .ttf                  38;5;66
 .otf                  38;5;66
+# Web Open Font Format
+.woff                 38;5;66 
+.woff2                38;5;66
 #   postscript fonts
 .PFA                  38;5;66
 .pfa                  38;5;66
