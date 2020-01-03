@@ -425,6 +425,13 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .VOB                  38;5;115;1
 .vob                  38;5;115;1
 # }}}
+# subtitles {{{1
+.ass                  38;5;116
+.srt                  38;5;116
+.ssa                  38;5;116
+.sub                  38;5;116
+.vtt                  38;5;116
+#}}}
 # audio {{{1
 .3ga                  38;5;137;1
 .S3M                  38;5;137;1
@@ -614,8 +621,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .md5                  38;5;116
 .properties           38;5;116
 .sfv                  38;5;116
-.srt                  38;5;116
-.sub                  38;5;116
 .theme                38;5;116
 .torrent              38;5;116
 .urlview              38;5;116
