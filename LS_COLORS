@@ -690,6 +690,14 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
   # Sega
 .sms                  38;5;213
 # }}}
+#   Texas Instruments Calculator files {{{1
+# for more see http://tibasicdev.wikidot.com/file-extensions
+.8xp                  38;5;121
+.8eu                  38;5;121
+.82p                  38;5;121
+.83p                  38;5;121
+.8xe                  38;5;121
+# }}}
 # 3D printing {{{1
 .stl                  38;5;216
 .dwg                  38;5;216
