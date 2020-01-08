@@ -2,8 +2,6 @@
 # Maintainers: Magnus Woldrich <m@japh.se>,
 #              Ryan Delaney <ryan.delaney@gmail.com> OpenGPG: 0D98863B4E1D07B6
 #         URL: https://github.com/trapd00r/LS_COLORS
-#     Version: 0.254
-#     Updated: Tue Mar 29 21:25:30 AEST 2016
 #
 #   This is a collection of extension:color mappings, suitable to use as your
 #   LS_COLORS environment variable. Most of them use the extended color map,
@@ -494,7 +492,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .ttf                  38;5;66
 .otf                  38;5;66
 # Web Open Font Format
-.woff                 38;5;66 
+.woff                 38;5;66
 .woff2                38;5;66
 #   postscript fonts
 .PFA                  38;5;66
@@ -523,6 +521,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .zoo                  38;5;40
 .zpaq                 38;5;40
 .zst                  38;5;40
+.zstd                 38;5;40
 .zz                   38;5;40
   # packaged apps {{{2
 .apk                  38;5;215
