@@ -492,7 +492,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .ttf                  38;5;66
 .otf                  38;5;66
 # Web Open Font Format
-.woff                 38;5;66 
+.woff                 38;5;66
 .woff2                38;5;66
 #   postscript fonts
 .PFA                  38;5;66
@@ -521,6 +521,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .zoo                  38;5;40
 .zpaq                 38;5;40
 .zst                  38;5;40
+.zstd                 38;5;40
 .zz                   38;5;40
   # packaged apps {{{2
 .apk                  38;5;215
