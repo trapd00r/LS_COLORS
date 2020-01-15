@@ -8,20 +8,20 @@
 #   described in the ECMA-48 document; in other words, you'll need a terminal
 #   with capabilities of displaying 256 colors.
 #
-#   As of this writing, around 300 different filetypes/extensions is supported.
+#   As of this writing, over 500 different filetypes/extensions are supported.
 #   That's indeed a lot of extensions, but there's a lot more! Therefore I need
 #   your help.
 #
 #   Fork this project on github, add the extensions you are missing, and send me
 #   a pull request.
 #
-#   For files that usually ends up next to each other, like html, css and js,
+#   For files that usually end up next to each other, like html, css and js,
 #   try to pick colors that fit nicely together. Filetypes with multiple
 #   possible extensions, like htm and html, should have the same color.
 
 # This program is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE.  See the Perl Artistic License for more details.
+# PARTICULAR PURPOSE. See the Perl Artistic License for more details.
 #
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the Perl Artistic License as published by the Perl Foundation,
@@ -92,6 +92,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pgn                  38;5;178
 .rss                  38;5;178
 .xml                  38;5;178
+.fxml                 38;5;178
 .toml                 38;5;178
 .yaml                 38;5;178
 .yml                  38;5;178
@@ -141,6 +142,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 #   Excel module
 .xltm                 38;5;73;4
 .xltx                 38;5;73
+#   macOS office suite {{{3
+.pages                38;5;111
+.numbers              38;5;112
+.key                  38;5;166
 # }}}
 # }}}
 # configs {{{2
@@ -158,6 +163,20 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pcf                  1
 #   adobe photoshop proof settings file
 .psf                  1
+#   Sublime Text config
+.hidden-color-scheme  1
+.hidden-tmTheme       1
+.last-run             1
+.merged-ca-bundle     1
+.sublime-build        1
+.sublime-commands     1
+.sublime-keymap       1
+.sublime-settings     1
+.sublime-snippet      1
+.tmTheme              1
+.user-ca-bundle       1
+# eclipse
+.epf                  1
 # }}}
 # }}}
 # code {{{1
@@ -270,6 +289,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .S                    38;5;110
 #   Rust
 .rs                   38;5;81
+#   AppleScript
+.scpt                 38;5;219
 #   Swift
 .swift                38;5;219
 #   ?
@@ -366,6 +387,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .cdr                  38;5;97
 .flif                 38;5;97
 .gif                  38;5;97
+.icns                 38;5;97
 .ico                  38;5;97
 .jpeg                 38;5;97
 .JPG                  38;5;97
@@ -373,6 +395,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .nth                  38;5;97
 .png                  38;5;97
 .psd                  38;5;97
+.pxd                  38;5;97
+.pxm                  38;5;97
 .xpm                  38;5;97
 .webp                 38;5;97
 # }}}
@@ -416,11 +440,21 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .VOB                  38;5;115;1
 .vob                  38;5;115;1
 # }}}
+# subtitles {{{1
+.ass                  38;5;117
+.srt                  38;5;117
+.ssa                  38;5;117
+.sub                  38;5;117
+.sup                  38;5;117 # bitmap image track
+.vtt                  38;5;117
+#}}}
 # audio {{{1
 .3ga                  38;5;137;1
 .S3M                  38;5;137;1
 .aac                  38;5;137;1
+.amr                  38;5;137;1
 .au                   38;5;137;1
+.caf                  38;5;137;1
 .dat                  38;5;137;1
 .dts                  38;5;137;1
 .fcm                  38;5;137;1
@@ -457,6 +491,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pfm                  38;5;66
 .ttf                  38;5;66
 .otf                  38;5;66
+# Web Open Font Format
+.woff                 38;5;66
+.woff2                38;5;66
 #   postscript fonts
 .PFA                  38;5;66
 .pfa                  38;5;66
@@ -484,9 +521,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .zoo                  38;5;40
 .zpaq                 38;5;40
 .zst                  38;5;40
+.zstd                 38;5;40
 .zz                   38;5;40
   # packaged apps {{{2
 .apk                  38;5;215
+.ipa                  38;5;215
 .deb                  38;5;215
 .rpm                  38;5;215
 .jad                  38;5;215
@@ -604,12 +643,29 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .md5                  38;5;116
 .properties           38;5;116
 .sfv                  38;5;116
-.srt                  38;5;116
-.sub                  38;5;116
 .theme                38;5;116
 .torrent              38;5;116
 .urlview              38;5;116
+.webloc               38;5;116
 .lnk                  38;5;39
+# }}}
+# macOS files {{{1
+*CodeResources        38;5;239 # code signing apps
+*PkgInfo              38;5;239 # app bundle id
+.nib                  38;5;57  # UI
+.car                  38;5;57  # asset catalog
+.dylib                38;5;241 # shared lib
+#   Xcode files {{{2
+.entitlements         1
+.pbxproj              1
+.strings              1
+.storyboard           38;5;196
+.xcconfig             1
+.xcsettings           1
+.xcuserstate          1
+.xcworkspacedata      1
+.xib                  38;5;208
+# }}}
 # }}}
 # encrypted data {{{1
 .asc                  38;5;192;3
@@ -659,6 +715,20 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
   # Sega
 .sms                  38;5;213
 # }}}
+#   Texas Instruments Calculator files {{{1
+# for more see http://tibasicdev.wikidot.com/file-extensions
+.8xp                  38;5;121
+.8eu                  38;5;121
+.82p                  38;5;121
+.83p                  38;5;121
+.8xe                  38;5;121
+# }}}
+# 3D printing {{{1
+.stl                  38;5;216
+.dwg                  38;5;216
+.ply                  38;5;216
+.wrl                  38;5;216
+# }}}
 # unsorted {{{1
 #
 #   Portable Object Translation for GNU Gettext
@@ -688,6 +758,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .example              38;5;7
 .feature              38;5;7
 .ger                  38;5;7
+.ics                  38;5;7 # calendar information
 .map                  38;5;7
 .mf                   38;5;7
 .mfasl                38;5;7
@@ -708,17 +779,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .tfnt                 38;5;7
 .tg                   38;5;7
 .vcard                38;5;7
-.vcf                  38;5;7
+.vcf                  38;5;7 #contact information
 .xln                  38;5;7
 #   AppCode files
 .iml                  38;5;166
-#   Xcode files
-.xcconfig             1
-.entitlements         1
-.strings              1
-.storyboard           38;5;196
-.xcsettings           1
-.xib                  38;5;208
 # }}}
 # termcap {{{1
 TERM ansi
