@@ -39,18 +39,20 @@ Here's a screenshot _(font and minor color shades, of course, depend on terminal
   [3]: https://aur.archlinux.org/packages/lscolors-git
 
 # Installation
-To install and use this file, put something like this in your shell resource
-file:
-```shell
-eval $( dircolors -b $HOME/.LS_COLORS )
-```
 
-A quick way to install would be the following set of commands (assuming bash):
+An installation script is provided with this repository:
 
 ```shell
-wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O $HOME/.LS_COLORS
-echo 'eval $(dircolors -b $HOME/.LS_COLORS)' >> $HOME/.bashrc
-. $HOME/.bashrc
+$ wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O /tmp/LS_COLORS
+$ ( cd /tmp/LS_COLORS && sh /tmp/install.sh )
+To enable the colors, add the following line to your shell's start-up script:
+
+For Bourne shell (e.g. ~/.bashrc or ~/.zshrc):
+  . /lscolors.sh"
+
+For C shell (e.g. ~/.cshrc):
+  . /lscolors.csh"
+$
 ```
 
 ## Arch Linux
