@@ -40,7 +40,7 @@ An installation script is provided with this repository:
 
 ```shell
 $ wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O /tmp/LS_COLORS
-$ ( cd /tmp/LS_COLORS && sh /tmp/install.sh )
+$ ( cd /tmp/LS_COLORS && sh /tmp/LS_COLORS/install.sh )
 To enable the colors, add the following line to your shell's start-up script:
 
 For Bourne shell (e.g. ~/.bashrc or ~/.zshrc):
