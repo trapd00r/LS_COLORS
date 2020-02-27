@@ -2,10 +2,6 @@
 * [LS_COLORS](#ls_colors)
 * [What does it look like?](#what-does-it-look-like)
 * [Installation](#installation)
-  * [Arch Linux](#arch-linux)
-  * [Zsh / Zplugin](#zsh-integration-with-zplugin)
-  * [ZSH syntax highlighting](#zsh-syntax-highlighting)
-  * [fish shell](#fish-shell)
 * [Information for Developers](#information-for-developers)
 * [Legal](#legal)
 
