@@ -2,10 +2,6 @@
 * [LS_COLORS](#ls_colors)
 * [What does it look like?](#what-does-it-look-like)
 * [Installation](#installation)
-  * [Arch Linux](#arch-linux)
-  * [Zsh / Zplugin](#zsh-integration-with-zplugin)
-  * [ZSH syntax highlighting](#zsh-syntax-highlighting)
-  * [fish shell](#fish-shell)
 * [Information for Developers](#information-for-developers)
 * [Legal](#legal)
 
@@ -39,48 +35,25 @@ Here's a screenshot _(font and minor color shades, of course, depend on terminal
   [3]: https://aur.archlinux.org/packages/lscolors-git
 
 # Installation
-To install and use this file, put something like this in your shell resource
-file:
-```shell
-eval $( dircolors -b $HOME/.LS_COLORS )
-```
 
-A quick way to install would be the following set of commands (assuming bash):
+An installation script is provided with this repository:
 
 ```shell
-wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O $HOME/.LS_COLORS
-echo 'eval $(dircolors -b $HOME/.LS_COLORS)' >> $HOME/.bashrc
-. $HOME/.bashrc
+$ wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O /tmp/LS_COLORS
+$ ( cd /tmp/LS_COLORS && sh /tmp/LS_COLORS/install.sh )
+To enable the colors, add the following line to your shell's start-up script:
+
+For Bourne shell (e.g. ~/.bashrc or ~/.zshrc):
+  . /lscolors.sh"
+
+For C shell (e.g. ~/.cshrc):
+  . /lscolors.csh"
+$
 ```
 
 ## Arch Linux
 Arch Linux users can install the [`lscolors-git`][3] package from the AUR for easy
 integration with bash, csh, or zsh.
-
-## zsh integration with Zplugin
-There's a Zsh plugin manager `Zplugin` that nicely works with this repository
-– `dircolors` will be ran **only once on each update**. So `dircolors` will not
-read the `LS_COLORS` definitions and perform the computation each time a new
-shell is started, but **instead** only once per `trapd00r/LS_COLORS` install
-and per update (with `zplugin update trapd00r/LS_COLORS`) and only then
-generating the script `c.zsh` containing the `dircolors` output and after this
-just sourcing it when the shell starts, thus making the shell to startup faster:
-
-```
-zplugin ice atclone"dircolors -b LS_COLORS > c.zsh" atpull'%atclone' pick"c.zsh"
-zplugin load trapd00r/LS_COLORS
-```
-
-## ZSH syntax highlighting
-[zsh-syntax-highlighting-filetypes][0] highlights file on the command-line in
-realtime, using these colors.
-
-## fish shell
-```fish
-eval ( dircolors --c-shell $HOME/.LS_COLORS)
-```
-
-Place it in `~/.config/fish/config.fish` or any `*.fish*` file inside `~/.config/fish/conf.d/` to be loaded.
 
 # Information for Developers
 There's a [library][1] I've written that lets you use various LS COLORS on
