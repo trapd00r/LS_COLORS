@@ -59,31 +59,6 @@ $
 Arch Linux users can install the [`lscolors-git`][3] package from the AUR for easy
 integration with bash, csh, or zsh.
 
-## zsh integration with Zplugin
-There's a Zsh plugin manager `Zplugin` that nicely works with this repository
-– `dircolors` will be ran **only once on each update**. So `dircolors` will not
-read the `LS_COLORS` definitions and perform the computation each time a new
-shell is started, but **instead** only once per `trapd00r/LS_COLORS` install
-and per update (with `zplugin update trapd00r/LS_COLORS`) and only then
-generating the script `c.zsh` containing the `dircolors` output and after this
-just sourcing it when the shell starts, thus making the shell to startup faster:
-
-```
-zplugin ice atclone"dircolors -b LS_COLORS > c.zsh" atpull'%atclone' pick"c.zsh"
-zplugin load trapd00r/LS_COLORS
-```
-
-## ZSH syntax highlighting
-[zsh-syntax-highlighting-filetypes][0] highlights file on the command-line in
-realtime, using these colors.
-
-## fish shell
-```fish
-eval ( dircolors --c-shell $HOME/.LS_COLORS)
-```
-
-Place it in `~/.config/fish/config.fish` or any `*.fish*` file inside `~/.config/fish/conf.d/` to be loaded.
-
 # Information for Developers
 There's a [library][1] I've written that lets you use various LS COLORS on
 arbitrary files and directories. A simple implementation can be found [here][2].
