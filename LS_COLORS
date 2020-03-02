@@ -112,8 +112,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .docm                 38;5;111;4
 .doc                  38;5;111
 .docx                 38;5;111
-.eps                  38;5;111
-.ps                   38;5;111
 .odb                  38;5;111
 .odt                  38;5;111
 .rtf                  38;5;111
@@ -338,7 +336,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .js                   38;5;074;1
 .mjs                  38;5;074;1
 .jsm                  38;5;074;1
-.jsm                  38;5;074;1
 .jsp                  38;5;074;1
 # }}}
 # php {{{2
@@ -460,7 +457,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .fcm                  38;5;137;1
 .m4a                  38;5;137;1
 .mid                  38;5;137;1
-.midi                 38;5;137;1
 .mod                  38;5;137;1
 .mp3                  38;5;137;1
 .mp4a                 38;5;137;1
@@ -546,7 +542,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .part                 38;5;239
   # }}}
 # partition images {{{2
-.dmg                  38;5;124
 .iso                  38;5;124
 .bin                  38;5;124
 .nrg                  38;5;124
@@ -677,9 +672,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .p12                  38;5;192;3
 .pem                  38;5;192;3
 .pgp                  38;5;192;3
-.asc                  38;5;192;3
-.enc                  38;5;192;3
-.sig                  38;5;192;3
 .p7s                  38;5;192;3
 *id_dsa                38;5;192;3
 *id_rsa                38;5;192;3
@@ -737,8 +729,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .pcb                  38;5;7
 #   groff (rendering app for texinfo)
 .mm                   38;5;7
-#   perldoc
-.pod                  38;5;7
 #   GIMP files
 .gbr                  38;5;7
 .scm                  38;5;7
@@ -773,7 +763,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sch                  38;5;7
 .sty                  38;5;7
 .sug                  38;5;7
-.t                    38;5;7
 .tdy                  38;5;7
 .tfm                  38;5;7
 .tfnt                 38;5;7
