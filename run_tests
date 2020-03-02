@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#
+
+errors=0
+
+for file in ./tests/* ; do
+    if [[ -e "$file" ]] ; then
+        echo "$file"
+        echo "--"
+        bash "$file" ; ((errors += $?))
+        echo ""
+    fi
+done
+
+if [[ "$errors" -ne 0 ]] ; then
+    echo "Test failures: $errors"
+    exit "$errors"
+fi
