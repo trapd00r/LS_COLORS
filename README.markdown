@@ -38,7 +38,7 @@ Here's a screenshot _(font and minor color shades, of course, depend on terminal
 
 An installation script is provided with this repository:
 
-```shell
+```console
 $ wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O /tmp/LS_COLORS
 $ ( cd /tmp/LS_COLORS && sh /tmp/LS_COLORS/install.sh )
 To enable the colors, add the following line to your shell's start-up script:
@@ -69,7 +69,7 @@ mpc search artist Laleh | ls_color
 ... and so on.
 
 # Legal
-© Copyright 2014-2018 Magnus Woldrich.
+© Copyright 2014-2020 Magnus Woldrich.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
