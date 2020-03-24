@@ -171,6 +171,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sublime-keymap       1
 .sublime-settings     1
 .sublime-snippet      1
+.sublime-project      1
+.sublime-workspace    1
 .tmTheme              1
 .user-ca-bundle       1
 # eclipse
