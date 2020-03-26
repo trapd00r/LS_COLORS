@@ -32,7 +32,7 @@ EOF
 		;;
 	*) cat << EOF
 
-Install was unable to create the needed directory. The command 'mkdir' return
+Install was unable to create the needed directory. The command 'mkdir' returned
 the following error code: $status
 
 EOF
