@@ -44,10 +44,10 @@ $ ( cd /tmp/LS_COLORS && sh install.sh )
 To enable the colors, add the following line to your shell's start-up script:
 
 For Bourne shell (e.g. ~/.bashrc or ~/.zshrc):
-  . ~/.local/share/lscolors.sh"
+  . "~/.local/share/lscolors.sh"
 
 For C shell (e.g. ~/.cshrc):
-  . ~/.local/share/lscolors.csh"
+  . "~/.local/share/lscolors.csh"
 $
 ```
 
