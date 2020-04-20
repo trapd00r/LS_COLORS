@@ -1,11 +1,12 @@
 #!/usr/bin/env sh
 
+mytmpdir=$(mktemp -d 2>/dev/null || mktemp -d -t 'mytmpdir')
+
 # 3 finger claw technique for POSIX shell programming
 shout() { echo "$0: $*" >&2; }
-die() { shout "${@:2}"; exit $1; }
+die() { shout "${@:2}"; rm -rf "$mytmpdir"; exit $1; }
 try() { "$@" || die $? "cannot $*"; }
 
-mytmpdir=$(mktemp -d 2>/dev/null || mktemp -d -t 'mytmpdir')
 status=0
 
 lscolors_data_dir="${XDG_DATA_HOME:-$HOME/.local/share}"
@@ -30,10 +31,12 @@ For C shell (e.g. ~/.cshrc):
   . "$lscolors_data_dir/lscolors.csh"
 
 EOF
+  rm -rf "$mytmpdir"
 else
   status=$?
   cat <<EOF
 Install was unable to create the color configuration files.
 EOF
+  rm -rf "$mytmpdir"
   exit $status
 fi
