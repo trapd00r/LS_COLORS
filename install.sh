@@ -15,11 +15,11 @@ if [ ! -d $lscolors_data_dir ]; then
     try mkdir --mode 700 --parents "$lscolors_data_dir"
 fi
 
-echo "Creating the color configuration files."
 if dircolors -b LS_COLORS > "${mytmpdir}/lscolors.sh" && dircolors -c LS_COLORS > "${mytmpdir}/lscolors.csh" ; then
-  echo "Moving color configuration files to '$lscolors_data_dir'."
+  echo "Created the color configuration files."
   try mv -t "$lscolors_data_dir" "${mytmpdir}/lscolors.sh" "${mytmpdir}/lscolors.csh"
   cat <<EOF
+Moved color configuration files to '$lscolors_data_dir'.
 
 To enable the colors, add the following line to your shell's start-up script:
 
