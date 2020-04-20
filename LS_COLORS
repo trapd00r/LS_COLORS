@@ -98,6 +98,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .yml                  38;5;178
 .RData                38;5;178
 .rdata                38;5;178
+.xsd                  38;5;178
+.dtd                  38;5;178
+.sgml                 38;5;178
+.rng                  38;5;178
+.rnc                  38;5;178
 # }}}
 # binary {{{2
 .cbr                  38;5;141
