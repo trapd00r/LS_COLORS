@@ -53,7 +53,11 @@ $
 
 ## Arch Linux
 Arch Linux users can install the [`lscolors-git`][3] package from the AUR for easy
-integration with bash, csh, or zsh.
+integration with bash, csh, or zsh. If dash + fish is used, add to `~/.profile`:
+
+```shell
+. /usr/share/LS_COLORS/dircolors.sh
+```
 
 # Information for Developers
 There's a [library][1] I've written that lets you use various LS COLORS on
