@@ -34,6 +34,11 @@ Here's a screenshot _(font and minor color shades, of course, depend on terminal
   [2]: https://github.com/trapd00r/File-LsColor/tree/master/bin
   [3]: https://aur.archlinux.org/packages/lscolors-git
 
+# Dependencies
+
+You need GNU `dircolors` and a compatible directory listing tool, such as GNU
+`ls`. Both are available in GNU coreutils.
+
 # Installation
 
 An installation script is provided with this repository:
