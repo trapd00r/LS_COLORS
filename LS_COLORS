@@ -88,6 +88,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .bib                  38;5;178
 .json                 38;5;178
 .jsonl                38;5;178
+.jsonnet              38;5;178
+.libsonnet            38;5;178
 .ndjson               38;5;178
 .msg                  38;5;178
 .pgn                  38;5;178
