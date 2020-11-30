@@ -237,6 +237,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .cljw                 38;5;41
 # Scala
 .scala                38;5;41
+.sc                   38;5;41
 # Dart
 .dart                 38;5;51
 
