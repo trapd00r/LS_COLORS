@@ -74,6 +74,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # plain-text {{{2
 .txt                  38;5;253
 # markup {{{2
+.adoc                 38;5;184
+.asciidoc             38;5;184
 .etx                  38;5;184
 .info                 38;5;184
 .markdown             38;5;184
