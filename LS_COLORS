@@ -553,6 +553,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .vpk                  38;5;215
 .bsp                  38;5;215
 .dmg                  38;5;215
+.crx                  38;5;215 # Google Chrome extension
+.xpi                  38;5;215 # Mozilla Firefox extension
   # }}}
   # segments from 0 to three digits after first extension letter {{{2
 .r[0-9]{0,2}          38;5;239
