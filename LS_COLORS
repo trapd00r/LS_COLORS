@@ -185,6 +185,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sublime-workspace    1
 .tmTheme              1
 .user-ca-bundle       1
+#   RStudio config
+.rstheme              1
 # eclipse
 .epf                  1
 # }}}
