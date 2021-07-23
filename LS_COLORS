@@ -165,6 +165,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *known_hosts          1
 .ini                  1
 .plist                1
+#   zsh environment config
+.zshenv               1
+.zprofile             1
+.zlogin               1
+.zlogout              1
 #   vim
 .viminfo              1
 #   cisco VPN client configuration
