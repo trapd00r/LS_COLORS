@@ -534,6 +534,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .s7z                  38;5;40
 .sz                   38;5;40
 .tar                  38;5;40
+.tar.lzma             38;5;40
+.tbz                  38;5;40 
 .tgz                  38;5;40
 .warc                 38;5;40
 .WARC                 38;5;40
