@@ -43,7 +43,7 @@ LINK                  target
 MULTIHARDLINK         38;5;222;1
 # "NORMAL don't reset the bold attribute -
 # https://github.com/trapd00r/LS_COLORS/issues/11
-#NORMAL                38;5;254
+#NORMAL               38;5;254
 NORMAL                0
 ORPHAN                48;5;196;38;5;232;1
 OTHER_WRITABLE        38;5;220;1
@@ -52,7 +52,6 @@ SETUID                38;5;220;1;3;100;1
 SOCK                  38;5;197
 STICKY                38;5;86;48;5;234
 STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
-
 *LS_COLORS 48;5;89;38;5;197;1;3;4;7 # :-)
 # }}}
 # documents {{{1
@@ -71,8 +70,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *NOTICE               38;5;220;1
 *CHANGES              38;5;220;1
 .log                  38;5;190
+# }}}
 # plain-text {{{2
 .txt                  38;5;253
+# }}}
 # markup {{{2
 .adoc                 38;5;184
 .asciidoc             38;5;184
@@ -86,6 +87,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .rst                  38;5;184
 .tex                  38;5;184
 .textile              38;5;184
+# }}}
 # key-value, non-relational data {{{2
 .bib                  38;5;178
 .json                 38;5;178
@@ -118,43 +120,44 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .PDF                  38;5;141
 .mobi                 38;5;141
 .epub                 38;5;141
-# words {{{3
+# }}}
+# Microsoft {{{2
+# words
 .docm                 38;5;111;4
 .doc                  38;5;111
 .docx                 38;5;111
 .odb                  38;5;111
 .odt                  38;5;111
 .rtf                  38;5;111
-# presentation {{{3
+# presentation
 .odp                  38;5;166
 .pps                  38;5;166
 .ppt                  38;5;166
 .pptx                 38;5;166
-#   Powerpoint show
+# Powerpoint show
 .ppts                 38;5;166
-#   Powerpoint with enabled macros
+# Powerpoint with enabled macros
 .pptxm                38;5;166;4
-#   Powerpoint show with enabled macros
+# Powerpoint show with enabled macros
 .pptsm                38;5;166;4
-# spreadsheet {{{3
+# spreadsheet
 .csv                  38;5;78
 .tsv                  38;5;78
-#   Open document spreadsheet
+# Open document spreadsheet
 .ods                  38;5;112
 .xla                  38;5;76
-#   Excel spreadsheet
+# Excel spreadsheet
 .xls                  38;5;112
 .xlsx                 38;5;112
-#   Excel spreadsheet with macros
+# Excel spreadsheet with macros
 .xlsxm                38;5;112;4
-#   Excel module
+# Excel module
 .xltm                 38;5;73;4
 .xltx                 38;5;73
-#   macOS office suite {{{3
+# macOS office suite
 .pages                38;5;111
 .numbers              38;5;112
 .key                  38;5;166
-# }}}
 # }}}
 # configs {{{2
 *config               1
@@ -165,23 +168,23 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *known_hosts          1
 .ini                  1
 .plist                1
-#   bash environment config 
+# bash environment config 
 .profile              1
 .bash_profile         1
 .bash_login           1
 .bash_logout          1
-#   zsh environment config
+# zsh environment config
 .zshenv               1
 .zprofile             1
 .zlogin               1
 .zlogout              1
-#   vim
+# vim
 .viminfo              1
-#   cisco VPN client configuration
+# cisco VPN client configuration
 .pcf                  1
-#   adobe photoshop proof settings file
+# adobe photoshop proof settings file
 .psf                  1
-#   Sublime Text config
+# Sublime Text config
 .hidden-color-scheme  1
 .hidden-tmTheme       1
 .last-run             1
@@ -195,19 +198,18 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sublime-workspace    1
 .tmTheme              1
 .user-ca-bundle       1
-#   RStudio config
+# RStudio config
 .rstheme              1
 # eclipse
 .epf                  1
 # }}}
-# }}}
 # code {{{1
-# version control {{{2
+# version control
 .git                  38;5;197
 .gitignore            38;5;240
 .gitattributes        38;5;240
 .gitmodules           38;5;240
-# shell {{{2
+# shell
 .awk                  38;5;172
 .bash                 38;5;172
 .bat                  38;5;172
@@ -217,7 +219,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .zsh                  38;5;172
 .vim                  38;5;172
 .kak                  38;5;172
-# interpreted {{{2
+# interpreted
 .ahk                  38;5;41
 # python
 .py                   38;5;41
@@ -234,7 +236,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .mysql                38;5;222
 .pgsql                38;5;222
 .sql                  38;5;222
-#   Tool Command Language
+# Tool Command Language
 .tcl                  38;5;64;1
 # R language
 .r                    38;5;49
@@ -252,44 +254,44 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sc                   38;5;41
 # Dart
 .dart                 38;5;51
+# }}}
 # compiled {{{2
-#
-#   assembly language
+# assembly language
 .asm                  38;5;81
-#   LISP
+# LISP
 .cl                   38;5;81
 .lisp                 38;5;81
 .rkt                  38;5;81
-#   lua
+# lua
 .lua                  38;5;81
-#   Moonscript
+# Moonscript
 .moon                 38;5;81
-#   C
+# C
 .c                    38;5;81
 .C                    38;5;81
 .h                    38;5;110
 .H                    38;5;110
 .tcc                  38;5;110
-#   C++
+# C++
 .c++                  38;5;81
 .h++                  38;5;110
 .hpp                  38;5;110
 .hxx                  38;5;110
 .ii                   38;5;110
-#   method file for Objective C
+# method file for Objective C
 .M                    38;5;110
 .m                    38;5;110
-#   Csharp
+# Csharp
 .cc                   38;5;81
 .cs                   38;5;81
 .cp                   38;5;81
 .cpp                  38;5;81
 .cxx                  38;5;81
-#   Crystal
+# Crystal
 .cr                   38;5;81
-#   Google golang
+# Google golang
 .go                   38;5;81
-#   fortran
+# fortran
 .f                    38;5;81
 .F                    38;5;81
 .for                  38;5;81
@@ -305,45 +307,44 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # Nim
 .nim                  38;5;81
 .nimble               38;5;81
-#   pascal
+# pascal
 .s                    38;5;110
 .S                    38;5;110
-#   Rust
+# Rust
 .rs                   38;5;81
-#   AppleScript
+# AppleScript
 .scpt                 38;5;219
-#   Swift
+# Swift
 .swift                38;5;219
-#   ?
+# SimplexNumerica
 .sx                   38;5;81
 # Vala
 .vala                 38;5;81
 .vapi                 38;5;81
-#   interface file in GHC - https://github.com/trapd00r/LS_COLORS/pull/9
+# interface file in GHC - https://github.com/trapd00r/LS_COLORS/pull/9
 .hi                   38;5;110
-#   haskell
+# haskell
 .hs                   38;5;81
 .lhs                  38;5;81
-#   agda
+# agda
 .agda                 38;5;81
 .lagda                38;5;81
 .lagda.tex            38;5;81
 .lagda.rst            38;5;81
 .lagda.md             38;5;81
 .agdai                38;5;110
-#   Zig
+# Zig
 .zig                  38;5;81
 # V
 .v                    38;5;81
-# binaries {{{2
-# compiled apps for interpreted languages
+# Python
 .pyc                  38;5;240
 # }}}
 # orchestration {{{2
 .tf                   38;5;168
 .tfstate              38;5;168
 .tfvars               38;5;168
-# orchestration 2}}}
+# }}}
 # html {{{2
 .css                  38;5;125;1
 .less                 38;5;125;1
@@ -366,9 +367,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # }}}
 # php {{{2
 .php                  38;5;81
-#   CakePHP view scripts and helpers
+# CakePHP view scripts and helpers
 .ctp                  38;5;81
-#   Twig template engine
+# Twig template engine
 .twig                 38;5;81
 # }}}
 # vb/a {{{2
@@ -400,7 +401,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # patch files {{{2
 .diff                 48;5;197;38;5;232
 .patch                48;5;197;38;5;232;1
-#}}}
+# }}}
 # graphics {{{1
 .bmp                  38;5;97
 .dicom                38;5;97
@@ -447,7 +448,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .rmvb                 38;5;114
 .sample               38;5;114
 .wmv                  38;5;114
-  # mobile/streaming {{{2
+# mobile/streaming {{{2
 .3g2                  38;5;115
 .3gp                  38;5;115
 .gp3                  38;5;115
@@ -458,8 +459,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .ts                   38;5;115
 .ogv                  38;5;115
 .f4v                  38;5;115
-  # }}}
-  # lossless {{{2
+# }}}
+# lossless {{{2
 .VOB                  38;5;115;1
 .vob                  38;5;115;1
 # }}}
@@ -470,7 +471,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .sub                  38;5;117
 .sup                  38;5;117 # bitmap image track
 .vtt                  38;5;117
-#}}}
+# }}}
 # audio {{{1
 .3ga                  38;5;137;1
 .S3M                  38;5;137;1
@@ -515,40 +516,40 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # Web Open Font Format
 .woff                 38;5;66
 .woff2                38;5;66
-#   postscript fonts
+# postscript fonts
 .PFA                  38;5;66
 .pfa                  38;5;66
 # }}}
 # archives {{{1
-.7z                   38;5;40
-.a                    38;5;40
-.arj                  38;5;40
-.bz2                  38;5;40
-.cpio                 38;5;40
-.gz                   38;5;40
-.lrz                  38;5;40
-.lz                   38;5;40
-.lzma                 38;5;40
-.lzo                  38;5;40
-.rar                  38;5;40
-.s7z                  38;5;40
-.sz                   38;5;40
-.tar                  38;5;40
-.tar.lzma             38;5;40
-.tbz                  38;5;40 
-.tgz                  38;5;40
-.warc                 38;5;40
-.WARC                 38;5;40
-.xz                   38;5;40
-.z                    38;5;40
-.zip                  38;5;40
-.zipx                 38;5;40
-.zoo                  38;5;40
-.zpaq                 38;5;40
-.zst                  38;5;40
-.zstd                 38;5;40
-.zz                   38;5;40
-  # packaged apps {{{2
+*.7z                   38;5;40
+*.a                    38;5;40
+*.arj                  38;5;40
+*.bz2                  38;5;40
+*.cpio                 38;5;40
+*.gz                   38;5;40
+*.lrz                  38;5;40
+*.lz                   38;5;40
+*.lzma                 38;5;40
+*.lzo                  38;5;40
+*.rar                  38;5;40
+*.s7z                  38;5;40
+*.sz                   38;5;40
+*.tar                  38;5;40
+*.tbz                  38;5;40 
+*.tgz                  38;5;40
+*.warc                 38;5;40
+*.WARC                 38;5;40
+*.xz                   38;5;40
+*.z                    38;5;40
+*.zip                  38;5;40
+*.zipx                 38;5;40
+*.zoo                  38;5;40
+*.zpaq                 38;5;40
+*.zst                  38;5;40
+*.zstd                 38;5;40
+*.zz                   38;5;40
+# }}}
+# packaged apps {{{2
 .apk                  38;5;215
 .ipa                  38;5;215
 .deb                  38;5;215
@@ -566,14 +567,14 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .dmg                  38;5;215
 .crx                  38;5;215 # Google Chrome extension
 .xpi                  38;5;215 # Mozilla Firefox extension
-  # }}}
-  # segments from 0 to three digits after first extension letter {{{2
+# }}}
+# segments from 0 to three digits after first extension letter {{{2
 .r[0-9]{0,2}          38;5;239
 .zx[0-9]{0,2}         38;5;239
 .z[0-9]{0,2}          38;5;239
 # partial files
 .part                 38;5;239
-  # }}}
+# }}}
 # partition images {{{2
 .iso                  38;5;124
 .bin                  38;5;124
@@ -683,7 +684,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .nib                  38;5;57  # UI
 .car                  38;5;57  # asset catalog
 .dylib                38;5;241 # shared lib
-#   Xcode files {{{2
+# }}}
+# Xcode files {{{2
 .entitlements         1
 .pbxproj              1
 .strings              1
@@ -693,7 +695,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .xcuserstate          1
 .xcworkspacedata      1
 .xib                  38;5;208
-# }}}
 # }}}
 # encrypted data {{{1
 .asc                  38;5;192;3
@@ -710,7 +711,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *id_rsa                38;5;192;3
 *id_ecdsa              38;5;192;3
 *id_ed25519            38;5;192;3
-# 1}}}
+# }}}
 # emulators {{{1
 .32x                  38;5;213
 .cdi                  38;5;213
@@ -740,7 +741,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
   # Sega
 .sms                  38;5;213
 # }}}
-#   Texas Instruments Calculator files {{{1
+# Texas Instruments Calculator files {{{1
 # for more see http://tibasicdev.wikidot.com/file-extensions
 .8xp                  38;5;121
 .8eu                  38;5;121
@@ -755,14 +756,13 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .wrl                  38;5;216
 # }}}
 # unsorted {{{1
-#
-#   Portable Object Translation for GNU Gettext
+# Portable Object Translation for GNU Gettext
 .pot                  38;5;7
-#   CAD files for printed circuit boards
+# CAD files for printed circuit boards
 .pcb                  38;5;7
-#   groff (rendering app for texinfo)
+# groff (rendering app for texinfo)
 .mm                   38;5;7
-#   GIMP files
+# GIMP files
 .gbr                  38;5;7
 .scm                  38;5;7
 .xcf                  38;5;7
@@ -770,7 +770,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .spl                  38;5;7
 # RStudio project file
 .Rproj                38;5;11
-#   Nokia Symbian OS files
+# Nokia Symbian OS files
 .sis                  38;5;7
 .1p                   38;5;7
 .3p                   38;5;7
@@ -802,7 +802,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .vcard                38;5;7
 .vcf                  38;5;7 #contact information
 .xln                  38;5;7
-#   AppCode files
+# AppCode files
 .iml                  38;5;166
 # }}}
 # termcap {{{1
