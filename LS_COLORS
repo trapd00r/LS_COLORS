@@ -83,6 +83,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .md                   38;5;184
 .mkd                  38;5;184
 .nfo                  38;5;184
+.org                  38;5;184
 .pod                  38;5;184
 .rst                  38;5;184
 .tex                  38;5;184
@@ -262,6 +263,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .cl                   38;5;81
 .lisp                 38;5;81
 .rkt                  38;5;81
+# Emacs Lisp
+.el                   38;5;81
+.elc                  38;5;241
+.eln                  38;5;241
 # lua
 .lua                  38;5;81
 # Moonscript
