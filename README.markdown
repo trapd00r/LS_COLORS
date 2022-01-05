@@ -75,7 +75,7 @@ mpc search artist Laleh | ls_color
 ... and so on.
 
 # Legal
-© Copyright 2014-2020 Magnus Woldrich.
+© Copyright 2014-2022 Magnus Woldrich.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
