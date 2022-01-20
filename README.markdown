@@ -42,18 +42,32 @@ You need GNU `dircolors` and a compatible directory listing tool, such as GNU
 
 # Installation
 
-An installation script is provided with this repository:
+The repo contains two compiled scripts `lscolors.sh` & `lscolors.csh`, which you can download & source directly or point your plugin manager to pick up one of them.
+
+To enable the colors, add the following line to your shell's start-up script:
+
+For Bourne shell (e.g. `~/.bashrc` or `~/.zshrc`):
+```
+source ~/path/to/lscolors.sh
+```
+
+For C shell (e.g. `~/.cshrc`):
+```
+source ~/path/to/lscolors.csh
+```
+
+If you prefer to manually generate these files, an installation script is provided with this repository:
 
 ```console
 $ mkdir /tmp/LS_COLORS && curl -L https://api.github.com/repos/trapd00r/LS_COLORS/tarball/master | tar xzf - --directory=/tmp/LS_COLORS --strip=1
-$ ( cd /tmp/LS_COLORS && sh install.sh )
+$ ( cd /tmp/LS_COLORS && make install )
 To enable the colors, add the following line to your shell's start-up script:
 
 For Bourne shell (e.g. ~/.bashrc or ~/.zshrc):
-  . "~/.local/share/lscolors.sh"
+  source "~/.local/share/lscolors.sh"
 
 For C shell (e.g. ~/.cshrc):
-  . "~/.local/share/lscolors.csh"
+  source "~/.local/share/lscolors.csh"
 $
 ```
 
