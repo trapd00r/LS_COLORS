@@ -1,6 +1,8 @@
 FILE_NAME=lscolors
 export XDG_DATA_HOME ?= $${$$HOME/.local/share}
 
+all: generate
+
 clean:
 	@command rm ${FILE_NAME}.sh 2>/dev/null || true
 	@command rm ${FILE_NAME}.csh 2>/dev/null || true
