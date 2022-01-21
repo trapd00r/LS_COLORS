@@ -9,7 +9,7 @@ clean:
 
 generate: clean
 	@dircolors -b LS_COLORS > ${FILE_NAME}.sh
-	@dircolors -b LS_COLORS > ${FILE_NAME}.csh
+	@dircolors -c LS_COLORS > ${FILE_NAME}.csh
 
 install: generate
 	@command cp ${FILE_NAME}.sh ${FILE_NAME}.csh ${XDG_DATA_HOME}
