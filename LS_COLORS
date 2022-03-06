@@ -79,6 +79,7 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 .xm             38;5;178
 .todo           38;5;220;1
 
+.air            38;5;148
 
 .1p              38;5;7
 .32x             38;5;213
@@ -3080,3 +3081,6 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 
 *Makefile.PL    38;5;196
 *Makefile      38;5;196;1
+
+# template toolkit
+.tt           38;5;173
