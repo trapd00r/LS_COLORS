@@ -1,12 +1,10 @@
 name: 'Release'
 on:
-  pull_request:
+  push:
     branches: [master]
-    types: [closed]
 
 jobs:
   release:
-    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - name: 'Check out Git repository'
