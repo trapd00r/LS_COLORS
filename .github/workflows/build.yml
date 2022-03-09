@@ -1,0 +1,23 @@
+name: 'Release'
+on:
+  push:
+    branches: [master]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Check out Git repository'
+        uses: actions/checkout@v2
+
+      - name: 'Generate shell files'
+        run: make generate
+
+      - name: 'Commit generated files'
+        if: ${{ success() }}
+        run: |
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@github.com'
+          git add lscolors.sh lscolors.csh
+          git commit -m "Update shell files" || echo "No changes to commit"
+          git push

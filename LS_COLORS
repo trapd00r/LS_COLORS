@@ -83,6 +83,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .md                   38;5;184
 .mkd                  38;5;184
 .nfo                  38;5;184
+.org                  38;5;184
 .pod                  38;5;184
 .rst                  38;5;184
 .tex                  38;5;184
@@ -263,6 +264,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .cl                   38;5;81
 .lisp                 38;5;81
 .rkt                  38;5;81
+# Emacs Lisp
+.el                   38;5;81
+.elc                  38;5;241
+.eln                  38;5;241
 # lua
 .lua                  38;5;81
 # Moonscript
@@ -578,12 +583,18 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # }}}
 # partition images {{{2
 .iso                  38;5;124
+.img                  38;5;124
 .bin                  38;5;124
 .nrg                  38;5;124
 .qcow                 38;5;124
+.fvd                  38;5;124
 .sparseimage          38;5;124
 .toast                38;5;124
 .vcd                  38;5;124
+.vdi                  38;5;124
+.vhd                  38;5;124
+.vhdx                 38;5;124
+.vfd                  38;5;124
 .vmdk                 38;5;124
 # }}}
 # databases {{{2
