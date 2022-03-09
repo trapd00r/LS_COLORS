@@ -1,5 +1,7 @@
 # LS_COLORS
 
+![Build](https://github.com/trapd00r/LS_COLORS/actions/workflows/build.yaml/badge.svg)
+
 <!-- mdformat-toc start --slug=github --no-anchors --maxlevel=3 --minlevel=1 -->
 
 - [LS_COLORS](#ls_colors)
