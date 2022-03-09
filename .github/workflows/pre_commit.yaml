@@ -1,0 +1,26 @@
+---
+name: pre-commit
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Install pre-commit
+        run: pip install pre-commit
+
+      - name: cache
+        uses: actions/cache@v2
+        with:
+          key: pre-commit-dot-cache-{{ checksum ".pre-commit-config.yaml" }}
+          path: ~/.cache/pre-commit
+
+      - name: Pre-commit checks
+        run: pre-commit run --all-files --show-diff-on-failure
