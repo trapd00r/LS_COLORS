@@ -1,13 +1,16 @@
 # LS_COLORS
 
-- [LS_COLORS](#ls_colors)
-- [What does it look like?](#what-does-it-look-like)
-- [Dependencies](#dependencies)
-- [Installation](#installation)
-- [Information for Developers](#information-for-developers)
-- [Legal](#legal)
+<!-- mdformat-toc start --slug=github --no-anchors --maxlevel=3 --minlevel=1 -->
 
-## LS_COLORS
+- [LS_COLORS](#ls_colors)
+  - [What does it look like?](#what-does-it-look-like)
+  - [Dependencies](#dependencies)
+  - [Installation](#installation)
+    - [Arch Linux](#arch-linux)
+  - [Information for Developers](#information-for-developers)
+  - [Legal](#legal)
+
+<!-- mdformat-toc end -->
 
 This is a collection of extension:color mappings, suitable to use as your
 `LS_COLORS` environment variable. Most of them use the extended color map,
