@@ -1,4 +1,4 @@
-### Table of contents
+# LS_COLORS
 
 - [LS_COLORS](#ls_colors)
 - [What does it look like?](#what-does-it-look-like)
@@ -7,7 +7,7 @@
 - [Information for Developers](#information-for-developers)
 - [Legal](#legal)
 
-# LS_COLORS
+## LS_COLORS
 
 This is a collection of extension:color mappings, suitable to use as your
 `LS_COLORS` environment variable. Most of them use the extended color map,
@@ -27,18 +27,18 @@ For files that usually ends up next to each other, like html, css and js,
 try to pick colors that fits in nicely together. Filetypes with multiple
 possible extensions, like htm and html, should have the same color.
 
-# What does it look like?
+## What does it look like?
 
 Here's a screenshot _(font and minor color shades, of course, depend on terminal and its configuration)_:
 
 ![Screenshot1](docs/static/LS_COLORS.png)
 
-# Dependencies
+## Dependencies
 
 You need GNU `dircolors` and a compatible directory listing tool, such as GNU
 `ls`. Both are available in GNU coreutils.
 
-# Installation
+## Installation
 
 The repo contains two compiled scripts `lscolors.sh` & `lscolors.csh`, which you can download & source directly or point your plugin manager to pick up one of them.
 
@@ -71,12 +71,12 @@ For C shell (e.g. ~/.cshrc):
 $
 ```
 
-## Arch Linux
+### Arch Linux
 
 Arch Linux users can install the [`lscolors-git`][3] package from the AUR for easy
 integration with bash, csh, or zsh.
 
-# Information for Developers
+## Information for Developers
 
 There's a [library][1] I've written that lets you use various LS COLORS on
 arbitrary files and directories. A simple implementation can be found [here][2].
@@ -91,7 +91,7 @@ mpc search artist Laleh | ls_color
 
 ... and so on.
 
-# Legal
+## Legal
 
 © Copyright 2014-2022 Magnus Woldrich.
 
