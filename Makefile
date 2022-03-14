@@ -8,8 +8,8 @@ clean:
 	@command rm ${FILE_NAME}.csh 2>/dev/null || true
 
 generate: clean
-	@dircolors -b LS_COLORS > ${FILE_NAME}.sh
-	@dircolors -c LS_COLORS > ${FILE_NAME}.csh
+	@dircolors --bourne-shell   LS_COLORS > ${FILE_NAME}.sh
+	@dircolors --c-shell        LS_COLORS > ${FILE_NAME}.csh
 
 install: generate
 	@command cp ${FILE_NAME}.sh ${FILE_NAME}.csh ${XDG_DATA_HOME}
