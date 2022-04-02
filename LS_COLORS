@@ -131,10 +131,12 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .odt                  38;5;111            # Documents
 .rtf                  38;5;111            # Documents
 .pages                38;5;111            # Documents
-.odp                  38;5;166            # Presentation
-.pps                  38;5;166            # Presentation
-.ppt                  38;5;166            # Presentation
-.pptx                 38;5;166            # Presentation
+.odp                  38;5;166            # Presentation, OpenDocument Presentation
+.pcb                  38;5;166            # Presentation, Microsoft PowerPoint Data
+.pot                  38;5;166            # Presentation, Microsoft PowerPoint Template
+.pps                  38;5;166            # Presentation, Microsoft PowerPoint Slideshow
+.ppt                  38;5;166            # Presentation, Microsoft PowerPoint Presentation
+.pptx                 38;5;166            # Presentation, Microsoft PowerPoint Presentation
 .ppts                 38;5;166            # Presentation
 .pptxm                38;5;166;4          # Presentation (with macros)
 .pptsm                38;5;166;4          # Presentation (with macros)
@@ -333,6 +335,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .TIFF                 38;5;97             # Graphics
 .cdr                  38;5;97             # Graphics
 .flif                 38;5;97             # Graphics
+.gbr                  38;5;97             # Graphics, Gimp Brush
 .gif                  38;5;97             # Graphics
 .icns                 38;5;97             # Graphics
 .ico                  38;5;97             # Graphics
@@ -617,10 +620,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # unsorted
-.pot                  38;5;7
-.pcb                  38;5;7
 .mm                   38;5;7
-.gbr                  38;5;7
 .scm                  38;5;7
 .xcf                  38;5;7
 .spl                  38;5;7
