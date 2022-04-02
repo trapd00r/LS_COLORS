@@ -204,6 +204,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .gemspec              38;5;41             # Code (interpreted) (ruby)
 .pl                   38;5;208            # Code (interpreted) (Perl)
 .PL                   38;5;160            # Code (interpreted) (Perl)
+.pm                   38;5;203            # Code (interpreted) (Perl)
 .t                    38;5;114            # Code (interpreted) (Perl)
 .msql                 38;5;222            # Code (SQL)
 .mysql                38;5;222            # Code (SQL)
@@ -642,7 +643,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .pc                   38;5;7
 .pi                   38;5;7
 .plt                  38;5;7
-.pm                   38;5;7
 .rdf                  38;5;7
 .ru                   38;5;7
 .sch                  38;5;7
