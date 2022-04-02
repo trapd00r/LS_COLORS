@@ -3082,5 +3082,7 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 *Makefile.PL    38;5;196
 *Makefile      38;5;196;1
 
+
 # template toolkit
 .tt           38;5;173
+.fcgi         38;5;226;3;1
