@@ -55,7 +55,7 @@ For Bourne shell (e.g. `~/.bashrc` or `~/.zshrc`):
 source ~/path/to/lscolors.sh
 ```
 
-For C or Fast Interactive shell (e.g. `~/.cshrc` or `~/.config/fish/config.fish`):
+For C shell or [fish shell](https://fishshell.com/) (e.g. `~/.cshrc` or `~/.config/fish/config.fish`):
 
 ```
 source ~/path/to/lscolors.csh
