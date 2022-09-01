@@ -339,6 +339,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .jpeg                 38;5;97             # Graphics
 .JPG                  38;5;97             # Graphics
 .jpg                  38;5;97             # Graphics
+.jxl                  38;5;97             # Graphics
 .nth                  38;5;97             # Graphics
 .png                  38;5;97             # Graphics
 .psd                  38;5;97             # Graphics
