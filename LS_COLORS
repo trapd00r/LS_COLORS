@@ -82,7 +82,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .mdx                  38;5;184            # Markup
 .nfo                  38;5;184            # Markup
 .org                  38;5;184            # Markup
-.norg                 38;5;184           # Markup
+.norg                 38;5;184            # Markup
 .pod                  38;5;184            # Markup
 .rst                  38;5;184            # Markup
 .tex                  38;5;184            # Markup
@@ -655,7 +655,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .example              38;5;7
 .feature              38;5;7
 .ger                  38;5;7
-.ics                  38;5;7 # calendar information
+.ics                  38;5;7              # calendar information
 .map                  38;5;7
 .mf                   38;5;7
 .mfasl                38;5;7
@@ -673,8 +673,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .tfm                  38;5;7
 .tfnt                 38;5;7
 .tg                   38;5;7
-.vcard                38;5;7 # contact information
-.vcf                  38;5;7 # contact information
+.vcard                38;5;7              # contact information
+.vcf                  38;5;7              # contact information
 .xln                  38;5;7
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
