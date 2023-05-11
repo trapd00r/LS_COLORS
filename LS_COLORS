@@ -55,8 +55,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 *LS_COLORS 48;5;89;38;5;197;1;3;4;7       # :-)
 .txt                  38;5;253            # Plain-text
 *README               38;5;220;1          # Documentation
-*README.rst           38;5;220;1          # Documentation
-*README.md            38;5;220;1          # Documentation
 *LICENSE              38;5;220;1          # Documentation
 *COPYING              38;5;220;1          # Documentation
 *INSTALL              38;5;220;1          # Documentation
@@ -64,6 +62,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 *AUTHORS              38;5;220;1          # Documentation
 *HISTORY              38;5;220;1          # Documentation
 *CONTRIBUTORS         38;5;220;1          # Documentation
+*FAQ                  38;5;220;1          # Documentation
+*CONTRIBUTING         38;5;220;1          # Documentation
+*CHANGELOG            38;5;220;1          # Documentation
+*SECURITY             38;5;220;1          # Documentation
+*CODEOWNERS           38;5;220;1          # Documentation
 *PATENTS              38;5;220;1          # Documentation
 *VERSION              38;5;220;1          # Documentation
 *NOTICE               38;5;220;1          # Documentation
@@ -76,14 +79,19 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .markdown             38;5;184            # Markup
 .md                   38;5;184            # Markup
 .mkd                  38;5;184            # Markup
+.mdx                  38;5;184            # Markup
 .nfo                  38;5;184            # Markup
 .org                  38;5;184            # Markup
+.norg                 38;5;184           # Markup
 .pod                  38;5;184            # Markup
 .rst                  38;5;184            # Markup
 .tex                  38;5;184            # Markup
 .textile              38;5;184            # Markup
 .bib                  38;5;178            # Data store # non-relational
 .json                 38;5;178            # Data store # non-relational
+.jsonc                38;5;178            # Data store # non-relational
+.json5                38;5;178            # Data store # non-relational
+.hjson                38;5;178            # Data store # non-relational
 .jsonl                38;5;178            # Data store # non-relational
 .jsonnet              38;5;178            # Data store # non-relational
 .libsonnet            38;5;142            # Data store # non-relational
@@ -184,6 +192,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .rstheme              1                   # Configs
 .epf                  1                   # Configs
 .git                  38;5;197            # Version control
+.github               38;5;197            # Version control
 .gitignore            38;5;240            # Version control
 .gitattributes        38;5;240            # Version control
 .gitmodules           38;5;240            # Version control
@@ -194,6 +203,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .sed                  38;5;172            # Code (shell)
 .sh                   38;5;172            # Code (shell)
 .zsh                  38;5;172            # Code (shell)
+.fish                 38;5;172            # Code (shell)
 .vim                  38;5;172            # Code (shell)
 .kak                  38;5;172            # Code (shell)
 .ahk                  38;5;41             # Code (interpreted) (AutoHotKey)
@@ -223,6 +233,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .dart                 38;5;51             # Dart
 .asm                  38;5;81             # ASM
 .cl                   38;5;81             # LISP
+.ml                   38;5;81             # LISP
 .lisp                 38;5;81             # LISP
 .rkt                  38;5;81             # LISP
 .el                   38;5;81             # LISP (Emacs)
@@ -286,23 +297,32 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .tf                   38;5;168            # Code (Terraform)
 .tfstate              38;5;168            # Code (Terraform)
 .tfvars               38;5;168            # Code (Terraform)
-.css                  38;5;125;1          # XML
-.less                 38;5;125;1          # XML
-.sass                 38;5;125;1          # XML
-.scss                 38;5;125;1          # XML
-.htm                  38;5;125;1          # XML
-.html                 38;5;125;1          # XML
-.jhtm                 38;5;125;1          # XML
-.mht                  38;5;125;1          # XML
-.eml                  38;5;125;1          # XML
-.mustache             38;5;125;1          # XML
-.coffee               38;5;074;1          # Java
-.java                 38;5;074;1          # Java
-.js                   38;5;074;1          # Java
+.http                 38;5;90;1           # Request (Web)
+.eml                  38;5;90;1           # Email (Web)
+.css                  38;5;105;1          # Styling (Web)
+.less                 38;5;105;1          # Styling (Web)
+.sass                 38;5;105;1          # Styling (Web)
+.scss                 38;5;105;1          # Styling (Web)
+.htm                  38;5;125;1          # Styling (Web)
+.html                 38;5;125;1          # Markup (Web)
+.jhtm                 38;5;125;1          # Markup (Web)
+.mht                  38;5;125;1          # Markup (Web)
+.mustache             38;5;135;1          # Templating (Web)
+.ejs                  38;5;135;1          # Templating (Web)
+.pug                  38;5;135;1          # Templating (Web)
+.svelte               38;5;135;1          # Templating (Web)
+.vue                  38;5;135;1          # Templating (Web)
+.astro                38;5;135;1          # Templating (Web)
+.js                   38;5;074;1          # Javascript
 .jsx                  38;5;074;1          # Javascript eXtended
-.mjs                  38;5;074;1          # Java
-.jsm                  38;5;074;1          # Java
-.jsp                  38;5;074;1          # Java
+.ts                   38;5;074;1          # Typescript
+.tsx                  38;5;074;1          # Typescript eXtended
+.mjs                  38;5;074;1          # ECMAScript
+.cjs                  38;5;074;1          # CommonJS
+.coffee               38;5;079;1          # Java
+.java                 38;5;079;1          # Java
+.jsm                  38;5;079;1          # Java
+.jsp                  38;5;079;1          # Java
 .php                  38;5;81             # php
 .ctp                  38;5;81             # php (CakePHP)
 .twig                 38;5;81             # php (Twig)
@@ -376,7 +396,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .gp4                  38;5;115            # Video (mobile/streaming)
 .asf                  38;5;115            # Video (mobile/streaming)
 .flv                  38;5;115            # Video (mobile/streaming)
-.ts                   38;5;115            # Video (mobile/streaming)
 .ogv                  38;5;115            # Video (mobile/streaming)
 .f4v                  38;5;115            # Video (mobile/streaming)
 .VOB                  38;5;115;1          # Video (lossless)
@@ -711,3 +730,4 @@ TERM xterm-88color
 TERM xterm-color
 TERM xterm-debian
 TERM xterm-kitty
+TERM wezterm
