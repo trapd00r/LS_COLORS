@@ -722,6 +722,7 @@ TERM screen-w
 TERM screen.linux
 TERM screen.rxvt
 TERM terminator
+TERM tmux-256color
 TERM vt100
 TERM xterm
 TERM xterm-16color
