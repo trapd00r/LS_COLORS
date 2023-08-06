@@ -615,7 +615,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .dwg                  38;5;216            # 3D printing
 .ply                  38;5;216            # 3D printing
 .wrl                  38;5;216            # 3D printing
-
+.vert                 38;5;136            # SPIR-V shaders (vertex)
+.comp                 38;5;136            # SPIR-V shaders (compute)
+.frag                 38;5;136            # SPIR-V shaders (fragment)
+.wgsl                 38;5;97             # WGSL shaders
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # unknown / weirdos
