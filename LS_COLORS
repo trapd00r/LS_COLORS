@@ -618,6 +618,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .vert                 38;5;136            # SPIR-V shaders
 .comp                 38;5;136            # SPIR-V shaders
 .frag                 38;5;136            # SPIR-V shaders
+.spv                  38;5;217            # SPIR-V compiled shaders
 .wgsl                 38;5;97             # WGSL shaders
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
