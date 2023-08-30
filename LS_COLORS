@@ -453,6 +453,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 *.7z                  38;5;40             # Archives
 *.a                   38;5;40             # Archives
 *.arj                 38;5;40             # Archives
+*.br                  38;5;40             # Archives
 *.bz2                 38;5;40             # Archives
 *.cpio                38;5;40             # Archives
 *.gz                  38;5;40             # Archives
