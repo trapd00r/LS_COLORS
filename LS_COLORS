@@ -221,6 +221,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .t                    38;5;114            # Code (interpreted) (Perl)
 .msql                 38;5;222            # Code (SQL)
 .mysql                38;5;222            # Code (SQL)
+.prql                 38;5;222            # Code
 .pgsql                38;5;222            # Code (SQL)
 .sql                  38;5;222            # Code (SQL)
 .tcl                  38;5;64;1           # Code (interpreted) (Tool Command Language)
