@@ -149,6 +149,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .ppts                 38;5;166            # Presentation
 .pptxm                38;5;166;4          # Presentation (with macros)
 .pptsm                38;5;166;4          # Presentation (with macros)
+.prisma               38;5;222            # Prisma Schema/Config
 .csv                  38;5;78             # Spreadsheet (plain text)
 .tsv                  38;5;78             # Spreadsheet (plain text)
 .numbers              38;5;112            # Spreadsheet
