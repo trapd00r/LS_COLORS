@@ -1,6 +1,6 @@
 FILE_NAME=lscolors
-export XDG_DATA_HOME ?= $${$$HOME/.local/share}
-
+XDG_DATA_HOME ?= $(HOME)/.local/share
+XDG_DATA_HOME := "$(XDG_DATA_HOME)"
 all: generate
 
 clean:
@@ -12,11 +12,11 @@ generate: clean
 	@command sort LS_COLORS | dircolors --c-shell      - > ${FILE_NAME}.csh
 
 install: generate
-	@command cp ${FILE_NAME}.sh ${FILE_NAME}.csh ${XDG_DATA_HOME}
+	@command cp ${FILE_NAME}.sh ${FILE_NAME}.csh $(XDG_DATA_HOME)
 	@echo "To enable the colors, add the following line to your shell's start-up script:"
 	@echo ""
 	@echo "For Bourne shell (e.g. ~/.bashrc or ~/.zshrc):"
-	@echo "   source ${XDG_DATA_HOME}/${FILE_NAME}.sh"
+	@echo "   source $(XDG_DATA_HOME)/${FILE_NAME}.sh"
 	@echo ""
 	@echo "For C shell (e.g. ~/.cshrc):"
-	@echo "   source ${XDG_DATA_HOME}/${FILE_NAME}.csh"
+	@echo "   source $(XDG_DATA_HOME)/${FILE_NAME}.csh"
