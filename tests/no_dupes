@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-#
-
-exts="$(dircolors LS_COLORS | head -n1 | sed 's/=[^:]*//g ; s/:/\n/g')"
-exts_sorted="$(sort <<< "$exts")"
-exts_uniq="$(sort -u <<< "$exts")"
-
-diff --color=auto --text --report-identical-files <(echo "$exts_uniq") <(echo "$exts_sorted")
