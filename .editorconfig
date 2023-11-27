@@ -13,5 +13,8 @@ charset = utf-8
 [*.sh]
 indent_size = 2
 
+[*.{yaml,yml}]
+indent_size = 2
+
 [Makefile]
 indent_style = tab
