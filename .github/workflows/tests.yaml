@@ -1,0 +1,17 @@
+---
+name: 'Run Tests'
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: 'Execute tests'
+        run: './run_tests'
