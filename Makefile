@@ -1,3 +1,4 @@
+export LC_ALL=C
 FILE_NAME=lscolors
 XDG_DATA_HOME ?= $(HOME)/.local/share
 XDG_DATA_HOME := "$(XDG_DATA_HOME)"

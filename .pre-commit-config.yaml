@@ -20,5 +20,4 @@ repos:
         additional_dependencies:
           - mdformat-gfm
           - mdformat-toc
-
 # EOF

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#
+
+unset -v XDG_DATA_HOME
+make install
