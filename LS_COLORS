@@ -334,6 +334,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .vb                   38;5;81             # VBA
 .vba                  38;5;81             # VBA
 .vbs                  38;5;81             # VBA
+*Containerfile        38;5;155            # Build process # Containers
+.containerignore      38;5;240            # Build process # Containers
 *Dockerfile           38;5;155            # Build process (Docker)
 .dockerignore         38;5;240            # Build process (Docker)
 *Makefile             38;5;155            # Build process (Make)
