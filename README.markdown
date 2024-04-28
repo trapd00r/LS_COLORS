@@ -81,6 +81,20 @@ $
 Arch Linux users can install the [`lscolors-git`][3] package from the AUR for easy
 integration with bash, csh, or zsh.
 
+### RHEL images for WSL
+[RHEL images for WSL](https://developers.redhat.com/articles/2023/11/15/create-customized-rhel-images-wsl-environment#) is very basic compared to [Ubuntu WSL](https://ubuntu.com/desktop/wsl), lacking additional beautification features.
+
+To have a colorized terminal output, you need to add the following line to the ~/.bashrc
+
+```
+# Source terminal color schemas
+vim ~/.bashrc
+source ~/LS_COLORS/lscolors.sh
+export LS_OPTIONS='--color=auto'
+alias ls='ls $LS_OPTIONS'
+```
+
+
 ## Information for Developers
 
 There's a [library][1] I've written that lets you use various LS COLORS on
