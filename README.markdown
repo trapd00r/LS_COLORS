@@ -84,11 +84,14 @@ integration with bash, csh, or zsh.
 ### RHEL image for WSL
 [RHEL image for WSL](https://developers.redhat.com/articles/2023/11/15/create-customized-rhel-images-wsl-environment#) is very basic compared to [Ubuntu WSL](https://ubuntu.com/desktop/wsl), lacking additional beautification features.
 
-To have a colorized terminal output, you need to add the following line to the ~/.bashrc
+To have a colorized terminal output, you need to add the following line to the **~/.bashrc**
+
+```
+vim ~/.bashrc
+```
 
 ```
 # Source terminal color schemas
-vim ~/.bashrc
 source ~/LS_COLORS/lscolors.sh
 export LS_OPTIONS='--color=auto'
 alias ls='ls $LS_OPTIONS'
