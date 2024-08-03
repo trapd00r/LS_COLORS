@@ -127,10 +127,13 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .sqlite               38;5;60             # Data store # SQLite
 .typelib              38;5;60             # Data store
 .nc                   38;5;60             # Data store # NetCDF
+.azw                  38;5;141            # Documents # binary
+.azw3                 38;5;141            # Documents # binary
 .cbr                  38;5;141            # Documents # binary
 .cbz                  38;5;141            # Documents # binary
 .chm                  38;5;141            # Documents # binary
 .djvu                 38;5;141            # Documents # binary
+.fb2                  38;5;141            # Documents # binary
 .pdf                  38;5;141            # Documents # binary
 .PDF                  38;5;141            # Documents # binary
 .mobi                 38;5;141            # Documents # binary
