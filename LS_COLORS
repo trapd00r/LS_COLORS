@@ -301,6 +301,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .agdai                38;5;110            # Agda
 .zig                  38;5;81             # Zig
 .v                    38;5;81             # V
+.rego                 38;5;178            # Code (Rego)
 .pyc                  38;5;240            # Code (Python)
 .tf                   38;5;168            # Code (Terraform)
 .tfstate              38;5;168            # Code (Terraform)
