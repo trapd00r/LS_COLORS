@@ -363,6 +363,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .old                  38;5;242            # Build process (Automake)
 .out                  38;5;242            # Build process (Automake)
 .SKIP                 38;5;244            # Build process (Automake)
+.gradle               38;5;155            # Build process (Gradle)
 .diff                 48;5;197;38;5;232   # Patch files
 .patch                48;5;197;38;5;232;1 # Patch files
 .bmp                  38;5;97             # Graphics
