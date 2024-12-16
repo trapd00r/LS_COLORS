@@ -371,6 +371,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .bazelversion         38;5;155            # Build process (Bazel)
 .bzl                  38;5;155            # Build process (Bazel)
 *MODULE.bazel.lock    38;5;240            # Build process (Bazel)
+*Cargo.toml           38;5;155            # Build process (Cargo)
+*Cargo.lock           38;5;240            # Build process (Cargo)
 .diff                 48;5;197;38;5;232   # Patch files
 .patch                48;5;197;38;5;232;1 # Patch files
 .bmp                  38;5;97             # Graphics
