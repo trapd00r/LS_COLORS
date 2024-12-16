@@ -114,6 +114,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .sgml                 38;5;178            # Data store # non-relational
 .rng                  38;5;178            # Data store # non-relational
 .rnc                  38;5;178            # Data store # non-relational
+.sexp                 38;5;178            # Data store # non-relational
 .accdb                38;5;60             # Data store # MS Access
 .accde                38;5;60             # Data store # MS Access
 .accdr                38;5;60             # Data store # MS Access
