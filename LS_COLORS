@@ -294,7 +294,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .hs                   38;5;81             # Haskell
 .lhs                  38;5;81             # Haskell
 .ml                   38;5;81             # OCaml
-.mli                  38;5;81             # OCaml
+.mli                  38;5;110            # OCaml
 .mll                  38;5;81             # OCaml
 .mly                  38;5;81             # OCaml
 .agda                 38;5;81             # Agda
