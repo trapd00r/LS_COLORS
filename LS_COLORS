@@ -364,6 +364,13 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .out                  38;5;242            # Build process (Automake)
 .SKIP                 38;5;244            # Build process (Automake)
 .gradle               38;5;155            # Build process (Gradle)
+*WORKSPACE            38;5;155            # Build process (Bazel)
+*BUILD                38;5;155            # Build process (Bazel)
+.bazel                38;5;155            # Build process (Bazel)
+.bazelrc              38;5;155            # Build process (Bazel)
+.bazelversion         38;5;155            # Build process (Bazel)
+.bzl                  38;5;155            # Build process (Bazel)
+*MODULE.bazel.lock    38;5;240            # Build process (Bazel)
 .diff                 48;5;197;38;5;232   # Patch files
 .patch                48;5;197;38;5;232;1 # Patch files
 .bmp                  38;5;97             # Graphics
