@@ -346,6 +346,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .containerignore      38;5;240            # Build process # Containers
 *Dockerfile           38;5;155            # Build process (Docker)
 .dockerignore         38;5;240            # Build process (Docker)
+*dune                 38;5;155            # Build process (OCaml Dune)
+*dune-project         38;5;243            # Build process (OCaml Dune)
+.opam                 38;5;240            # Build process (OCaml Opam)
 *Makefile             38;5;155            # Build process (Make)
 *MANIFEST             38;5;243            # Build process (Make)
 *pm_to_blib           38;5;240            # Build process (Perl)
