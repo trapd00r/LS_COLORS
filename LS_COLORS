@@ -114,6 +114,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .sgml                 38;5;178            # Data store # non-relational
 .rng                  38;5;178            # Data store # non-relational
 .rnc                  38;5;178            # Data store # non-relational
+.sexp                 38;5;178            # Data store # non-relational
 .accdb                38;5;60             # Data store # MS Access
 .accde                38;5;60             # Data store # MS Access
 .accdr                38;5;60             # Data store # MS Access
@@ -241,7 +242,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .dart                 38;5;51             # Dart
 .asm                  38;5;81             # ASM
 .cl                   38;5;81             # LISP
-.ml                   38;5;81             # LISP
 .lisp                 38;5;81             # LISP
 .rkt                  38;5;81             # LISP
 .el                   38;5;81             # LISP (Emacs)
@@ -293,6 +293,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .hi                   38;5;110            # Haskell
 .hs                   38;5;81             # Haskell
 .lhs                  38;5;81             # Haskell
+.ml                   38;5;81             # OCaml
+.mli                  38;5;110            # OCaml
+.mll                  38;5;81             # OCaml
+.mly                  38;5;81             # OCaml
 .agda                 38;5;81             # Agda
 .lagda                38;5;81             # Agda
 .lagda.tex            38;5;81             # Agda
@@ -342,6 +346,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .containerignore      38;5;240            # Build process # Containers
 *Dockerfile           38;5;155            # Build process (Docker)
 .dockerignore         38;5;240            # Build process (Docker)
+*dune                 38;5;155            # Build process (OCaml Dune)
+*dune-project         38;5;243            # Build process (OCaml Dune)
+.opam                 38;5;240            # Build process (OCaml Opam)
 *Makefile             38;5;155            # Build process (Make)
 *MANIFEST             38;5;243            # Build process (Make)
 *pm_to_blib           38;5;240            # Build process (Perl)
@@ -356,6 +363,16 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .old                  38;5;242            # Build process (Automake)
 .out                  38;5;242            # Build process (Automake)
 .SKIP                 38;5;244            # Build process (Automake)
+.gradle               38;5;155            # Build process (Gradle)
+*WORKSPACE            38;5;155            # Build process (Bazel)
+*BUILD                38;5;155            # Build process (Bazel)
+.bazel                38;5;155            # Build process (Bazel)
+.bazelrc              38;5;155            # Build process (Bazel)
+.bazelversion         38;5;155            # Build process (Bazel)
+.bzl                  38;5;155            # Build process (Bazel)
+*MODULE.bazel.lock    38;5;240            # Build process (Bazel)
+*Cargo.toml           38;5;155            # Build process (Cargo)
+*Cargo.lock           38;5;240            # Build process (Cargo)
 .diff                 48;5;197;38;5;232   # Patch files
 .patch                48;5;197;38;5;232;1 # Patch files
 .bmp                  38;5;97             # Graphics
