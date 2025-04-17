@@ -15,11 +15,9 @@
 <!-- mdformat-toc end -->
 
 This is a collection of extension:color mappings, suitable to use as your
-`LS_COLORS` environment variable. Most of them use the extended color map,
-described in the ECMA-48 document; in other words, you'll need a terminal
-with capabilities of displaying 256 colors.
+`LS_COLORS` environment variable. Most of them use the extended color map (described in the [ECMA-48](https://ecma-international.org/publications-and-standards/standards/ecma-48)); in other words—you'll need a terminal with capabilities of displaying 256 colors.
 
-As of this writing, around 300 different filetypes/extensions is supported.
+As of this writing, around 300 different filetypes/extensions are supported.
 That's indeed a lot of extensions, but there's a lot more! Your help is greatly
 appreciated.
 
@@ -41,7 +39,7 @@ Here's a screenshot _(font and minor color shades, of course, depend on terminal
 ## Dependencies
 
 You need GNU `dircolors` and a compatible directory listing tool, such as GNU
-`ls`. Both are available in GNU coreutils.
+`ls`. Both are available in GNU `coreutils`.
 
 ## Installation
 
@@ -49,13 +47,13 @@ The repo contains two compiled scripts `lscolors.sh` & `lscolors.csh`, which you
 
 To enable the colors, add the following line to your shell's start-up script:
 
-For Bourne shell (e.g. `~/.bashrc` or `~/.zshrc`):
+**For Bourne shell** (e.g. `~/.bashrc` or `~/.zshrc`):
 
 ```
 source ~/path/to/lscolors.sh
 ```
 
-For C shell or [fish shell](https://fishshell.com/) (e.g. `~/.cshrc` or `~/.config/fish/config.fish`):
+**For C shell or [fish shell](https://fishshell.com/)** (e.g. `~/.cshrc` or `~/.config/fish/config.fish`):
 
 ```
 source ~/path/to/lscolors.csh
