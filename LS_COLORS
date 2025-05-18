@@ -43,7 +43,7 @@ FILE                   38;5;253  # this is fi=, not to be confused with a fifo
 LINK                   target
 MULTIHARDLINK          38;5;222;1
 ORPHAN                 48;5;196;38;5;232;1
-OTHER_WRITABLE         38;5;232;48;5;223
+OTHER_WRITABLE         0
 SETGID                 48;5;3;38;5;0
 SETUID                 38;5;220;1;3;100;1
 SOCK                   38;5;197
@@ -785,7 +785,7 @@ STICKY_OTHER_WRITABLE  48;5;235;38;5;139;3
 #.epd             38;5;187
 #.epi             38;5;187
 .eps             38;5;111
-#.epub            38;5;187
+.epub            38;5;139
 #.eqn             38;5;187
 #.erd             38;5;187
 #.erl             38;5;187
