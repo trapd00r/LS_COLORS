@@ -404,6 +404,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .ps                   38;5;99             # Graphics (Vector)
 .svg                  38;5;99             # Graphics (Vector)
 .avi                  38;5;114            # Video
+.axv                  38;5;114            # Video
 .divx                 38;5;114            # Video
 .IFO                  38;5;114            # Video
 .m2v                  38;5;114            # Video
@@ -439,6 +440,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .S3M                  38;5;137;1          # Audio (lossy)
 .aac                  38;5;137;1          # Audio (lossy)
 .amr                  38;5;137;1          # Audio (lossy)
+.anx                  38;5;137;1          # Audio (lossy)
 .au                   38;5;137;1          # Audio (lossy)
 .caf                  38;5;137;1          # Audio (lossy)
 .dat                  38;5;137;1          # Audio (lossy)
@@ -450,9 +452,11 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .mp4a                 38;5;137;1          # Audio (lossy)
 .oga                  38;5;137;1          # Audio (lossy)
 .ogg                  38;5;137;1          # Audio (lossy)
+.ogx                  38;5;137;1          # Audio (lossy)
 .opus                 38;5;137;1          # Audio (lossy)
 .s3m                  38;5;137;1          # Audio (lossy)
 .sid                  38;5;137;1          # Audio (lossy)
+.spx                  38;5;137;1          # Audio (lossy)
 .wma                  38;5;137;1          # Audio (lossy)
 .ape                  38;5;136;1          # Audio (lossless)
 .aiff                 38;5;136;1          # Audio (lossless)
@@ -465,6 +469,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .wav                  38;5;136;1          # Audio (lossless)
 .wv                   38;5;136;1          # Audio (lossless)
 .wvc                  38;5;136;1          # Audio (lossless)
+.axa                  38;5;136;1          # Audio (lossless+lossy)
 .afm                  38;5;66             # Fonts
 .fon                  38;5;66             # Fonts
 .fnt                  38;5;66             # Fonts
@@ -593,6 +598,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .sfv                  38;5;116            # metadata
 .theme                38;5;116            # metadata
 .torrent              38;5;116            # metadata
+.xspf                 38;5;116            # metadata
 .urlview              38;5;116            # metadata
 .webloc               38;5;116            # metadata
 .asc                  38;5;192;3          # Encrypted data
