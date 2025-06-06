@@ -214,6 +214,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3 # core
 .fish                 38;5;172            # Code (shell)
 .vim                  38;5;172            # Code (shell)
 .kak                  38;5;172            # Code (shell)
+.nu                   38;5;172            # Code (shell)
 .ahk                  38;5;41             # Code (interpreted) (AutoHotKey)
 .py                   38;5;41             # Code (interpreted) (Python)
 .ipynb                38;5;41             # Code (interpreted) (Python)
